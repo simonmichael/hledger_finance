@@ -1,0 +1,2950 @@
+include oc.accounts
+
+2017-01-20 Monthly contribution from Simon Michael (Backers)  ; id:f50dc2b7, group:8b272eb0, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2017-02-20 Monthly contribution from Simon Michael (Backers)  ; id:fe0ead37, group:197d11a4, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2017-03-20 Monthly contribution from Simon Michael (Backers)  ; id:7e83913a, group:785604f8, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2017-04-20 Monthly contribution from Simon Michael (Backers)  ; id:87df89cf, group:63fea57e, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2017-05-20 Monthly contribution from Simon Michael (Backers)  ; id:ab4e1e18, group:e045e2ce, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2017-06-20 Monthly contribution from Simon Michael (Backers)  ; id:92c97790, group:aa3ada9f, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2017-07-20 Monthly contribution from Simon Michael (Backers)  ; id:89bbe4cc, group:526e586c, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2017-08-20 Monthly contribution from Simon Michael (Backers)  ; id:98365cfa, group:0a06c3bd, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2017-09-20 Monthly contribution from Simon Michael (Backers)  ; id:881f0581, group:c1d288a1, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2017-10-20 Monthly contribution from Simon Michael (Backers)  ; id:f704c73a, group:744fa3a7, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2017-11-20 Monthly contribution from Simon Michael (Backers)  ; id:942487cb, group:e68cc861, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2017-12-20 Monthly contribution from Simon Michael (Backers)  ; id:19139e92, group:f1c2d9db, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2018-01-20 Monthly contribution from Simon Michael (Backers)  ; id:bdf31866, group:a482b234, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2018-02-21 Monthly contribution from Simon Michael (Backers)  ; id:969c2f34, group:80e6d4c9, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2018-03-21 Monthly contribution from Simon Michael (Backers)  ; id:fd038b3a, group:cfe7c41e, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2018-03-22 Monthly contribution from Peter Simons (Backers)  ; id:05ac4a31, group:a9460c9a, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:peti                   -10.00 USD
+    assets:oc:hledger                           8.31 USD
+    expenses:fees:STRIPE                        0.69 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2018-04-02 Monthly contribution from Peter Simons (Backers)  ; id:cff1c152, group:f77acb1e, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:peti                   -10.00 USD
+    assets:oc:hledger                           8.31 USD
+    expenses:fees:STRIPE                        0.69 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2018-04-21 Monthly contribution from Simon Michael (Backers)  ; id:04f69e22, group:ccd3d7ea, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2018-05-01 Monthly contribution from Peter Simons (Backers)  ; id:e8c85882, group:eb5fc1d2, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:peti                   -10.00 USD
+    assets:oc:hledger                           8.31 USD
+    expenses:fees:STRIPE                        0.69 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2018-05-21 Monthly contribution from Simon Michael (Backers)  ; id:60f9e4bb, group:a91945e8, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2018-06-01 Monthly contribution from Peter Simons (Backers)  ; id:18cc93e7, group:3f6397b0, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:peti                   -10.00 USD
+    assets:oc:hledger                           8.31 USD
+    expenses:fees:STRIPE                        0.69 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2018-06-21 Monthly contribution from Simon Michael (Backers)  ; id:744bc15b, group:f462ee3b, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2018-07-01 Monthly contribution from Peter Simons (Backers)  ; id:7585aa34, group:8b1b1247, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:peti                   -10.00 USD
+    assets:oc:hledger                           8.31 USD
+    expenses:fees:STRIPE                        0.69 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2018-07-21 Monthly contribution from Simon Michael (Backers)  ; id:5ea44648, group:c6f12978, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2018-08-21 Monthly contribution from Simon Michael (Backers)  ; id:223fc954, group:54b8487e, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2018-09-21 Monthly contribution from Simon Michael (Backers)  ; id:95e4b042, group:643f7ce3, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2018-10-21 Monthly contribution from Simon Michael (Backers)  ; id:79c59f3c, group:e2c6a712, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2018-11-21 Monthly contribution from Simon Michael (Backers)  ; id:7ef6a6d5, group:115df4ff, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2018-12-11 Contribution from Robert Nielsen  ; id:b7b603d4, group:fde280da, payment-method:PAYPAL, payment-type:PAYMENT
+    revenues:donations:oldicelandic           -55.00 USD
+    assets:oc:hledger                          47.60 USD
+    expenses:fees:PAYPAL                        1.90 USD
+    expenses:fees:open-source-collective        5.50 USD
+
+2018-12-21 Monthly contribution from Simon Michael (Backers)  ; id:26df5099, group:28e59a50, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2019-01-21 Monthly contribution from Simon Michael (Backers)  ; id:7d1b5c6e, group:5e877620, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2019-02-21 Monthly contribution from Simon Michael (Backers)  ; id:fb7323df, group:12bcd228, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:simon                  -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2019-04-04 Monthly contribution from Andre Bubel (Backers)  ; id:d31b4bb0, group:ec4c7a9e, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:andre-bubel             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2019-04-28 Monthly contribution from Michael Martinides (Backers)  ; id:4563cb4b, group:3a6bfba3, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2019-05-01 Monthly contribution from Michael Martinides (Backers)  ; id:0f1e3917, group:edf04139, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2019-05-01 Monthly contribution from Andre Bubel (Backers)  ; id:42a49bc8, group:d1f0eecc, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:andre-bubel             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2019-05-21 Monthly contribution from Colton Lewis (Backers)  ; id:a50bc155, group:1a88cc3e, payment-method:OPENCOLLECTIVE, payment-type:GIFTCARD
+    revenues:donations:colton-lewis            -5.00 USD
+    assets:oc:hledger                           4.05 USD
+    expenses:fees:OPENCOLLECTIVE                0.45 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2019-06-01 Monthly contribution from Michael Martinides (Backers)  ; id:a90bfa46, group:9763d36d, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2019-06-01 Monthly contribution from Colton Lewis (Backers)  ; id:e2d3b640, group:045fd7ea, payment-method:OPENCOLLECTIVE, payment-type:GIFTCARD
+    revenues:donations:colton-lewis            -5.00 USD
+    assets:oc:hledger                           4.05 USD
+    expenses:fees:OPENCOLLECTIVE                0.45 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2019-06-01 Monthly contribution from Andre Bubel (Backers)  ; id:c262fb06, group:1285317a, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:andre-bubel             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2019-07-01 Monthly contribution from Michael Martinides (Backers)  ; id:db9552e5, group:6040b683, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2019-07-01 Monthly contribution from Colton Lewis (Backers)  ; id:989d5662, group:244f804e, payment-method:OPENCOLLECTIVE, payment-type:GIFTCARD
+    revenues:donations:colton-lewis            -5.00 USD
+    assets:oc:hledger                           4.05 USD
+    expenses:fees:OPENCOLLECTIVE                0.45 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2019-07-01 Monthly contribution from Andre Bubel (Backers)  ; id:0ccf2f30, group:a96a62c2, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:andre-bubel             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2019-07-26 Monthly contribution from Everyrole (Backers)  ; id:c7e5557d, group:466c8f82, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:everyrole               -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2019-08-01 Monthly contribution from Michael Martinides (Backers)  ; id:c5d23973, group:fb7372df, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2019-08-01 Monthly contribution from Everyrole (Backers)  ; id:721a1c34, group:a2c04d39, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:everyrole               -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2019-08-01 Monthly contribution from Colton Lewis (Backers)  ; id:97b86133, group:7ad4cab3, payment-method:OPENCOLLECTIVE, payment-type:GIFTCARD
+    revenues:donations:colton-lewis            -5.00 USD
+    assets:oc:hledger                           4.05 USD
+    expenses:fees:OPENCOLLECTIVE                0.45 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2019-08-01 Monthly contribution from Andre Bubel (Backers)  ; id:36f70863, group:330262a5, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:andre-bubel             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2019-09-01 Monthly contribution from Michael Martinides (Backers)  ; id:ca75f694, group:69b52407, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2019-09-01 Monthly contribution from Colton Lewis (Backers)  ; id:93f0a3e7, group:d3d78768, payment-method:OPENCOLLECTIVE, payment-type:GIFTCARD
+    revenues:donations:colton-lewis            -5.00 USD
+    assets:oc:hledger                           4.05 USD
+    expenses:fees:OPENCOLLECTIVE                0.45 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2019-09-01 Monthly contribution from Andre Bubel (Backers)  ; id:e4d0a169, group:f7d293fd, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:andre-bubel             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2019-09-27 Monthly contribution from Rishi Hyanki (Backers)  ; id:97a1f5b3, group:0826901e, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki                 -5.00 USD
+    assets:oc:hledger                           4.05 USD
+    expenses:fees:STRIPE                        0.45 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2019-10-01 Monthly contribution from Michael Martinides (Backers)  ; id:d8017cfb, group:87f75936, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2019-10-01 Monthly contribution from Rishi Hyanki (Backers)  ; id:be7fb74d, group:a4321cdf, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki                 -5.00 USD
+    assets:oc:hledger                           4.05 USD
+    expenses:fees:STRIPE                        0.45 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2019-10-01 Monthly contribution from Andre Bubel (Backers)  ; id:9eec1d8a, group:4997893f, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:andre-bubel             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2019-11-01 Monthly contribution from Michael Martinides (Backers)  ; id:5e8dc01e, group:a03df435, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2019-11-01 Monthly contribution from Rishi Hyanki (Backers)  ; id:d92cc48d, group:b5450f15, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki                 -5.00 USD
+    assets:oc:hledger                           4.05 USD
+    expenses:fees:STRIPE                        0.45 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2019-11-01 Monthly contribution from Andre Bubel (Backers)  ; id:8d752de4, group:0c31294b, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:andre-bubel             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2019-12-01 Monthly contribution from Michael Martinides (Backers)  ; id:c5eced93, group:ab2e4dc8, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2019-12-01 Monthly contribution from Rishi Hyanki (Backers)  ; id:66b262b9, group:8940799c, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki                 -5.00 USD
+    assets:oc:hledger                           4.05 USD
+    expenses:fees:STRIPE                        0.45 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2019-12-03 Monthly contribution from Andre Bubel (Backers)  ; id:8b2c40dd, group:109d608c, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:andre-bubel             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-01-01 Monthly contribution from Michael Martinides (Backers)  ; id:3c1333e4, group:dfc666a3, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2020-01-01 Monthly contribution from Rishi Hyanki (Backers)  ; id:f7b986df, group:7455c303, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki                 -5.00 USD
+    assets:oc:hledger                           4.05 USD
+    expenses:fees:STRIPE                        0.45 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2020-01-03 Monthly contribution from Andre Bubel (Backers)  ; id:511e3ee1, group:a12f6292, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:andre-bubel             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-01-09 Monthly contribution from Brandon Barker (Backers)  ; id:f2e4afc1, group:c48e4a2a, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker           -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-02-01 Monthly contribution from Brandon Barker (Backers)  ; id:6c12380c, group:7b38c7c9, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker           -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-02-01 Monthly contribution from Michael Martinides (Backers)  ; id:16cf280c, group:c402253f, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2020-02-02 Monthly contribution from Rishi Hyanki (Backers)  ; id:27913cd5, group:df6b8fc1, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki                 -5.00 USD
+    assets:oc:hledger                           4.05 USD
+    expenses:fees:STRIPE                        0.45 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2020-02-03 Monthly contribution from Andre Bubel (Backers)  ; id:c99aeeeb, group:e2d0ff57, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:andre-bubel             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-03-01 Monthly contribution from Brandon Barker (Backers)  ; id:de44bf1c, group:d445f221, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker           -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-03-01 Monthly contribution from Michael Martinides (Backers)  ; id:270c8123, group:62e745e1, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2020-03-01 Monthly contribution from Andre Bubel (Backers)  ; id:2e1b61c0, group:fd5b51b6, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:andre-bubel             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-03-02 Monthly contribution from Rishi Hyanki (Backers)  ; id:950e2ae8, group:33b41f8b, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki                 -5.00 USD
+    assets:oc:hledger                           4.05 USD
+    expenses:fees:STRIPE                        0.45 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2020-04-01 Monthly contribution from Brandon Barker (Backers)  ; id:1c741c17, group:30818e53, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker           -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-04-01 Monthly contribution from Michael Martinides (Backers)  ; id:137cda81, group:e83eae62, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2020-04-03 Monthly contribution from Rishi Hyanki (Backers)  ; id:c2bd7485, group:fc2bb1b7, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki                 -5.00 USD
+    assets:oc:hledger                           4.05 USD
+    expenses:fees:STRIPE                        0.45 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2020-04-08 Monthly contribution from Paulo Makdisse (Backers)  ; id:421a7fad, group:5acdfb24, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:paulo-makdisse          -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-04-09 Monthly contribution from Andre Bubel (Backers)  ; id:6082be25, group:3b0e9818, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:andre-bubel             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-04-10 Monthly contribution from October Swimmer (Sponsors)  ; id:33081501, group:78009d44, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer       -100.00 USD
+    assets:oc:hledger                          86.80 USD
+    expenses:fees:STRIPE                        3.20 USD
+    expenses:fees:open-source-collective       10.00 USD
+
+2020-05-01 Monthly contribution from Brandon Barker (Backers)  ; id:203dd78b, group:489fb55f, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker           -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-05-02 Monthly contribution from Michael Martinides (Backers)  ; id:86bff4e2, group:6e8376d0, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2020-05-02 Monthly contribution from HLO_APC (Backers)  ; id:2f6393c5, group:d2604038, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:hlo_apc                 -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-05-03 Monthly contribution from Rishi Hyanki (Backers)  ; id:a0b47aed, group:012a0cde, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki                 -5.00 USD
+    assets:oc:hledger                           4.05 USD
+    expenses:fees:STRIPE                        0.45 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2020-05-04 Monthly contribution from Paulo Makdisse (Backers)  ; id:b27df954, group:a701c57b, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:paulo-makdisse          -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-05-04 Monthly contribution from October Swimmer (Sponsors)  ; id:0ecf1af6, group:c84e6735, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer       -100.00 USD
+    assets:oc:hledger                          86.80 USD
+    expenses:fees:STRIPE                        3.20 USD
+    expenses:fees:open-source-collective       10.00 USD
+
+2020-05-18 Contribution from incognito  ; id:70e8bc2f, group:f04ca01b, payment-method:PAYPAL, payment-type:PAYMENT
+    revenues:donations:incognito-59e742bc      -20.00 USD
+    assets:oc:hledger                           17.12 USD
+    expenses:fees:PAYPAL                         0.88 USD
+    expenses:fees:open-source-collective         2.00 USD
+
+2020-05-22 Monthly contribution from Andre Bubel (Backers)  ; id:5035c6ea, group:52c6d258, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:andre-bubel             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-06-01 Monthly contribution from Brandon Barker (Backers)  ; id:791f3d20, group:8133c4c8, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker           -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-06-01 Monthly contribution from Michael Martinides (Backers)  ; id:8d951d05, group:fbaf99a4, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2020-06-02 Monthly contribution from Rishi Hyanki (Backers)  ; id:fe2707b1, group:1cbd40cd, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki                 -5.00 USD
+    assets:oc:hledger                           4.05 USD
+    expenses:fees:STRIPE                        0.45 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2020-06-03 Monthly contribution from HLO_APC (Backers)  ; id:ad48bdfa, group:00b263c0, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:hlo_apc                 -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-06-03 Monthly contribution from Paulo Makdisse (Backers)  ; id:8fde80c3, group:86f0f055, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:paulo-makdisse          -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-06-03 Monthly contribution from October Swimmer (Sponsors)  ; id:65bd3280, group:c1e85752, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer       -100.00 USD
+    assets:oc:hledger                          86.80 USD
+    expenses:fees:STRIPE                        3.20 USD
+    expenses:fees:open-source-collective       10.00 USD
+
+2020-06-16 Monthly contribution from Andre Bubel (Backers)  ; id:41f911d9, group:78ae4ca1, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:andre-bubel             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-07-01 Monthly contribution from Brandon Barker (Backers)  ; id:11a83cac, group:1c8afc6b, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker           -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-07-01 Monthly contribution from Michael Martinides (Backers)  ; id:c876748a, group:436444c5, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2020-07-01 Monthly contribution from Andre Bubel (Backers)  ; id:2978d570, group:5b5f815b, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:andre-bubel             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-07-02 Monthly contribution from Rishi Hyanki (Backers)  ; id:94d998f8, group:512777d5, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki                 -5.00 USD
+    assets:oc:hledger                           4.05 USD
+    expenses:fees:STRIPE                        0.45 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2020-07-03 Monthly contribution from HLO_APC (Backers)  ; id:b28186ca, group:6885ee37, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:hlo_apc                 -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-07-03 Monthly contribution from Paulo Makdisse (Backers)  ; id:1869fcc6, group:5023de21, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:paulo-makdisse          -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-07-03 Monthly contribution from October Swimmer (Sponsors)  ; id:09014e5a, group:8e244cc7, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer       -100.00 USD
+    assets:oc:hledger                          86.80 USD
+    expenses:fees:STRIPE                        3.20 USD
+    expenses:fees:open-source-collective       10.00 USD
+
+2020-08-01 Monthly contribution from Michael Martinides (Backers)  ; id:55372e8a, group:f1d26dfc, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2020-08-01 Monthly contribution from Rishi Hyanki (Backers)  ; id:082c6824, group:c630adf4, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki                 -5.00 USD
+    assets:oc:hledger                           4.05 USD
+    expenses:fees:STRIPE                        0.45 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2020-08-02 Monthly contribution from Brandon Barker (Backers)  ; id:128cb2e9, group:753a9e41, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker           -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-08-03 Monthly contribution from HLO_APC (Backers)  ; id:12f0ffb9, group:3c885168, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:hlo_apc                 -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-08-03 Monthly contribution from October Swimmer (Sponsors)  ; id:c4a536e2, group:9ddcfbbe, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer       -100.00 USD
+    assets:oc:hledger                          86.80 USD
+    expenses:fees:STRIPE                        3.20 USD
+    expenses:fees:open-source-collective       10.00 USD
+
+2020-08-10 Monthly contribution from Andre Bubel (Backers)  ; id:3bae8ff3, group:78164a31, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:andre-bubel             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-08-11 Monthly contribution from Paulo Makdisse (Backers)  ; id:5f579fbf, group:8b96fcc1, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:paulo-makdisse          -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-08-28 Monthly contribution from Jack Todaro (Backers)  ; id:4398aaa4, group:06a6afae, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:jack-todaro             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-09-01 Monthly contribution from Michael Martinides (Backers)  ; id:7e987f7a, group:77f00977, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2020-09-01 Monthly contribution from Rishi Hyanki (Backers)  ; id:22887259, group:4f54c2e3, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki                 -5.00 USD
+    assets:oc:hledger                           4.05 USD
+    expenses:fees:STRIPE                        0.45 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2020-09-01 Monthly contribution from Brandon Barker (Backers)  ; id:d8e49f82, group:462215a9, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker           -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-09-01 Monthly contribution from HLO_APC (Backers)  ; id:6545c8a7, group:b8fedc62, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:hlo_apc                 -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-09-01 Monthly contribution from Paulo Makdisse (Backers)  ; id:0f7342b1, group:2c5a052c, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:paulo-makdisse          -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-09-01 Monthly contribution from October Swimmer (Sponsors)  ; id:31e213a4, group:ab488bea, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer       -100.00 USD
+    assets:oc:hledger                          86.80 USD
+    expenses:fees:STRIPE                        3.20 USD
+    expenses:fees:open-source-collective       10.00 USD
+
+2020-09-09 Monthly contribution from Andre Bubel (Backers)  ; id:be293236, group:3a247930, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:andre-bubel             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-10-01 Monthly contribution from October Swimmer (Sponsors)  ; id:e604ba47, group:d04acf57, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer       -100.00 USD
+    assets:oc:hledger                          86.80 USD
+    expenses:fees:STRIPE                        3.20 USD
+    expenses:fees:open-source-collective       10.00 USD
+
+2020-10-01 Monthly contribution from Michael Martinides (Backers)  ; id:e179305e, group:e3f3378d, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2020-10-01 Monthly contribution from Andre Bubel (Backers)  ; id:4a35817c, group:a61372a2, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:andre-bubel             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-10-01 Monthly contribution from Rishi Hyanki (Backers)  ; id:ff745054, group:fee9006f, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki                 -5.00 USD
+    assets:oc:hledger                           4.05 USD
+    expenses:fees:STRIPE                        0.45 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2020-10-01 Monthly contribution from Brandon Barker (Backers)  ; id:d8be138a, group:58a41f59, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker           -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-10-01 Monthly contribution from HLO_APC (Backers)  ; id:9e0c4fe4, group:6cf015c3, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:hlo_apc                 -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-10-01 Monthly contribution from Paulo Makdisse (Backers)  ; id:66dd2418, group:0b047c25, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:paulo-makdisse          -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-10-01 Monthly contribution from Jack Todaro (Backers)  ; id:fc61589f, group:8f2cb497, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:jack-todaro             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-10-04 Monthly contribution from Tony Xiao (Backers)  ; id:b78bf78b, group:540b003a, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:tony-xiao1             -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2020-11-01 Monthly contribution from October Swimmer (Sponsors)  ; id:1fc17fb9, group:5bbb8550, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer       -100.00 USD
+    assets:oc:hledger                          86.80 USD
+    expenses:fees:STRIPE                        3.20 USD
+    expenses:fees:open-source-collective       10.00 USD
+
+2020-11-01 Monthly contribution from Michael Martinides (Backers)  ; id:1186e132, group:dab72889, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2020-11-01 Monthly contribution from Jack Todaro (Backers)  ; id:98833a34, group:6fe82476, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:jack-todaro             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-11-01 Monthly contribution from Andre Bubel (Backers)  ; id:f685ddbf, group:2c67d625, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:andre-bubel             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-11-01 Monthly contribution from Rishi Hyanki (Backers)  ; id:02178db6, group:3e85b2f2, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki                 -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-11-01 Monthly contribution from Tony Xiao (Backers)  ; id:dd670d22, group:9eb97e9b, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:tony-xiao1             -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2020-11-01 Monthly contribution from Brandon Barker (Backers)  ; id:c45133b8, group:4a875731, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker           -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-11-01 Monthly contribution from HLO_APC (Backers)  ; id:7ed8e956, group:7b1a4b21, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:hlo_apc                 -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-11-01 Monthly contribution from Paulo Makdisse (Backers)  ; id:cd4d5a8e, group:99754470, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:paulo-makdisse          -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-11-18 Monthly contribution from Gyula Weber (Backers)  ; id:41b5a8bd, group:091635bf, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:gyula_weber             -5.00 USD
+    assets:oc:hledger                           4.00 USD
+    expenses:fees:STRIPE                        0.50 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2020-11-26 Monthly contribution from MSATC (Backers)  ; id:6f583f6d, group:5270afb4, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:msatc                   -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-11-29 Monthly contribution from Richard Kelly (Backers)  ; id:d45383e2, group:cf5d3bc1, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:richard-kelly           -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-12-01 Monthly contribution from October Swimmer (Sponsors)  ; id:4ffa98c2, group:644301c8, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer       -100.00 USD
+    assets:oc:hledger                          86.80 USD
+    expenses:fees:STRIPE                        3.20 USD
+    expenses:fees:open-source-collective       10.00 USD
+
+2020-12-01 Monthly contribution from Michael Martinides (Backers)  ; id:c43260f9, group:fdadff6b, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2020-12-01 Monthly contribution from Jack Todaro (Backers)  ; id:1fe33b42, group:9c57a97e, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:jack-todaro             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-12-01 Monthly contribution from Andre Bubel (Backers)  ; id:26ce6589, group:161a083e, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:andre-bubel             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-12-01 Monthly contribution from Rishi Hyanki (Backers)  ; id:5123b3a8, group:e21825e3, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki                 -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-12-01 Monthly contribution from Tony Xiao (Backers)  ; id:209d5df6, group:1379e641, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:tony-xiao1             -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2020-12-01 Monthly contribution from Brandon Barker (Backers)  ; id:7ae392ba, group:1ad55585, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker           -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-12-01 Monthly contribution from HLO_APC (Backers)  ; id:29aa99bd, group:690c491c, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:hlo_apc                 -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-12-01 Monthly contribution from Paulo Makdisse (Backers)  ; id:7b0ece2f, group:e7253946, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:paulo-makdisse          -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-12-13 Contribution from Martin Rio  ; id:a6b81416, group:5f3e18ae, payment-method:PAYPAL, payment-type:PAYMENT
+    revenues:donations:guest-87be5777        -100.00 USD
+    assets:oc:hledger                          86.80 USD
+    expenses:fees:PAYPAL                        3.20 USD
+    expenses:fees:open-source-collective       10.00 USD
+
+2020-12-29 Monthly contribution from Damien Cassou (Backers)  ; id:3152ec4a, group:6d17ee19, payment-method:, payment-type:
+    revenues:donations:damien-cassou           -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:unknown-processor             0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2020-12-29 Contribution from Michael Manganiello  ; id:7dd78ab7, group:4c541dc4, payment-method:PAYPAL, payment-type:PAYMENT
+    revenues:donations:guest-c173624c          -5.38 USD
+    assets:oc:hledger                           4.30 USD
+    expenses:fees:PAYPAL                        0.54 USD
+    expenses:fees:open-source-collective        0.54 USD
+
+2020-12-31 Yearly contribution from Damien Cassou  ; id:2784404e, group:ea85f55b, payment-method:, payment-type:
+    revenues:donations:damien-cassou          -20.00 USD
+    assets:oc:hledger                          16.92 USD
+    expenses:fees:unknown-processor             1.08 USD
+    expenses:fees:open-source-collective        2.00 USD
+
+2021-01-01 Contribution from Guest  ; id:924b6844, group:7f46283d, payment-method:PAYPAL, payment-type:PAYMENT
+    revenues:donations:guest-a949b49b         -50.00 USD
+    assets:oc:hledger                          43.25 USD
+    expenses:fees:PAYPAL                        1.75 USD
+    expenses:fees:open-source-collective        5.00 USD
+
+2021-01-02 Yearly contribution from incognito  ; id:0a99b82a, group:2c61414e, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:incognito-6a1e7e79      -50.00 USD
+    assets:oc:hledger                           42.75 USD
+    expenses:fees:STRIPE                         2.25 USD
+    expenses:fees:open-source-collective         5.00 USD
+
+2021-01-04 Monthly contribution from October Swimmer (Sponsors)  ; id:348eb8eb, group:1a806c74, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer       -100.00 USD
+    assets:oc:hledger                          86.80 USD
+    expenses:fees:STRIPE                        3.20 USD
+    expenses:fees:open-source-collective       10.00 USD
+
+2021-01-04 Monthly contribution from Michael Martinides (Backers)  ; id:86ae2a34, group:2e45bffd, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2021-01-04 Monthly contribution from Jack Todaro (Backers)  ; id:6a352b85, group:223a64c3, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:jack-todaro             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-01-04 Monthly contribution from Rishi Hyanki (Backers)  ; id:e3331a49, group:bbdc37aa, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki                 -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-01-04 Monthly contribution from Brandon Barker (Backers)  ; id:5150ce79, group:10ebda28, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker           -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-01-04 Monthly contribution from Tony Xiao (Backers)  ; id:7c802423, group:5d6b14c6, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:tony-xiao1             -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2021-01-04 Monthly contribution from Anselm Peischl (Backers)  ; id:25d08982, group:a9b79fc6, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:anselm-peischl          -5.00 USD
+    assets:oc:hledger                           4.00 USD
+    expenses:fees:STRIPE                        0.50 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2021-01-05 Monthly contribution from Paulo Makdisse (Backers)  ; id:cd83adcb, group:15541dc4, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:paulo-makdisse          -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-01-05 Monthly contribution from Richard Kelly (Backers)  ; id:04a23ce5, group:7f49b11e, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:richard-kelly           -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-01-06 Monthly contribution from Gyula Weber (Backers)  ; id:dcc5b836, group:82765d0f, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:gyula_weber             -5.00 USD
+    assets:oc:hledger                           4.00 USD
+    expenses:fees:STRIPE                        0.50 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2021-01-06 Monthly contribution from MSATC (Backers)  ; id:29592300, group:b41f49a3, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:msatc                   -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-01-13 Monthly contribution from Andre Bubel (Backers)  ; id:14555825, group:3900149d, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:andre-bubel             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-01-24 Monthly contribution from Writers Per Hour (Sponsors)  ; id:1b225cf4, group:a75c815f, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:writersperhour        -100.00 USD
+    assets:oc:hledger                          85.80 USD
+    expenses:fees:STRIPE                        4.20 USD
+    expenses:fees:open-source-collective       10.00 USD
+
+2021-01-28 Monthly contribution from HLO_APC (Backers)  ; id:64a32aa6, group:e66de5b6, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:hlo_apc                 -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-02-01 Monthly contribution from October Swimmer (Sponsors)  ; id:ed7cf613, group:9dc1b280, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer       -100.00 USD
+    assets:oc:hledger                          86.80 USD
+    expenses:fees:STRIPE                        3.20 USD
+    expenses:fees:open-source-collective       10.00 USD
+
+2021-02-01 Monthly contribution from Michael Martinides (Backers)  ; id:66215be0, group:36169a99, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2021-02-01 Monthly contribution from Gyula Weber (Backers)  ; id:bb003572, group:98208a3d, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:gyula_weber             -5.00 USD
+    assets:oc:hledger                           4.00 USD
+    expenses:fees:STRIPE                        0.50 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2021-02-01 Monthly contribution from MSATC (Backers)  ; id:46219426, group:c3cc7d9c, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:msatc                   -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-02-01 Monthly contribution from Paulo Makdisse (Backers)  ; id:6ea9ee63, group:43272718, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:paulo-makdisse          -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-02-01 Monthly contribution from Jack Todaro (Backers)  ; id:d382a4f8, group:11b5ee8a, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:jack-todaro             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-02-01 Monthly contribution from Rishi Hyanki (Backers)  ; id:047dd1d3, group:c1643088, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki                 -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-02-01 Monthly contribution from Brandon Barker (Backers)  ; id:b289368d, group:74807b71, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker           -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-02-01 Monthly contribution from Tony Xiao (Backers)  ; id:5352eb4e, group:df01ee38, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:tony-xiao1             -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2021-02-01 Monthly contribution from Anselm Peischl (Backers)  ; id:b0801397, group:1d7bf0f0, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:anselm-peischl          -5.00 USD
+    assets:oc:hledger                           4.00 USD
+    expenses:fees:STRIPE                        0.50 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2021-02-01 Monthly contribution from Richard Kelly (Backers)  ; id:17ee2bbe, group:8e182af5, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:richard-kelly           -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-03-01 Monthly contribution from Anselm Peischl (Backers)  ; id:8c839992, group:9a6ecf56, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:anselm-peischl          -5.00 USD
+    assets:oc:hledger                           4.00 USD
+    expenses:fees:STRIPE                        0.50 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2021-03-01 Monthly contribution from October Swimmer (Sponsors)  ; id:25b349d5, group:298f49b0, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer       -100.00 USD
+    assets:oc:hledger                          86.80 USD
+    expenses:fees:STRIPE                        3.20 USD
+    expenses:fees:open-source-collective       10.00 USD
+
+2021-03-01 Monthly contribution from Michael Martinides (Backers)  ; id:d291e330, group:6a63182c, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2021-03-01 Monthly contribution from Gyula Weber (Backers)  ; id:69d6daf7, group:c5267cff, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:gyula_weber             -5.00 USD
+    assets:oc:hledger                           4.00 USD
+    expenses:fees:STRIPE                        0.50 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2021-03-01 Monthly contribution from MSATC (Backers)  ; id:075bedac, group:fd43c2a8, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:msatc                   -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-03-01 Monthly contribution from Richard Kelly (Backers)  ; id:8ca728be, group:8d618ba2, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:richard-kelly           -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-03-01 Monthly contribution from Paulo Makdisse (Backers)  ; id:fffd9f73, group:a9943ea4, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:paulo-makdisse          -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-03-01 Monthly contribution from Writers Per Hour (Sponsors)  ; id:457f3b9b, group:862555ef, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:writersperhour        -100.00 USD
+    assets:oc:hledger                          85.80 USD
+    expenses:fees:STRIPE                        4.20 USD
+    expenses:fees:open-source-collective       10.00 USD
+
+2021-03-01 Monthly contribution from HLO_APC (Backers)  ; id:a707360f, group:66521df9, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:hlo_apc                 -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-03-01 Monthly contribution from Jack Todaro (Backers)  ; id:8743dfa4, group:5c4d6269, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:jack-todaro             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-03-01 Monthly contribution from Rishi Hyanki (Backers)  ; id:e7c06099, group:4f1b2bc8, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki                 -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-03-01 Monthly contribution from Tony Xiao (Backers)  ; id:3677d581, group:51732b9a, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:tony-xiao1             -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2021-03-01 Monthly contribution from Brandon Barker (Backers)  ; id:bad8dcbb, group:48804f06, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker           -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-03-24 Monthly contribution from FinMasters (Sponsors)  ; id:e99cf5d0, group:1befb390, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:finmasters            -100.00 USD
+    assets:oc:hledger                          85.80 USD
+    expenses:fees:STRIPE                        4.20 USD
+    expenses:fees:open-source-collective       10.00 USD
+
+2021-04-01 Monthly contribution from October Swimmer (Sponsors)  ; id:23972a12, group:a64ceb2b, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer       -100.00 USD
+    assets:oc:hledger                          86.80 USD
+    expenses:fees:STRIPE                        3.20 USD
+    expenses:fees:open-source-collective       10.00 USD
+
+2021-04-01 Monthly contribution from Michael Martinides (Backers)  ; id:9cca1033, group:ed39ec6b, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2021-04-01 Monthly contribution from Gyula Weber (Backers)  ; id:21d54081, group:2c4bb397, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:gyula_weber             -5.00 USD
+    assets:oc:hledger                           4.00 USD
+    expenses:fees:STRIPE                        0.50 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2021-04-01 Monthly contribution from MSATC (Backers)  ; id:539dfa44, group:cbb0c526, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:msatc                   -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-04-01 Monthly contribution from Richard Kelly (Backers)  ; id:21d22dd7, group:07879eb9, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:richard-kelly           -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-04-01 Monthly contribution from Anselm Peischl (Backers)  ; id:233c94a2, group:1c3eb821, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:anselm-peischl          -5.00 USD
+    assets:oc:hledger                           4.00 USD
+    expenses:fees:STRIPE                        0.50 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2021-04-01 Monthly contribution from Jack Todaro (Backers)  ; id:1d52be60, group:f2684a77, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:jack-todaro             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-04-01 Monthly contribution from Rishi Hyanki (Backers)  ; id:e238c60c, group:47cbb290, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki                 -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-04-01 Monthly contribution from Tony Xiao (Backers)  ; id:73d903cd, group:c1605666, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:tony-xiao1             -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2021-04-01 Monthly contribution from Brandon Barker (Backers)  ; id:c0e93168, group:36149478, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker           -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-04-01 Monthly contribution from HLO_APC (Backers)  ; id:1d47f33b, group:ff5815f2, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:hlo_apc                 -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-04-02 Monthly contribution from Paulo Makdisse (Backers)  ; id:d45818b7, group:1b663e64, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:paulo-makdisse          -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-04-03 Monthly contribution from Writers Per Hour (Sponsors)  ; id:acc49123, group:2acc540e, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:writersperhour        -100.00 USD
+    assets:oc:hledger                          85.80 USD
+    expenses:fees:STRIPE                        4.20 USD
+    expenses:fees:open-source-collective       10.00 USD
+
+2021-04-20 Monthly contribution from James Blachly (Backers)  ; id:cee6911d, group:ace1a042, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:james-blachly           -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-05-01 Monthly contribution from October Swimmer (Sponsors)  ; id:46974380, group:8aa606bd, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer       -100.00 USD
+    assets:oc:hledger                          86.80 USD
+    expenses:fees:STRIPE                        3.20 USD
+    expenses:fees:open-source-collective       10.00 USD
+
+2021-05-01 Monthly contribution from Michael Martinides (Backers)  ; id:23a2ff26, group:c3f42e7b, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.42 USD
+    expenses:fees:STRIPE                         0.38 USD
+    expenses:fees:open-source-collective         0.20 USD
+
+2021-05-01 Monthly contribution from Gyula Weber (Backers)  ; id:4a8b9485, group:7f9d5e25, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:gyula_weber             -5.00 USD
+    assets:oc:hledger                           4.00 USD
+    expenses:fees:STRIPE                        0.50 USD
+    expenses:fees:open-source-collective        0.50 USD
+
+2021-05-01 Monthly contribution from MSATC (Backers)  ; id:44d91a8e, group:1abb6981, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:msatc                   -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-05-01 Monthly contribution from Richard Kelly (Backers)  ; id:c27a5d02, group:f34e39ea, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:richard-kelly           -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-05-01 Monthly contribution from Jack Todaro (Backers)  ; id:e891fed8, group:8ccba4b2, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:jack-todaro             -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-05-01 Monthly contribution from Rishi Hyanki (Backers)  ; id:ec92888a, group:126e26bd, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki                 -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-05-01 Monthly contribution from Tony Xiao (Backers)  ; id:4b911cad, group:9a59172a, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:tony-xiao1             -10.00 USD
+    assets:oc:hledger                           8.41 USD
+    expenses:fees:STRIPE                        0.59 USD
+    expenses:fees:open-source-collective        1.00 USD
+
+2021-05-01 Monthly contribution from Brandon Barker (Backers)  ; id:568ef47b, group:0e6430f1, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker           -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-05-01 Monthly contribution from FinMasters (Sponsors)  ; id:9310c0bd, group:f43effc5, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:finmasters            -100.00 USD
+    assets:oc:hledger                          85.80 USD
+    expenses:fees:STRIPE                        4.20 USD
+    expenses:fees:open-source-collective       10.00 USD
+
+2021-05-01 Monthly contribution from HLO_APC (Backers)  ; id:63ccf441, group:e45ad494, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:hlo_apc                 -2.00 USD
+    assets:oc:hledger                           1.44 USD
+    expenses:fees:STRIPE                        0.36 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-05-02 Monthly contribution from Paulo Makdisse (Backers)  ; id:f3ba40d3, group:286ce274, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:paulo-makdisse          -2.00 USD
+    assets:oc:hledger                           1.42 USD
+    expenses:fees:STRIPE                        0.38 USD
+    expenses:fees:open-source-collective        0.20 USD
+
+2021-05-03 Monthly contribution from Writers Per Hour (Sponsors)  ; id:65371663, group:c95d90c8, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:writersperhour        -100.00 USD
+    assets:oc:hledger                          85.80 USD
+    expenses:fees:STRIPE                        4.20 USD
+    expenses:fees:open-source-collective       10.00 USD
+
+2021-05-20 Monthly contribution from APM Help (Sponsors)  ; id:b9c6aa71, group:f4876a1c, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:apmhelp               -100.00 USD
+    assets:oc:hledger                          86.80 USD
+    expenses:fees:PAYPAL                        3.20 USD
+    expenses:fees:open-source-collective       10.00 USD
+
+2021-06-01 Host Fee to Open Source Collective  ; id:95a61220, group:6b474b38
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-06-01 Monthly contribution from October Swimmer (Sponsors)  ; id:65365e36, group:6b474b38, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer     -100.00 USD
+    assets:oc:hledger                        96.80 USD
+    expenses:fees:STRIPE                      3.20 USD
+
+2021-06-01 Host Fee to Open Source Collective  ; id:a476761b, group:e1db93c4
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-06-01 Monthly contribution from Michael Martinides (Backers)  ; id:09982b44, group:e1db93c4, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.62 USD
+    expenses:fees:STRIPE                         0.38 USD
+
+2021-06-01 Host Fee to Open Source Collective  ; id:46cc0d2f, group:88e1b86f
+    expenses:fees:open-source-collective        0.50 USD
+    assets:oc:hledger                          -0.50 USD
+
+2021-06-01 Monthly contribution from Gyula Weber (Backers)  ; id:a790dc44, group:88e1b86f, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:gyula_weber       -5.00 USD
+    assets:oc:hledger                     4.50 USD
+    expenses:fees:STRIPE                  0.50 USD
+
+2021-06-01 Host Fee to Open Source Collective  ; id:104a16db, group:1c962095
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-06-01 Monthly contribution from MSATC (Backers)  ; id:e7090aae, group:1c962095, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:msatc       -2.00 USD
+    assets:oc:hledger               1.62 USD
+    expenses:fees:STRIPE            0.38 USD
+
+2021-06-01 Host Fee to Open Source Collective  ; id:b2a94f84, group:504b03e5
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-06-01 Monthly contribution from Richard Kelly (Backers)  ; id:b2399c46, group:504b03e5, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:richard-kelly       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2021-06-01 Host Fee to Open Source Collective  ; id:f460a29b, group:9d92f9b3
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-06-01 Monthly contribution from Jack Todaro (Backers)  ; id:cfddb8b5, group:9d92f9b3, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:jack-todaro       -2.00 USD
+    assets:oc:hledger                     1.62 USD
+    expenses:fees:STRIPE                  0.38 USD
+
+2021-06-01 Host Fee to Open Source Collective  ; id:2f37c787, group:862ccc34
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-06-01 Monthly contribution from Rishi Hyanki (Backers)  ; id:351d94c1, group:862ccc34, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki       -2.00 USD
+    assets:oc:hledger                 1.64 USD
+    expenses:fees:STRIPE              0.36 USD
+
+2021-06-01 Host Fee to Open Source Collective  ; id:13060203, group:2dcdbd08
+    expenses:fees:open-source-collective        1.00 USD
+    assets:oc:hledger                          -1.00 USD
+
+2021-06-01 Monthly contribution from Tony Xiao (Backers)  ; id:b827d4e6, group:2dcdbd08, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:tony-xiao1      -10.00 USD
+    assets:oc:hledger                    9.41 USD
+    expenses:fees:STRIPE                 0.59 USD
+
+2021-06-01 Host Fee to Open Source Collective  ; id:52a6910c, group:3d5e7b12
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-06-01 Monthly contribution from Brandon Barker (Backers)  ; id:4bec87ad, group:3d5e7b12, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2021-06-01 Host Fee to Open Source Collective  ; id:9fe74364, group:051546e3
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-06-01 Monthly contribution from FinMasters (Sponsors)  ; id:723b7a58, group:051546e3, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:finmasters     -100.00 USD
+    assets:oc:hledger                   95.80 USD
+    expenses:fees:STRIPE                 4.20 USD
+
+2021-06-01 Host Fee to Open Source Collective  ; id:7a7e15d5, group:8464e7e7
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-06-01 Monthly contribution from HLO_APC (Backers)  ; id:8c736b30, group:8464e7e7, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:hlo_apc       -2.00 USD
+    assets:oc:hledger                 1.64 USD
+    expenses:fees:STRIPE              0.36 USD
+
+2021-06-02 Host Fee to Open Source Collective  ; id:9f702526, group:551d9e1c
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-06-02 Monthly contribution from Paulo Makdisse (Backers)  ; id:40c330d7, group:551d9e1c, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:paulo-makdisse       -2.00 USD
+    assets:oc:hledger                        1.62 USD
+    expenses:fees:STRIPE                     0.38 USD
+
+2021-06-02 Host Fee to Open Source Collective  ; id:2415a9fe, group:85707a10
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-06-02 Monthly contribution from James Blachly (Backers)  ; id:b9c856e3, group:85707a10, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:james-blachly       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2021-06-02 Host Fee to Open Source Collective  ; id:367b4a7b, group:c96c6ce5
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-06-02 Monthly contribution from Writers Per Hour (Sponsors)  ; id:dde354cb, group:c96c6ce5, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:writersperhour     -100.00 USD
+    assets:oc:hledger                       95.80 USD
+    expenses:fees:STRIPE                     4.20 USD
+
+2021-06-19 Host Fee to Open Source Collective  ; id:969a6061, group:547f2db2
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-06-19 Monthly contribution from APM Help (Sponsors)  ; id:bd952fea, group:547f2db2, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:apmhelp     -100.00 USD
+    assets:oc:hledger                96.80 USD
+    expenses:fees:PAYPAL              3.20 USD
+
+2021-07-01 Host Fee to Open Source Collective  ; id:c44ce71c, group:b833fded
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-07-01 Monthly contribution from October Swimmer (Sponsors)  ; id:0a7d3631, group:b833fded, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer     -100.00 USD
+    assets:oc:hledger                        96.80 USD
+    expenses:fees:STRIPE                      3.20 USD
+
+2021-07-01 Host Fee to Open Source Collective  ; id:51822cd8, group:c32f567b
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-07-01 Monthly contribution from Michael Martinides (Backers)  ; id:e85c63a6, group:c32f567b, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.62 USD
+    expenses:fees:STRIPE                         0.38 USD
+
+2021-07-01 Host Fee to Open Source Collective  ; id:158fcfe6, group:1fb80f5c
+    expenses:fees:open-source-collective        0.50 USD
+    assets:oc:hledger                          -0.50 USD
+
+2021-07-01 Monthly contribution from Gyula Weber (Backers)  ; id:ce547f2e, group:1fb80f5c, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:gyula_weber       -5.00 USD
+    assets:oc:hledger                     4.50 USD
+    expenses:fees:STRIPE                  0.50 USD
+
+2021-07-01 Host Fee to Open Source Collective  ; id:66bd32f3, group:73bf53ae
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-07-01 Monthly contribution from MSATC (Backers)  ; id:d0de4200, group:73bf53ae, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:msatc       -2.00 USD
+    assets:oc:hledger               1.62 USD
+    expenses:fees:STRIPE            0.38 USD
+
+2021-07-01 Host Fee to Open Source Collective  ; id:a89f27eb, group:274aa94b
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-07-01 Monthly contribution from Richard Kelly (Backers)  ; id:4b320fe8, group:274aa94b, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:richard-kelly       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2021-07-02 Host Fee to Open Source Collective  ; id:b03297df, group:2f5f105b
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-07-02 Monthly contribution from Jack Todaro (Backers)  ; id:3ce0fd59, group:2f5f105b, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:jack-todaro       -2.00 USD
+    assets:oc:hledger                     1.62 USD
+    expenses:fees:STRIPE                  0.38 USD
+
+2021-07-02 Host Fee to Open Source Collective  ; id:2e38d4f2, group:105daeb9
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-07-02 Monthly contribution from Rishi Hyanki (Backers)  ; id:7079ad1f, group:105daeb9, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki       -2.00 USD
+    assets:oc:hledger                 1.64 USD
+    expenses:fees:STRIPE              0.36 USD
+
+2021-07-02 Host Fee to Open Source Collective  ; id:d69999cb, group:74b77e55
+    expenses:fees:open-source-collective        1.00 USD
+    assets:oc:hledger                          -1.00 USD
+
+2021-07-02 Monthly contribution from Tony Xiao (Backers)  ; id:4e6bc1a1, group:74b77e55, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:tony-xiao1      -10.00 USD
+    assets:oc:hledger                    9.41 USD
+    expenses:fees:STRIPE                 0.59 USD
+
+2021-07-02 Host Fee to Open Source Collective  ; id:a29b80eb, group:930de735
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-07-02 Monthly contribution from Brandon Barker (Backers)  ; id:526520c1, group:930de735, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2021-07-02 Host Fee to Open Source Collective  ; id:d80821bc, group:a3c07216
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-07-02 Monthly contribution from FinMasters (Sponsors)  ; id:ef381a13, group:a3c07216, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:finmasters     -100.00 USD
+    assets:oc:hledger                   95.80 USD
+    expenses:fees:STRIPE                 4.20 USD
+
+2021-07-02 Host Fee to Open Source Collective  ; id:444f0f39, group:9ba2db13
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-07-02 Monthly contribution from HLO_APC (Backers)  ; id:664726a9, group:9ba2db13, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:hlo_apc       -2.00 USD
+    assets:oc:hledger                 1.64 USD
+    expenses:fees:STRIPE              0.36 USD
+
+2021-07-02 Host Fee to Open Source Collective  ; id:78ec8c9b, group:5780056c
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-07-02 Monthly contribution from James Blachly (Backers)  ; id:bcaf6143, group:5780056c, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:james-blachly       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2021-07-02 Host Fee to Open Source Collective  ; id:e4ac8979, group:5ad2b8ba
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-07-02 Monthly contribution from Writers Per Hour (Sponsors)  ; id:5bd42b35, group:5ad2b8ba, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:writersperhour     -100.00 USD
+    assets:oc:hledger                       95.80 USD
+    expenses:fees:STRIPE                     4.20 USD
+
+2021-07-06 Host Fee to Open Source Collective  ; id:6b4e5bd6, group:7a4fd62b
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-07-06 Monthly contribution from Paulo Makdisse (Backers)  ; id:5d741065, group:7a4fd62b, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:paulo-makdisse       -2.00 USD
+    assets:oc:hledger                        1.62 USD
+    expenses:fees:STRIPE                     0.38 USD
+
+2021-07-14 Expense from Simon Michael - claiming regression bounty for #1597 (first expense / test)  ; id:60a5a450, group:4c3854d4, payment-method:, payment-type:
+    expenses:bounties-etc:simon           50.00 USD
+    assets:oc:hledger                    -50.25 USD
+    expenses:fees:unknown-processor        0.25 USD
+
+2021-07-19 Host Fee to Open Source Collective  ; id:fed2ac9d, group:f4534172
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-07-19 Monthly contribution from APM Help (Sponsors)  ; id:14b6e0ac, group:f4534172, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:apmhelp     -100.00 USD
+    assets:oc:hledger                96.80 USD
+    expenses:fees:PAYPAL              3.20 USD
+
+2021-07-19 Expense from Simon Michael - regression bounty  ; id:242ae183, group:eb8c86e6, payment-method:, payment-type:
+    expenses:bounties-etc:simon          100.00 USD
+    assets:oc:hledger                   -100.25 USD
+    expenses:fees:unknown-processor        0.25 USD
+
+2021-08-01 Host Fee to Open Source Collective  ; id:2aa3dd2a, group:111c9a8f
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-08-01 Monthly contribution from October Swimmer (Sponsors)  ; id:40c1e7ad, group:111c9a8f, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer     -100.00 USD
+    assets:oc:hledger                        96.80 USD
+    expenses:fees:STRIPE                      3.20 USD
+
+2021-08-01 Host Fee to Open Source Collective  ; id:04a2555e, group:20e753c8
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-08-01 Monthly contribution from Michael Martinides (Backers)  ; id:3e95de84, group:20e753c8, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.62 USD
+    expenses:fees:STRIPE                         0.38 USD
+
+2021-08-01 Host Fee to Open Source Collective  ; id:efde471a, group:46acd97f
+    expenses:fees:open-source-collective        0.50 USD
+    assets:oc:hledger                          -0.50 USD
+
+2021-08-01 Monthly contribution from Gyula Weber (Backers)  ; id:731d0369, group:46acd97f, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:gyula_weber       -5.00 USD
+    assets:oc:hledger                     4.50 USD
+    expenses:fees:STRIPE                  0.50 USD
+
+2021-08-01 Host Fee to Open Source Collective  ; id:84ad2db4, group:0caebdc4
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-08-01 Monthly contribution from MSATC (Backers)  ; id:12f2e8e3, group:0caebdc4, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:msatc       -2.00 USD
+    assets:oc:hledger               1.62 USD
+    expenses:fees:STRIPE            0.38 USD
+
+2021-08-01 Host Fee to Open Source Collective  ; id:4476a01e, group:96cd6e75
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-08-01 Monthly contribution from Richard Kelly (Backers)  ; id:9a4203dc, group:96cd6e75, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:richard-kelly       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2021-08-01 Host Fee to Open Source Collective  ; id:199ab737, group:eacebc09
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-08-01 Monthly contribution from Jack Todaro (Backers)  ; id:fb392a0f, group:eacebc09, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:jack-todaro       -2.00 USD
+    assets:oc:hledger                     1.62 USD
+    expenses:fees:STRIPE                  0.38 USD
+
+2021-08-01 Host Fee to Open Source Collective  ; id:92541a4f, group:89e7b803
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-08-01 Monthly contribution from Rishi Hyanki (Backers)  ; id:e88bdbd1, group:89e7b803, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki       -2.00 USD
+    assets:oc:hledger                 1.64 USD
+    expenses:fees:STRIPE              0.36 USD
+
+2021-08-01 Host Fee to Open Source Collective  ; id:4529efe0, group:f559f149
+    expenses:fees:open-source-collective        1.00 USD
+    assets:oc:hledger                          -1.00 USD
+
+2021-08-01 Monthly contribution from Tony Xiao (Backers)  ; id:95676735, group:f559f149, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:tony-xiao1      -10.00 USD
+    assets:oc:hledger                    9.41 USD
+    expenses:fees:STRIPE                 0.59 USD
+
+2021-08-01 Host Fee to Open Source Collective  ; id:d2a2db51, group:637426fc
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-08-01 Monthly contribution from Brandon Barker (Backers)  ; id:3e6fe0ba, group:637426fc, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2021-08-01 Host Fee to Open Source Collective  ; id:1e3b3ee6, group:f5318d30
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-08-01 Monthly contribution from FinMasters (Sponsors)  ; id:a68e5aad, group:f5318d30, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:finmasters     -100.00 USD
+    assets:oc:hledger                   95.80 USD
+    expenses:fees:STRIPE                 4.20 USD
+
+2021-08-01 Host Fee to Open Source Collective  ; id:98cd1b21, group:634f62dc
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-08-01 Monthly contribution from HLO_APC (Backers)  ; id:de96bf9b, group:634f62dc, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:hlo_apc       -2.00 USD
+    assets:oc:hledger                 1.64 USD
+    expenses:fees:STRIPE              0.36 USD
+
+2021-08-01 Host Fee to Open Source Collective  ; id:da1e9929, group:70a1af58
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-08-01 Monthly contribution from Paulo Makdisse (Backers)  ; id:5ebddaac, group:70a1af58, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:paulo-makdisse       -2.00 USD
+    assets:oc:hledger                        1.62 USD
+    expenses:fees:STRIPE                     0.38 USD
+
+2021-08-01 Host Fee to Open Source Collective  ; id:66eaf7a9, group:84e75238
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-08-01 Monthly contribution from James Blachly (Backers)  ; id:2ffc9271, group:84e75238, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:james-blachly       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2021-08-01 Host Fee to Open Source Collective  ; id:47b6d072, group:59f5879c
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-08-01 Monthly contribution from Writers Per Hour (Sponsors)  ; id:d88c18dd, group:59f5879c, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:writersperhour     -100.00 USD
+    assets:oc:hledger                       95.80 USD
+    expenses:fees:STRIPE                     4.20 USD
+
+2021-08-02 Expense from Julian Andres Klode - regression bounty  ; id:9130ab30, group:36f56b4c, payment-method:, payment-type:
+    expenses:bounties-etc:julian-andres-klode      100.00 USD
+    assets:oc:hledger                             -100.76 USD
+    expenses:fees:unknown-processor                  0.76 USD
+
+2021-08-05 Host Fee to Open Source Collective  ; id:29f0a126, group:9d8c0c88
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-08-05 Monthly contribution from Brandon J Wong (Backers)  ; id:286a2206, group:9d8c0c88, payment-method:, payment-type:
+    revenues:donations:brandon-j-wong       -2.00 USD
+    assets:oc:hledger                        1.62 USD
+    expenses:fees:unknown-processor          0.38 USD
+
+2021-08-06 Expense from Yann Büchau - regression bounty  ; id:835ee4ff, group:58c4bb8d, payment-method:, payment-type:
+    expenses:bounties-etc:yann-buechau      100.00 USD
+    assets:oc:hledger                      -102.00 USD
+    expenses:fees:unknown-processor           2.00 USD
+
+2021-08-14 Host Fee to Open Source Collective  ; id:abd76595, group:42af33cc
+    expenses:fees:open-source-collective        0.50 USD
+    assets:oc:hledger                          -0.50 USD
+
+2021-08-14 Contribution from Michael Manganiello  ; id:f3226d24, group:42af33cc, payment-method:PAYPAL, payment-type:PAYMENT
+    revenues:donations:guest-c173624c       -5.00 USD
+    assets:oc:hledger                        4.26 USD
+    expenses:fees:PAYPAL                     0.74 USD
+
+2021-08-19 Host Fee to Open Source Collective  ; id:19341b27, group:e9afaa3a
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-08-19 Monthly contribution from APM Help (Sponsors)  ; id:16950498, group:e9afaa3a, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:apmhelp     -100.00 USD
+    assets:oc:hledger                96.02 USD
+    expenses:fees:PAYPAL              3.98 USD
+
+2021-08-23 Host Fee to Open Source Collective  ; id:d49a0d19, group:18458059
+    expenses:fees:open-source-collective        1.00 USD
+    assets:oc:hledger                          -1.00 USD
+
+2021-08-23 Contribution from Yann Büchau  ; id:b5de006b, group:18458059, payment-method:PAYPAL, payment-type:PAYMENT
+    revenues:donations:yann-buechau      -10.00 USD
+    assets:oc:hledger                      9.01 USD
+    expenses:fees:PAYPAL                   0.99 USD
+
+2021-08-26 Expense from Stephen Morgan - Collecting bounty on #1412  ; id:b8bc86e5, group:f59a6253, payment-method:, payment-type:
+    expenses:bounties-etc:stephen-morgan       10.00 USD
+    assets:oc:hledger                         -10.44 USD
+    expenses:fees:unknown-processor             0.44 USD
+
+2021-08-26 Expense from Stephen Morgan - regression bounty  ; id:dc121057, group:8d140f93, payment-method:, payment-type:
+    expenses:bounties-etc:stephen-morgan      100.00 USD
+    assets:oc:hledger                        -100.84 USD
+    expenses:fees:unknown-processor             0.84 USD
+
+2021-09-01 Host Fee to Open Source Collective  ; id:3f5c489d, group:dbf98dce
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-09-01 Monthly contribution from October Swimmer (Sponsors)  ; id:41cab4d6, group:dbf98dce, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer     -100.00 USD
+    assets:oc:hledger                        96.80 USD
+    expenses:fees:STRIPE                      3.20 USD
+
+2021-09-01 Host Fee to Open Source Collective  ; id:3e6ec6a0, group:dc0e01ce
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-09-01 Monthly contribution from Michael Martinides (Backers)  ; id:d6aad227, group:dc0e01ce, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.62 USD
+    expenses:fees:STRIPE                         0.38 USD
+
+2021-09-01 Host Fee to Open Source Collective  ; id:dd272da8, group:dad97e71
+    expenses:fees:open-source-collective        0.50 USD
+    assets:oc:hledger                          -0.50 USD
+
+2021-09-01 Monthly contribution from Gyula Weber (Backers)  ; id:a77673fe, group:dad97e71, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:gyula_weber       -5.00 USD
+    assets:oc:hledger                     4.50 USD
+    expenses:fees:STRIPE                  0.50 USD
+
+2021-09-01 Host Fee to Open Source Collective  ; id:f46f4e7a, group:316c0801
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-09-01 Monthly contribution from MSATC (Backers)  ; id:70e64967, group:316c0801, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:msatc       -2.00 USD
+    assets:oc:hledger               1.62 USD
+    expenses:fees:STRIPE            0.38 USD
+
+2021-09-01 Host Fee to Open Source Collective  ; id:79c5a7c7, group:fd800116
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-09-01 Monthly contribution from Richard Kelly (Backers)  ; id:aaa251b1, group:fd800116, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:richard-kelly       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2021-09-01 Host Fee to Open Source Collective  ; id:7d2ac4ea, group:78bc2318
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-09-01 Monthly contribution from Jack Todaro (Backers)  ; id:d0b92afa, group:78bc2318, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:jack-todaro       -2.00 USD
+    assets:oc:hledger                     1.62 USD
+    expenses:fees:STRIPE                  0.38 USD
+
+2021-09-01 Host Fee to Open Source Collective  ; id:08d37b00, group:5a651099
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-09-01 Monthly contribution from Rishi Hyanki (Backers)  ; id:7383d28e, group:5a651099, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki       -2.00 USD
+    assets:oc:hledger                 1.64 USD
+    expenses:fees:STRIPE              0.36 USD
+
+2021-09-01 Host Fee to Open Source Collective  ; id:e0a7ee1c, group:294b8f06
+    expenses:fees:open-source-collective        1.00 USD
+    assets:oc:hledger                          -1.00 USD
+
+2021-09-01 Monthly contribution from Tony Xiao (Backers)  ; id:d1fd1161, group:294b8f06, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:tony-xiao1      -10.00 USD
+    assets:oc:hledger                    9.41 USD
+    expenses:fees:STRIPE                 0.59 USD
+
+2021-09-01 Host Fee to Open Source Collective  ; id:07b5c7ea, group:30a1a8f0
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-09-01 Monthly contribution from Brandon Barker (Backers)  ; id:1d3b7a39, group:30a1a8f0, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2021-09-01 Host Fee to Open Source Collective  ; id:47044af1, group:af4c57f3
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-09-01 Monthly contribution from FinMasters (Sponsors)  ; id:05f4e4aa, group:af4c57f3, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:finmasters     -100.00 USD
+    assets:oc:hledger                   95.80 USD
+    expenses:fees:STRIPE                 4.20 USD
+
+2021-09-01 Host Fee to Open Source Collective  ; id:09f5636b, group:19e603e3
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-09-01 Monthly contribution from HLO_APC (Backers)  ; id:565b6e27, group:19e603e3, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:hlo_apc       -2.00 USD
+    assets:oc:hledger                 1.64 USD
+    expenses:fees:STRIPE              0.36 USD
+
+2021-09-01 Host Fee to Open Source Collective  ; id:6549c2ee, group:f1c772aa
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-09-01 Monthly contribution from Paulo Makdisse (Backers)  ; id:c9e695d7, group:f1c772aa, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:paulo-makdisse       -2.00 USD
+    assets:oc:hledger                        1.62 USD
+    expenses:fees:STRIPE                     0.38 USD
+
+2021-09-01 Host Fee to Open Source Collective  ; id:6939f28c, group:69bbdc99
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-09-01 Monthly contribution from James Blachly (Backers)  ; id:e9c3af2e, group:69bbdc99, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:james-blachly       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2021-09-01 Host Fee to Open Source Collective  ; id:cdb7b815, group:4c53364f
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-09-01 Monthly contribution from Writers Per Hour (Sponsors)  ; id:06ec69e2, group:4c53364f, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:writersperhour     -100.00 USD
+    assets:oc:hledger                       95.80 USD
+    expenses:fees:STRIPE                     4.20 USD
+
+2021-09-02 Host Fee to Open Source Collective  ; id:7aa77d3e, group:f8ac6bbe
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-09-02 Monthly contribution from Brandon J Wong (Backers)  ; id:07ce11af, group:f8ac6bbe, payment-method:, payment-type:
+    revenues:donations:brandon-j-wong       -2.00 USD
+    assets:oc:hledger                        1.62 USD
+    expenses:fees:unknown-processor          0.38 USD
+
+2021-09-04 Host Fee to Open Source Collective  ; id:dd9f83fd, group:8387d5d6
+    expenses:fees:open-source-collective        5.00 USD
+    assets:oc:hledger                          -5.00 USD
+
+2021-09-04 Contribution from David Heijkamp  ; id:a7c55828, group:8387d5d6, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:guest-f1fc70f8      -50.00 USD
+    assets:oc:hledger                       47.75 USD
+    expenses:fees:STRIPE                     2.25 USD
+
+2021-09-19 Host Fee to Open Source Collective  ; id:affa70d4, group:cd3da788
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-09-19 Monthly contribution from APM Help (Sponsors)  ; id:10273771, group:cd3da788, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:apmhelp     -100.00 USD
+    assets:oc:hledger                96.02 USD
+    expenses:fees:PAYPAL              3.98 USD
+
+2021-10-01 Host Fee to Open Source Collective  ; id:c8cbaa2e, group:0421f701
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-10-01 Monthly contribution from October Swimmer (Sponsors)  ; id:4132ee2f, group:0421f701, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer     -100.00 USD
+    assets:oc:hledger                        96.80 USD
+    expenses:fees:STRIPE                      3.20 USD
+
+2021-10-01 Host Fee to Open Source Collective  ; id:83b0a063, group:3204f6d5
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-10-01 Monthly contribution from Michael Martinides (Backers)  ; id:aa0d0d0b, group:3204f6d5, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.62 USD
+    expenses:fees:STRIPE                         0.38 USD
+
+2021-10-01 Host Fee to Open Source Collective  ; id:18440605, group:3cc4fe6c
+    expenses:fees:open-source-collective        0.50 USD
+    assets:oc:hledger                          -0.50 USD
+
+2021-10-01 Monthly contribution from Gyula Weber (Backers)  ; id:c82f81eb, group:3cc4fe6c, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:gyula_weber       -5.00 USD
+    assets:oc:hledger                     4.50 USD
+    expenses:fees:STRIPE                  0.50 USD
+
+2021-10-01 Host Fee to Open Source Collective  ; id:3d9f6877, group:8bfedc1f
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-10-01 Monthly contribution from MSATC (Backers)  ; id:db0e15e5, group:8bfedc1f, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:msatc       -2.00 USD
+    assets:oc:hledger               1.62 USD
+    expenses:fees:STRIPE            0.38 USD
+
+2021-10-01 Host Fee to Open Source Collective  ; id:95442359, group:d1ca90ed
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-10-01 Monthly contribution from Richard Kelly (Backers)  ; id:56a89a15, group:d1ca90ed, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:richard-kelly       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2021-10-01 Host Fee to Open Source Collective  ; id:c0cd12c4, group:47394626
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-10-01 Monthly contribution from Jack Todaro (Backers)  ; id:ae862b76, group:47394626, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:jack-todaro       -2.00 USD
+    assets:oc:hledger                     1.62 USD
+    expenses:fees:STRIPE                  0.38 USD
+
+2021-10-01 Host Fee to Open Source Collective  ; id:d88f06f6, group:fd5fbe1b
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-10-01 Monthly contribution from Rishi Hyanki (Backers)  ; id:d3364e2d, group:fd5fbe1b, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki       -2.00 USD
+    assets:oc:hledger                 1.64 USD
+    expenses:fees:STRIPE              0.36 USD
+
+2021-10-01 Host Fee to Open Source Collective  ; id:dfd2e41c, group:a4d4f8a9
+    expenses:fees:open-source-collective        1.00 USD
+    assets:oc:hledger                          -1.00 USD
+
+2021-10-01 Monthly contribution from Tony Xiao (Backers)  ; id:8f839f2d, group:a4d4f8a9, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:tony-xiao1      -10.00 USD
+    assets:oc:hledger                    9.41 USD
+    expenses:fees:STRIPE                 0.59 USD
+
+2021-10-01 Host Fee to Open Source Collective  ; id:78720157, group:81edfac8
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-10-01 Monthly contribution from Brandon Barker (Backers)  ; id:234c69c5, group:81edfac8, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2021-10-01 Host Fee to Open Source Collective  ; id:a55b0d6b, group:49e62f3d
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-10-01 Monthly contribution from FinMasters (Sponsors)  ; id:edb65773, group:49e62f3d, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:finmasters     -100.00 USD
+    assets:oc:hledger                   95.80 USD
+    expenses:fees:STRIPE                 4.20 USD
+
+2021-10-01 Host Fee to Open Source Collective  ; id:89de0e76, group:a01acc26
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-10-01 Monthly contribution from HLO_APC (Backers)  ; id:4c6008aa, group:a01acc26, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:hlo_apc       -2.00 USD
+    assets:oc:hledger                 1.64 USD
+    expenses:fees:STRIPE              0.36 USD
+
+2021-10-01 Host Fee to Open Source Collective  ; id:521618d8, group:4cc91dcf
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-10-01 Monthly contribution from Paulo Makdisse (Backers)  ; id:fadf23fe, group:4cc91dcf, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:paulo-makdisse       -2.00 USD
+    assets:oc:hledger                        1.62 USD
+    expenses:fees:STRIPE                     0.38 USD
+
+2021-10-01 Host Fee to Open Source Collective  ; id:42724f57, group:f1598d5a
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-10-01 Monthly contribution from James Blachly (Backers)  ; id:1362b4e8, group:f1598d5a, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:james-blachly       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2021-10-01 Host Fee to Open Source Collective  ; id:6d4450e1, group:95f36f12
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-10-01 Monthly contribution from Writers Per Hour (Sponsors)  ; id:78515ea4, group:95f36f12, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:writersperhour     -100.00 USD
+    assets:oc:hledger                       95.80 USD
+    expenses:fees:STRIPE                     4.20 USD
+
+2021-10-02 Host Fee to Open Source Collective  ; id:6213fd2f, group:d36cd41c
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-10-02 Monthly contribution from Brandon J Wong (Backers)  ; id:7ad19f21, group:d36cd41c, payment-method:, payment-type:
+    revenues:donations:brandon-j-wong       -2.00 USD
+    assets:oc:hledger                        1.62 USD
+    expenses:fees:unknown-processor          0.38 USD
+
+2021-10-08 Host Fee to Open Source Collective  ; id:7acb7d8f, group:d1930561
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-10-08 Monthly contribution from Real Targeted Traffic (Backers)  ; id:177a30e4, group:d1930561, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:seo25-com       -2.00 USD
+    assets:oc:hledger                   1.41 USD
+    expenses:fees:PAYPAL                0.59 USD
+
+2021-10-08 Host Fee to Open Source Collective  ; id:f78041c1, group:a1b8f4df
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-10-08 Monthly contribution from Targeted Organic Traffic (Backers)  ; id:d86fc8b8, group:a1b8f4df, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:targeted-organic-traffic       -2.00 USD
+    assets:oc:hledger                                  1.41 USD
+    expenses:fees:PAYPAL                               0.59 USD
+
+2021-10-17 Expense from David D Lowe - Regression bounty  ; id:6af44341, group:7c563358, payment-method:, payment-type:
+    expenses:bounties-etc:david-d-lowe      100.00 USD
+    assets:oc:hledger                      -100.87 USD
+    expenses:fees:unknown-processor           0.87 USD
+
+2021-10-19 Host Fee to Open Source Collective  ; id:fefd9264, group:131e7440
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-10-19 Monthly contribution from APM Help (Sponsors)  ; id:1d93a1f5, group:131e7440, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:apmhelp     -100.00 USD
+    assets:oc:hledger                96.02 USD
+    expenses:fees:PAYPAL              3.98 USD
+
+2021-10-21 Host Fee to Open Source Collective  ; id:4d2a692b, group:ed52160b
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-10-21 Monthly contribution from ilmaiskierroksia.lv (Backers)  ; id:b04ca9cd, group:ed52160b, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:ilmaiskierroksia-lv       -2.00 USD
+    assets:oc:hledger                             1.41 USD
+    expenses:fees:PAYPAL                          0.59 USD
+
+2021-11-01 Host Fee to Open Source Collective  ; id:9d06cc6f, group:334f1a51
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-11-01 Monthly contribution from October Swimmer (Sponsors)  ; id:c7d35ca5, group:334f1a51, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer     -100.00 USD
+    assets:oc:hledger                        96.80 USD
+    expenses:fees:STRIPE                      3.20 USD
+
+2021-11-01 Host Fee to Open Source Collective  ; id:131b6712, group:2b7de276
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-11-01 Monthly contribution from Michael Martinides (Backers)  ; id:e09e2191, group:2b7de276, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.62 USD
+    expenses:fees:STRIPE                         0.38 USD
+
+2021-11-01 Host Fee to Open Source Collective  ; id:ac4c5c1f, group:ee490a5a
+    expenses:fees:open-source-collective        0.50 USD
+    assets:oc:hledger                          -0.50 USD
+
+2021-11-01 Monthly contribution from Gyula Weber (Backers)  ; id:f9013b28, group:ee490a5a, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:gyula_weber       -5.00 USD
+    assets:oc:hledger                     4.50 USD
+    expenses:fees:STRIPE                  0.50 USD
+
+2021-11-01 Host Fee to Open Source Collective  ; id:dfb1b80b, group:c4b7fd18
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-11-01 Monthly contribution from MSATC (Backers)  ; id:e57ebe49, group:c4b7fd18, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:msatc       -2.00 USD
+    assets:oc:hledger               1.62 USD
+    expenses:fees:STRIPE            0.38 USD
+
+2021-11-01 Host Fee to Open Source Collective  ; id:64759eec, group:2e7e221a
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-11-01 Monthly contribution from Richard Kelly (Backers)  ; id:0535e33c, group:2e7e221a, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:richard-kelly       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2021-11-01 Host Fee to Open Source Collective  ; id:d57714ff, group:107fca7c
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-11-01 Monthly contribution from Jack Todaro (Backers)  ; id:1634bb3a, group:107fca7c, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:jack-todaro       -2.00 USD
+    assets:oc:hledger                     1.62 USD
+    expenses:fees:STRIPE                  0.38 USD
+
+2021-11-01 Host Fee to Open Source Collective  ; id:72428266, group:722cc57b
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-11-01 Monthly contribution from Rishi Hyanki (Backers)  ; id:ff0d739f, group:722cc57b, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki       -2.00 USD
+    assets:oc:hledger                 1.64 USD
+    expenses:fees:STRIPE              0.36 USD
+
+2021-11-01 Host Fee to Open Source Collective  ; id:6073cb85, group:370c4360
+    expenses:fees:open-source-collective        1.00 USD
+    assets:oc:hledger                          -1.00 USD
+
+2021-11-01 Monthly contribution from Tony Xiao (Backers)  ; id:800bf5d6, group:370c4360, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:tony-xiao1      -10.00 USD
+    assets:oc:hledger                    9.41 USD
+    expenses:fees:STRIPE                 0.59 USD
+
+2021-11-01 Host Fee to Open Source Collective  ; id:8295964c, group:683933f5
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-11-01 Monthly contribution from Brandon Barker (Backers)  ; id:b7251628, group:683933f5, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2021-11-01 Host Fee to Open Source Collective  ; id:da2af6cb, group:211fd188
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-11-01 Monthly contribution from FinMasters (Sponsors)  ; id:38ad714a, group:211fd188, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:finmasters     -100.00 USD
+    assets:oc:hledger                   95.80 USD
+    expenses:fees:STRIPE                 4.20 USD
+
+2021-11-01 Host Fee to Open Source Collective  ; id:40320bf5, group:a084f13f
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-11-01 Monthly contribution from HLO_APC (Backers)  ; id:d64c6d14, group:a084f13f, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:hlo_apc       -2.00 USD
+    assets:oc:hledger                 1.64 USD
+    expenses:fees:STRIPE              0.36 USD
+
+2021-11-01 Host Fee to Open Source Collective  ; id:f7643e5f, group:7ea8053b
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-11-01 Monthly contribution from Paulo Makdisse (Backers)  ; id:e77fd746, group:7ea8053b, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:paulo-makdisse       -2.00 USD
+    assets:oc:hledger                        1.62 USD
+    expenses:fees:STRIPE                     0.38 USD
+
+2021-11-01 Host Fee to Open Source Collective  ; id:e618121f, group:eb6375dc
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-11-01 Monthly contribution from James Blachly (Backers)  ; id:610d5026, group:eb6375dc, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:james-blachly       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2021-11-01 Host Fee to Open Source Collective  ; id:624e4687, group:ba6c3af0
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-11-01 Monthly contribution from Writers Per Hour (Sponsors)  ; id:b83ed473, group:ba6c3af0, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:writersperhour     -100.00 USD
+    assets:oc:hledger                       95.80 USD
+    expenses:fees:STRIPE                     4.20 USD
+
+2021-11-02 Host Fee to Open Source Collective  ; id:461487b8, group:8eb8646d
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-11-02 Monthly contribution from Brandon J Wong (Backers)  ; id:4d188d94, group:8eb8646d, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandon-j-wong       -2.00 USD
+    assets:oc:hledger                        1.62 USD
+    expenses:fees:STRIPE                     0.38 USD
+
+2021-11-05 Expense from Arne Schlüter - Regression Bounty  ; id:2b252d49, group:37a239ff, payment-method:, payment-type:
+    expenses:bounties-etc:arne-schlueter      100.00 USD
+    assets:oc:hledger                        -102.00 USD
+    expenses:fees:unknown-processor             2.00 USD
+
+2021-11-07 Host Fee to Open Source Collective  ; id:3fba7047, group:bbbec56e
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-11-07 Monthly contribution from Real Targeted Traffic (Backers)  ; id:5d5d8a03, group:bbbec56e, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:seo25-com       -2.00 USD
+    assets:oc:hledger                   1.41 USD
+    expenses:fees:PAYPAL                0.59 USD
+
+2021-11-08 Host Fee to Open Source Collective  ; id:3591939b, group:c03f45b3
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-11-08 Monthly contribution from Targeted Organic Traffic (Backers)  ; id:56a2f017, group:c03f45b3, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:targeted-organic-traffic       -2.00 USD
+    assets:oc:hledger                                  1.41 USD
+    expenses:fees:PAYPAL                               0.59 USD
+
+2021-11-15 Expense from Romain Gehrig - Regression Bounty  ; id:d565e515, group:5bb06854, payment-method:, payment-type:
+    expenses:bounties-etc:romain-gehrig      100.00 USD
+    assets:oc:hledger                       -100.25 USD
+    expenses:fees:unknown-processor            0.25 USD
+
+2021-11-19 Host Fee to Open Source Collective  ; id:69f7f210, group:124dbc31
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-11-19 Monthly contribution from APM Help (Sponsors)  ; id:c2a1086f, group:124dbc31, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:apmhelp     -100.00 USD
+    assets:oc:hledger                96.02 USD
+    expenses:fees:PAYPAL              3.98 USD
+
+2021-11-24 Host Fee to Open Source Collective  ; id:154c934a, group:c5647b65
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-11-24 Monthly contribution from Olsens Revision ApS (Sponsors)  ; id:73e33fba, group:c5647b65, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:olsensrevision     -100.00 USD
+    assets:oc:hledger                       94.52 USD
+    expenses:fees:PAYPAL                     5.48 USD
+
+2021-11-28 Host Fee to Open Source Collective  ; id:33850779, group:4c6a0fbf
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-11-28 Monthly contribution from Ken Ewing (Backers)  ; id:8443c68f, group:4c6a0fbf, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:ken-ewing       -2.00 USD
+    assets:oc:hledger                   1.64 USD
+    expenses:fees:STRIPE                0.36 USD
+
+2021-11-30 Host Fee to Open Source Collective  ; id:446c3a23, group:4819f56a
+    expenses:fees:open-source-collective        2.00 USD
+    assets:oc:hledger                          -2.00 USD
+
+2021-11-30 Yearly contribution from Damien Cassou  ; id:2a2d7b8f, group:4819f56a, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:damien-cassou      -20.00 USD
+    assets:oc:hledger                      18.51 USD
+    expenses:fees:PAYPAL                    1.49 USD
+
+2021-12-01 Host Fee to Open Source Collective  ; id:4036a095, group:88c36e72
+    expenses:fees:open-source-collective        0.50 USD
+    assets:oc:hledger                          -0.50 USD
+
+2021-12-01 Monthly contribution from Gyula Weber (Backers)  ; id:e285e564, group:88c36e72, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:gyula_weber       -5.00 USD
+    assets:oc:hledger                     4.50 USD
+    expenses:fees:STRIPE                  0.50 USD
+
+2021-12-01 Host Fee to Open Source Collective  ; id:51611ee8, group:c7657f0a
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-12-01 Monthly contribution from Brandon Barker (Backers)  ; id:00285da2, group:c7657f0a, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2021-12-01 Host Fee to Open Source Collective  ; id:fccfab0f, group:9e457bde
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-12-01 Monthly contribution from Michael Martinides (Backers)  ; id:ed72b4fe, group:9e457bde, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.62 USD
+    expenses:fees:STRIPE                         0.38 USD
+
+2021-12-01 Host Fee to Open Source Collective  ; id:34f65ae8, group:9830d46d
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-12-01 Monthly contribution from Writers Per Hour (Sponsors)  ; id:1921c9a8, group:9830d46d, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:writersperhour     -100.00 USD
+    assets:oc:hledger                       95.80 USD
+    expenses:fees:STRIPE                     4.20 USD
+
+2021-12-01 Host Fee to Open Source Collective  ; id:9915b256, group:961d1918
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-12-01 Monthly contribution from Rishi Hyanki (Backers)  ; id:fc79cf3d, group:961d1918, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki       -2.00 USD
+    assets:oc:hledger                 1.64 USD
+    expenses:fees:STRIPE              0.36 USD
+
+2021-12-01 Host Fee to Open Source Collective  ; id:4264741d, group:5d0bfee5
+    expenses:fees:open-source-collective        1.00 USD
+    assets:oc:hledger                          -1.00 USD
+
+2021-12-01 Monthly contribution from Tony Xiao (Backers)  ; id:e9c7d8c7, group:5d0bfee5, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:tony-xiao1      -10.00 USD
+    assets:oc:hledger                    9.41 USD
+    expenses:fees:STRIPE                 0.59 USD
+
+2021-12-01 Host Fee to Open Source Collective  ; id:ebb1f31b, group:941b504b
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-12-01 Monthly contribution from Paulo Makdisse (Backers)  ; id:eb77d236, group:941b504b, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:paulo-makdisse       -2.00 USD
+    assets:oc:hledger                        1.62 USD
+    expenses:fees:STRIPE                     0.38 USD
+
+2021-12-01 Host Fee to Open Source Collective  ; id:1c99a75b, group:ea181797
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-12-01 Monthly contribution from October Swimmer (Sponsors)  ; id:a0c7a143, group:ea181797, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer     -100.00 USD
+    assets:oc:hledger                        96.80 USD
+    expenses:fees:STRIPE                      3.20 USD
+
+2021-12-01 Host Fee to Open Source Collective  ; id:953978da, group:bb0718a4
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-12-01 Monthly contribution from HLO_APC (Backers)  ; id:8d0acc2b, group:bb0718a4, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:hlo_apc       -2.00 USD
+    assets:oc:hledger                 1.64 USD
+    expenses:fees:STRIPE              0.36 USD
+
+2021-12-01 Host Fee to Open Source Collective  ; id:978be77b, group:5f5df9f0
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-12-01 Monthly contribution from James Blachly (Backers)  ; id:cfebc403, group:5f5df9f0, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:james-blachly       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2021-12-01 Host Fee to Open Source Collective  ; id:0b87d3d6, group:e614709b
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-12-01 Monthly contribution from Jack Todaro (Backers)  ; id:92796166, group:e614709b, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:jack-todaro       -2.00 USD
+    assets:oc:hledger                     1.62 USD
+    expenses:fees:STRIPE                  0.38 USD
+
+2021-12-01 Host Fee to Open Source Collective  ; id:79a0410c, group:1018639d
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-12-01 Monthly contribution from MSATC (Backers)  ; id:9624f650, group:1018639d, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:msatc       -2.00 USD
+    assets:oc:hledger               1.62 USD
+    expenses:fees:STRIPE            0.38 USD
+
+2021-12-01 Host Fee to Open Source Collective  ; id:c590a842, group:a20e24ee
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-12-01 Monthly contribution from Richard Kelly (Backers)  ; id:ac76ed98, group:a20e24ee, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:richard-kelly       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2021-12-02 Host Fee to Open Source Collective  ; id:0fbe4d83, group:1b2dacd3
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-12-02 Monthly contribution from Brandon J Wong (Backers)  ; id:bf6079fe, group:1b2dacd3, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandon-j-wong       -2.00 USD
+    assets:oc:hledger                        1.62 USD
+    expenses:fees:STRIPE                     0.38 USD
+
+2021-12-07 Host Fee to Open Source Collective  ; id:da89e74a, group:9c48d4c1
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-12-07 Monthly contribution from Real Targeted Traffic (Backers)  ; id:0150e7b3, group:9c48d4c1, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:seo25-com       -2.00 USD
+    assets:oc:hledger                   1.41 USD
+    expenses:fees:PAYPAL                0.59 USD
+
+2021-12-08 Host Fee to Open Source Collective  ; id:fd915066, group:93c9edfd
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-12-08 Monthly contribution from Targeted Organic Traffic (Backers)  ; id:9a12bc34, group:93c9edfd, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:targeted-organic-traffic       -2.00 USD
+    assets:oc:hledger                                  1.41 USD
+    expenses:fees:PAYPAL                               0.59 USD
+
+2021-12-19 Host Fee to Open Source Collective  ; id:f094c89e, group:6aaed51f
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-12-19 Monthly contribution from APM Help (Sponsors)  ; id:eb7240e0, group:6aaed51f, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:apmhelp     -100.00 USD
+    assets:oc:hledger                96.02 USD
+    expenses:fees:PAYPAL              3.98 USD
+
+2021-12-24 Host Fee to Open Source Collective  ; id:c4f74c86, group:bbe38e50
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2021-12-24 Monthly contribution from Olsens Revision ApS (Sponsors)  ; id:edbf1a89, group:bbe38e50, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:olsensrevision     -100.00 USD
+    assets:oc:hledger                       94.52 USD
+    expenses:fees:PAYPAL                     5.48 USD
+
+2021-12-31 Host Fee to Open Source Collective  ; id:8c9be809, group:386be46e
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2021-12-31 Monthly contribution from Richard Kelly (Backers)  ; id:066d057f, group:386be46e, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:richard-kelly       -2.00 USD
+    assets:oc:hledger                       1.44 USD
+    expenses:fees:PAYPAL                    0.56 USD
+
+2022-01-05 Host Fee to Open Source Collective  ; id:6baddbe7, group:80e3bf8f
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2022-01-05 Monthly contribution from October Swimmer (Sponsors)  ; id:94d83c9a, group:80e3bf8f, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer     -100.00 USD
+    assets:oc:hledger                        96.80 USD
+    expenses:fees:STRIPE                      3.20 USD
+
+2022-01-05 Host Fee to Open Source Collective  ; id:fd689dd5, group:33b7caca
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-01-05 Monthly contribution from Michael Martinides (Backers)  ; id:aabdc0e9, group:33b7caca, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.62 USD
+    expenses:fees:STRIPE                         0.38 USD
+
+2022-01-05 Host Fee to Open Source Collective  ; id:f0c9d125, group:6e143975
+    expenses:fees:open-source-collective        0.50 USD
+    assets:oc:hledger                          -0.50 USD
+
+2022-01-05 Monthly contribution from Gyula Weber (Backers)  ; id:d9d0a70d, group:6e143975, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:gyula_weber       -5.00 USD
+    assets:oc:hledger                     4.50 USD
+    expenses:fees:STRIPE                  0.50 USD
+
+2022-01-05 Host Fee to Open Source Collective  ; id:d30d7135, group:8e461007
+    expenses:fees:open-source-collective        5.00 USD
+    assets:oc:hledger                          -5.00 USD
+
+2022-01-05 Yearly contribution from incognito  ; id:f21202d9, group:8e461007, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:incognito-6a1e7e79      -50.00 USD
+    assets:oc:hledger                           47.75 USD
+    expenses:fees:STRIPE                         2.25 USD
+
+2022-01-05 Host Fee to Open Source Collective  ; id:7965c74d, group:89cdca25
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-01-05 Monthly contribution from MSATC (Backers)  ; id:290be4a0, group:89cdca25, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:msatc       -2.00 USD
+    assets:oc:hledger               1.62 USD
+    expenses:fees:STRIPE            0.38 USD
+
+2022-01-05 Host Fee to Open Source Collective  ; id:1f663dec, group:2ac1aa58
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-01-05 Monthly contribution from Jack Todaro (Backers)  ; id:c2f148fd, group:2ac1aa58, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:jack-todaro       -2.00 USD
+    assets:oc:hledger                     1.62 USD
+    expenses:fees:STRIPE                  0.38 USD
+
+2022-01-05 Host Fee to Open Source Collective  ; id:ac007514, group:6bdbb96e
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-01-05 Monthly contribution from Rishi Hyanki (Backers)  ; id:a0433e9f, group:6bdbb96e, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki       -2.00 USD
+    assets:oc:hledger                 1.64 USD
+    expenses:fees:STRIPE              0.36 USD
+
+2022-01-05 Host Fee to Open Source Collective  ; id:ba4fbfad, group:e6e56635
+    expenses:fees:open-source-collective        1.00 USD
+    assets:oc:hledger                          -1.00 USD
+
+2022-01-05 Monthly contribution from Tony Xiao (Backers)  ; id:c20e43e6, group:e6e56635, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:tony-xiao1      -10.00 USD
+    assets:oc:hledger                    9.41 USD
+    expenses:fees:STRIPE                 0.59 USD
+
+2022-01-05 Host Fee to Open Source Collective  ; id:a8006818, group:107990aa
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-01-05 Monthly contribution from Brandon Barker (Backers)  ; id:6e7762d4, group:107990aa, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2022-01-05 Host Fee to Open Source Collective  ; id:2c15fe6e, group:5795de60
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-01-05 Monthly contribution from Paulo Makdisse (Backers)  ; id:fcc4dae2, group:5795de60, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:paulo-makdisse       -2.00 USD
+    assets:oc:hledger                        1.62 USD
+    expenses:fees:STRIPE                     0.38 USD
+
+2022-01-06 Host Fee to Open Source Collective  ; id:d871f57e, group:f0d8ac7e
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-01-06 Monthly contribution from James Blachly (Backers)  ; id:c40c456b, group:f0d8ac7e, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:james-blachly       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2022-01-06 Host Fee to Open Source Collective  ; id:190adf19, group:ae197fc3
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2022-01-06 Monthly contribution from Writers Per Hour (Sponsors)  ; id:48105222, group:ae197fc3, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:writersperhour     -100.00 USD
+    assets:oc:hledger                       95.80 USD
+    expenses:fees:STRIPE                     4.20 USD
+
+2022-01-06 Host Fee to Open Source Collective  ; id:9fd64a50, group:f0386650
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-01-06 Monthly contribution from Ken Ewing (Backers)  ; id:96d0e285, group:f0386650, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:ken-ewing       -2.00 USD
+    assets:oc:hledger                   1.64 USD
+    expenses:fees:STRIPE                0.36 USD
+
+2022-01-06 Host Fee to Open Source Collective  ; id:6ddd0f56, group:1c033143
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-01-06 Monthly contribution from Brandon J Wong (Backers)  ; id:5ab5cfea, group:1c033143, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandon-j-wong       -2.00 USD
+    assets:oc:hledger                        1.62 USD
+    expenses:fees:STRIPE                     0.38 USD
+
+2022-01-07 Host Fee to Open Source Collective  ; id:fb2147e9, group:0717b78b
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-01-07 Monthly contribution from Real Targeted Traffic (Backers)  ; id:25c23122, group:0717b78b, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:seo25-com       -2.00 USD
+    assets:oc:hledger                   1.41 USD
+    expenses:fees:PAYPAL                0.59 USD
+
+2022-01-08 Host Fee to Open Source Collective  ; id:94e4ffd9, group:3a73ed49
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-01-08 Monthly contribution from Targeted Organic Traffic (Backers)  ; id:399da1bb, group:3a73ed49, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:targeted-organic-traffic       -2.00 USD
+    assets:oc:hledger                                  1.41 USD
+    expenses:fees:PAYPAL                               0.59 USD
+
+2022-01-19 Host Fee to Open Source Collective  ; id:0014f3d6, group:4e78dc3f
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2022-01-19 Monthly contribution from APM Help (Sponsors)  ; id:b4b2afb6, group:4e78dc3f, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:apmhelp     -100.00 USD
+    assets:oc:hledger                96.02 USD
+    expenses:fees:PAYPAL              3.98 USD
+
+2022-01-24 Host Fee to Open Source Collective  ; id:2afb869d, group:036f6c6c
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2022-01-24 Monthly contribution from Olsens Revision ApS (Sponsors)  ; id:1a297f6c, group:036f6c6c, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:olsensrevision     -100.00 USD
+    assets:oc:hledger                       94.52 USD
+    expenses:fees:PAYPAL                     5.48 USD
+
+2022-01-24 Expense from holmescharles - regression bounty  ; id:223c09cc, group:89393085, payment-method:, payment-type:
+    expenses:bounties-etc:holmescharles      100.00 USD
+    assets:oc:hledger                       -100.25 USD
+    expenses:fees:unknown-processor            0.25 USD
+
+2022-01-31 Host Fee to Open Source Collective  ; id:459fff99, group:cd2f5c20
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-01-31 Monthly contribution from Richard Kelly (Backers)  ; id:417b136e, group:cd2f5c20, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:richard-kelly       -2.00 USD
+    assets:oc:hledger                       1.44 USD
+    expenses:fees:PAYPAL                    0.56 USD
+
+2022-02-01 Host Fee to Open Source Collective  ; id:f51f5f9e, group:7116234b
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2022-02-01 Monthly contribution from October Swimmer (Sponsors)  ; id:449bc9f5, group:7116234b, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer     -100.00 USD
+    assets:oc:hledger                        96.80 USD
+    expenses:fees:STRIPE                      3.20 USD
+
+2022-02-01 Host Fee to Open Source Collective  ; id:303cd340, group:5a781ed5
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-02-01 Monthly contribution from Michael Martinides (Backers)  ; id:5f9d4131, group:5a781ed5, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.62 USD
+    expenses:fees:STRIPE                         0.38 USD
+
+2022-02-01 Host Fee to Open Source Collective  ; id:dc4061df, group:0cf11a6a
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-02-01 Monthly contribution from MSATC (Backers)  ; id:68ac9dd7, group:0cf11a6a, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:msatc       -2.00 USD
+    assets:oc:hledger               1.62 USD
+    expenses:fees:STRIPE            0.38 USD
+
+2022-02-01 Host Fee to Open Source Collective  ; id:f47ecf2e, group:5fdd2c91
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-02-01 Monthly contribution from Rishi Hyanki (Backers)  ; id:4dfa4ad8, group:5fdd2c91, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki       -2.00 USD
+    assets:oc:hledger                 1.64 USD
+    expenses:fees:STRIPE              0.36 USD
+
+2022-02-01 Host Fee to Open Source Collective  ; id:0336247b, group:97c5c24d
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-02-01 Monthly contribution from Brandon Barker (Backers)  ; id:7a06f324, group:97c5c24d, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2022-02-01 Host Fee to Open Source Collective  ; id:db224ce7, group:38520a3f
+    expenses:fees:open-source-collective        1.00 USD
+    assets:oc:hledger                          -1.00 USD
+
+2022-02-01 Monthly contribution from Tony Xiao (Backers)  ; id:8bd4071f, group:38520a3f, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:tony-xiao1      -10.00 USD
+    assets:oc:hledger                    9.41 USD
+    expenses:fees:STRIPE                 0.59 USD
+
+2022-02-01 Host Fee to Open Source Collective  ; id:11c4ff1b, group:782467aa
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-02-01 Monthly contribution from Paulo Makdisse (Backers)  ; id:9311efc9, group:782467aa, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:paulo-makdisse       -2.00 USD
+    assets:oc:hledger                        1.62 USD
+    expenses:fees:STRIPE                     0.38 USD
+
+2022-02-01 Host Fee to Open Source Collective  ; id:efd85bbd, group:3ce0d166
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-02-01 Monthly contribution from James Blachly (Backers)  ; id:4e15cdfe, group:3ce0d166, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:james-blachly       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2022-02-01 Host Fee to Open Source Collective  ; id:353cb016, group:4fe13072
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2022-02-01 Monthly contribution from Writers Per Hour (Sponsors)  ; id:9312db9e, group:4fe13072, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:writersperhour     -100.00 USD
+    assets:oc:hledger                       95.80 USD
+    expenses:fees:STRIPE                     4.20 USD
+
+2022-02-01 Host Fee to Open Source Collective  ; id:88eb7be5, group:b7e30ce8
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-02-01 Monthly contribution from Ken Ewing (Backers)  ; id:b5f0ce39, group:b7e30ce8, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:ken-ewing       -2.00 USD
+    assets:oc:hledger                   1.64 USD
+    expenses:fees:STRIPE                0.36 USD
+
+2022-02-02 Host Fee to Open Source Collective  ; id:8017e143, group:4bf0aa51
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-02-02 Monthly contribution from Jack Todaro (Backers)  ; id:0ca3a6f4, group:4bf0aa51, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:jack-todaro       -2.00 USD
+    assets:oc:hledger                     1.62 USD
+    expenses:fees:STRIPE                  0.38 USD
+
+2022-02-02 Host Fee to Open Source Collective  ; id:a287de24, group:bd6f9d37
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-02-02 Monthly contribution from Brandon J Wong (Backers)  ; id:6a5e236a, group:bd6f9d37, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandon-j-wong       -2.00 USD
+    assets:oc:hledger                        1.62 USD
+    expenses:fees:STRIPE                     0.38 USD
+
+2022-02-07 Host Fee to Open Source Collective  ; id:940234e6, group:5eb9dd86
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-02-07 Monthly contribution from Frank (Backers)  ; id:46581770, group:5eb9dd86, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:guest-4c0726ae       -2.00 USD
+    assets:oc:hledger                        1.62 USD
+    expenses:fees:STRIPE                     0.38 USD
+
+2022-02-07 Host Fee to Open Source Collective  ; id:4f68c17a, group:6d8b11ee
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-02-07 Monthly contribution from Real Targeted Traffic (Backers)  ; id:35cdd3b6, group:6d8b11ee, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:seo25-com       -2.00 USD
+    assets:oc:hledger                   1.41 USD
+    expenses:fees:PAYPAL                0.59 USD
+
+2022-02-08 Host Fee to Open Source Collective  ; id:7593375e, group:6713ab89
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-02-08 Monthly contribution from Targeted Organic Traffic (Backers)  ; id:3f74e367, group:6713ab89, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:targeted-organic-traffic       -2.00 USD
+    assets:oc:hledger                                  1.41 USD
+    expenses:fees:PAYPAL                               0.59 USD
+
+2022-02-19 Host Fee to Open Source Collective  ; id:c1ce0531, group:61085297
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2022-02-19 Monthly contribution from APM Help (Sponsors)  ; id:fe0d6430, group:61085297, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:apmhelp     -100.00 USD
+    assets:oc:hledger                96.02 USD
+    expenses:fees:PAYPAL              3.98 USD
+
+2022-02-28 Host Fee to Open Source Collective  ; id:317a0539, group:13f6fb27
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-02-28 Monthly contribution from Richard Kelly (Backers)  ; id:22c125ec, group:13f6fb27, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:richard-kelly       -2.00 USD
+    assets:oc:hledger                       1.44 USD
+    expenses:fees:PAYPAL                    0.56 USD
+
+2022-03-01 Host Fee to Open Source Collective  ; id:d218d48a, group:9403b023
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2022-03-01 Monthly contribution from October Swimmer (Sponsors)  ; id:3ce8c347, group:9403b023, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer     -100.00 USD
+    assets:oc:hledger                        96.80 USD
+    expenses:fees:STRIPE                      3.20 USD
+
+2022-03-01 Host Fee to Open Source Collective  ; id:4f6ee380, group:5aa70bb0
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-03-01 Monthly contribution from Michael Martinides (Backers)  ; id:cc307131, group:5aa70bb0, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:oc:hledger                            1.62 USD
+    expenses:fees:STRIPE                         0.38 USD
+
+2022-03-01 Host Fee to Open Source Collective  ; id:2f742a85, group:e3fc5cce
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-03-01 Monthly contribution from MSATC (Backers)  ; id:9983760f, group:e3fc5cce, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:msatc       -2.00 USD
+    assets:oc:hledger               1.62 USD
+    expenses:fees:STRIPE            0.38 USD
+
+2022-03-01 Host Fee to Open Source Collective  ; id:58791992, group:1619d1cd
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-03-01 Monthly contribution from Frank (Backers)  ; id:93a82ffa, group:1619d1cd, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:guest-4c0726ae       -2.00 USD
+    assets:oc:hledger                        1.62 USD
+    expenses:fees:STRIPE                     0.38 USD
+
+2022-03-01 Host Fee to Open Source Collective  ; id:9e0e11c0, group:101b6982
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-03-01 Monthly contribution from Rishi Hyanki (Backers)  ; id:0f0b6c5f, group:101b6982, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki       -2.00 USD
+    assets:oc:hledger                 1.64 USD
+    expenses:fees:STRIPE              0.36 USD
+
+2022-03-01 Host Fee to Open Source Collective  ; id:e496c134, group:e78f8d98
+    expenses:fees:open-source-collective        1.00 USD
+    assets:oc:hledger                          -1.00 USD
+
+2022-03-01 Monthly contribution from Tony Xiao (Backers)  ; id:255083f0, group:e78f8d98, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:tony-xiao1      -10.00 USD
+    assets:oc:hledger                    9.41 USD
+    expenses:fees:STRIPE                 0.59 USD
+
+2022-03-01 Host Fee to Open Source Collective  ; id:585a8c38, group:bfbad7e0
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-03-01 Monthly contribution from Brandon Barker (Backers)  ; id:27c1dccb, group:bfbad7e0, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2022-03-01 Host Fee to Open Source Collective  ; id:4c8d39b1, group:91a8319b
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2022-03-01 Monthly contribution from Olsens Revision ApS (Sponsors)  ; id:3ece3784, group:91a8319b, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:olsensrevision     -100.00 USD
+    assets:oc:hledger                       94.52 USD
+    expenses:fees:PAYPAL                     5.48 USD
+
+2022-03-01 Host Fee to Open Source Collective  ; id:82a40204, group:6d87a02b
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-03-01 Monthly contribution from James Blachly (Backers)  ; id:222550b3, group:6d87a02b, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:james-blachly       -2.00 USD
+    assets:oc:hledger                       1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2022-03-01 Host Fee to Open Source Collective  ; id:9a8e0241, group:5b7ee700
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2022-03-01 Monthly contribution from Writers Per Hour (Sponsors)  ; id:410bbf0d, group:5b7ee700, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:writersperhour     -100.00 USD
+    assets:oc:hledger                       95.80 USD
+    expenses:fees:STRIPE                     4.20 USD
+
+2022-03-01 Host Fee to Open Source Collective  ; id:eb4e1d22, group:57dee045
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-03-01 Monthly contribution from Ken Ewing (Backers)  ; id:36c6bfd7, group:57dee045, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:ken-ewing       -2.00 USD
+    assets:oc:hledger                   1.64 USD
+    expenses:fees:STRIPE                0.36 USD
+
+2022-03-02 Host Fee to Open Source Collective  ; id:fa8d06e4, group:ffcb3b78
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-03-02 Monthly contribution from Jack Todaro (Backers)  ; id:3d4f91f1, group:ffcb3b78, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:jack-todaro       -2.00 USD
+    assets:oc:hledger                     1.62 USD
+    expenses:fees:STRIPE                  0.38 USD
+
+2022-03-02 Host Fee to Open Source Collective  ; id:a718e1db, group:62c91ba5
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-03-02 Monthly contribution from Brandon J Wong (Backers)  ; id:df171dff, group:62c91ba5, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandon-j-wong       -2.00 USD
+    assets:oc:hledger                        1.62 USD
+    expenses:fees:STRIPE                     0.38 USD
+
+2022-03-07 Host Fee to Open Source Collective  ; id:2d866954, group:7a9dae4b
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-03-07 Monthly contribution from Real Targeted Traffic (Backers)  ; id:e45af40e, group:7a9dae4b, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:seo25-com       -2.00 USD
+    assets:oc:hledger                   1.41 USD
+    expenses:fees:PAYPAL                0.59 USD
+
+2022-03-08 Host Fee to Open Source Collective  ; id:017fe2bc, group:7ba7550c
+    expenses:fees:open-source-collective        0.20 USD
+    assets:oc:hledger                          -0.20 USD
+
+2022-03-08 Monthly contribution from Targeted Organic Traffic (Backers)  ; id:6962b9c5, group:7ba7550c, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:targeted-organic-traffic       -2.00 USD
+    assets:oc:hledger                                  1.41 USD
+    expenses:fees:PAYPAL                               0.59 USD
+
+2022-03-19 Host Fee to Open Source Collective  ; id:19bcfbef, group:d0480afc
+    expenses:fees:open-source-collective       10.00 USD
+    assets:oc:hledger                         -10.00 USD
+
+2022-03-19 Monthly contribution from APM Help (Sponsors)  ; id:378b18d4, group:d0480afc, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:apmhelp     -100.00 USD
+    assets:oc:hledger                96.02 USD
+    expenses:fees:PAYPAL              3.98 USD
+
