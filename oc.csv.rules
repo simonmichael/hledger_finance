@@ -1,12 +1,14 @@
 # * hledger (1.25) conversion rules for OpenCollective CSV v2
-
+# https://hledger.org/hledger.html#csv-format
+#
 # These are the rules used to convert data from the hledger collective.
 # They should work pretty well for any collective, except you might
-# need to change the fiscal host name where it's hard-coded below
-# ("open-source-collective").
-# OC changed their CSV data format in 2021. These rules cover both old
-# and new formats, which complicates them but simplifies conversion.
-# For data that's only on one side of 2021-06-01, they could be simplified.
+# need to change the fiscal host name "open-source-collective" where
+# it's hard-coded below.
+#
+# OC's CSV data format changed in 2021. These rules cover both old and
+# new formats, which complicates them but simplifies conversion.  For
+# data that's only on one side of 2021-06-01, the rules can be simplified.
 
 skip 1
 newest-first
@@ -17,6 +19,7 @@ date-format %Y-%m-%dT%H:%M:%S
 # "datetime","shortId","shortGroup","description","type","kind","isRefund","isRefunded","shortRefundId","displayAmount","amount","paymentProcessorFee","netAmount","currency","accountSlug","accountName","oppositeAccountSlug","oppositeAccountName","paymentMethodService","paymentMethodType","expenseType","expenseTags","payoutMethodType","merchantId"
 # "2021-05-01T01:13:51","46974380","8aa606bd","Monthly contribution from October Swimmer (Sponsors)","CREDIT","CONTRIBUTION","","","","$100.00 USD",100,-3.2,86.8,"USD","hledger","hledger","october-swimmer","October Swimmer","STRIPE","CREDITCARD",,"",,
 
+# < 2021-06-01
 if %date ^(20[01]|2020|2021-0[1-5])
  comment id:%shortId, group:%shortGroup, payment-method:%paymentMethodService, payment-type:%paymentMethodType
  amount1  -%amount %currency_
@@ -26,12 +29,14 @@ if %date ^(20[01]|2020|2021-0[1-5])
  amount3  -%paymentProcessorFee %currency_
  account3 expenses:fees:%paymentMethodService%payoutMethodType
  account4 expenses:fees:open-source-collective
+#                    ^ fiscal host name
 
 # ** After 2021-06-01: host fee appears as a separate transaction.
 # "datetime","shortId","shortGroup","description","type","kind","isRefund","isRefunded","shortRefundId","displayAmount","amount","paymentProcessorFee","netAmount","currency","accountSlug","accountName","oppositeAccountSlug","oppositeAccountName","paymentMethodService","paymentMethodType","expenseType","expenseTags","payoutMethodType","merchantId"
 # "2021-06-01T02:08:37","65365e36","6b474b38","Monthly contribution from October Swimmer (Sponsors)","CREDIT","CONTRIBUTION","","","","$100.00 USD",100,-3.2,96.8,"USD","hledger","hledger","october-swimmer","October Swimmer","STRIPE","CREDITCARD",,"",,
 # "2021-06-01T02:08:37","95a61220","6b474b38","Host Fee to Open Source Collective","DEBIT","HOST_FEE","","","","-$10.00 USD",-10,0,-10,"USD","hledger","hledger","opensource","Open Source Collective",,,,"",,
 
+# >= 2021-06-01
 if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
 & %kind CONTRIBUTION
  comment id:%shortId, group:%shortGroup, payment-method:%paymentMethodService, payment-type:%paymentMethodType
@@ -55,11 +60,11 @@ if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
 if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
 & %kind HOST_FEE
  comment id:%shortId, group:%shortGroup
- amount1  -%amount %currency_
- account1 expenses:fees:open-source-collective
  amount2  %netAmount %currency_
  account2 assets:oc:%accountslug
-#account1 expenses:fees:%oppositeAccountSlug
+ amount1  -%amount %currency_
+ account1 expenses:fees:open-source-collective
+#                    ^ fiscal host name, could use %oppositeAccountSlug
 
 # ** Misc (all dates)
 
