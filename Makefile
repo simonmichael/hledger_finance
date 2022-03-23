@@ -6,14 +6,18 @@ REPORT1=$(HLEDGER) bs -YE -e tomorrow
 REPORT2=$(HLEDGER) is -YETS -e tomorrow -t
 # REPORT3=$(HLEDGER) cf -YET -e tomorrow
 
-default: reports
+default: report
 
 # regenerate journal from CSV
 oc.journal journal: oc.csv oc.csv.rules
 	(printf "include oc.accounts\n\n"; hledger -f $< print -x) >oc.journal
+	@make check
+
+check:
+	$(HLEDGER) check -s ordereddates && echo ok
 
 # show reports on stdout
-reports: oc.journal Makefile
+report: oc.journal Makefile
 	$(REPORT1) --pretty; echo
 	$(REPORT2) --pretty; echo
 
