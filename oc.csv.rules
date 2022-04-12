@@ -8,7 +8,7 @@
 #
 # OC's CSV data format changed in 2021. These rules cover both old and
 # new formats, which complicates them but simplifies conversion.  For
-# data that's only on one side of 2021-06-01, the rules can be simplified.
+# data that's only on one side of 2021-06-01, you could simplify these rules.
 
 skip 1
 newest-first
@@ -29,7 +29,7 @@ if %date ^(20[01]|2020|2021-0[1-5])
  amount3  -%paymentProcessorFee %currency_
  account3 expenses:fees:%paymentMethodService%payoutMethodType
  account4 expenses:fees:open-source-collective
-#                    ^ fiscal host name
+#                    ^ our fiscal host name, hard-coded
 
 # ** After 2021-06-01: host fee appears as a separate transaction.
 # "datetime","shortId","shortGroup","description","type","kind","isRefund","isRefunded","shortRefundId","displayAmount","amount","paymentProcessorFee","netAmount","currency","accountSlug","accountName","oppositeAccountSlug","oppositeAccountName","paymentMethodService","paymentMethodType","expenseType","expenseTags","payoutMethodType","merchantId"
@@ -46,6 +46,9 @@ if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
  account2 assets:opencollective:%accountslug
  amount3  -%paymentProcessorFee %currency_
  account3 expenses:fees:%paymentMethodService%payoutMethodType
+
+if %type DEBIT
+ account1 expenses:misc:%oppositeAccountSlug 
 
 if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
 & %kind EXPENSE

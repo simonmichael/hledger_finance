@@ -3102,7 +3102,7 @@ include oc.accounts
     expenses:fees:PAYPAL                               0.59 USD
 
 2022-04-12 Contribution to Support Ukraine  ; id:281bfbee, group:6a28d226, payment-method:OPENCOLLECTIVE, payment-type:COLLECTIVE
-    revenues:donations:support-ukraine      500.00 USD
-    assets:opencollective:hledger          -500.00 USD
-    expenses:fees:OPENCOLLECTIVE                     0
+    expenses:misc:support-ukraine       500.00 USD
+    assets:opencollective:hledger      -500.00 USD
+    expenses:fees:OPENCOLLECTIVE                 0
 
