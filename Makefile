@@ -21,7 +21,8 @@ oc.journal journal: oc.csv oc.csv.rules
 	@make check
 
 check:
-	$(HLEDGER) check -s ordereddates && echo ok
+	@printf "checking journal.. "
+	@$(HLEDGER) check commodities balancednoautoconversion ordereddates && echo ok
 
 # show reports on stdout
 report: oc.journal Makefile
