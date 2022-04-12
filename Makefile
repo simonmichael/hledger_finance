@@ -8,6 +8,13 @@ REPORT2=$(HLEDGER) is -YETS -e tomorrow -t
 
 default: report
 
+# Move a downloaded CSV file here.
+# This is the download from https://opencollective.com/hledger/transactions -> Download CSV button
+oc.csv: ~/Downloads/hledger-oc.csv
+	mv $< $@
+
+.INTERMEDIATE: ~/Downloads/hledger-oc.csv
+
 # regenerate journal from CSV
 oc.journal journal: oc.csv oc.csv.rules
 	(printf "include oc.accounts\n\n"; hledger -f $< print -x) >oc.journal
@@ -33,6 +40,7 @@ README.md readme: oc.journal Makefile
 # update journal, readme, and commit both
 update:
 	@make README.md
+	git commit -m "update csv"     -- oc.csv     || echo "csv has not changed"
 	git commit -m "update journal" -- oc.journal || echo "journal has not changed"
 	git commit -m "update reports" -- README.md@ || echo "reports have not changed"
 

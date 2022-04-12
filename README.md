@@ -7,8 +7,11 @@ practice, and dogfooding. See also: https://hledger.org/finance
 ## Reports
 <!--
 To update:
-1. Download and commit latest oc.csv
-2. `make update` to update journal, reports, and commit
+1. Download latest oc.csv
+    https://opencollective.com/hledger/transactions?kind=CONTRIBUTION%2CEXPENSE%2CHOST_FEE (all kinds selected)
+    click Download CSV button
+    right-click Download (v2) -> Download Linked File As / Save Link As ~/Downloads/hledger-oc.csv)
+2. `make update` to gather the csv, regenerate journal and reports, [and commit]
 3. Push/merge to publish on github
 -->
 <!-- REPORTS: -->
