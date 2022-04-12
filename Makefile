@@ -3,7 +3,8 @@ DELCSS=$(SED) -E -z 's/<style>[^>]+><link href="hledger.css" rel="stylesheet">/\
 HLEDGER=hledger -f oc.journal
 
 REPORT1=$(HLEDGER) bs -YE -e tomorrow
-REPORT2=$(HLEDGER) is -YETS -e tomorrow -t
+REPORT2=$(HLEDGER) is -ME -b 1/1 -e tomorrow
+REPORT3=$(HLEDGER) is -YETS -e tomorrow -t
 # REPORT3=$(HLEDGER) cf -YET -e tomorrow
 
 default: report
@@ -28,12 +29,14 @@ check:
 report: oc.journal Makefile
 	$(REPORT1) --pretty; echo
 	$(REPORT2) --pretty; echo
+	$(REPORT3) --pretty; echo
 
 # update html reports in readme
 README.md readme: oc.journal Makefile
 	$(SED) '/<!-- REPORTS: -->/q' README.md >.README.md
 	$(REPORT1) -O html >>.README.md
 	$(REPORT2) -O html >>.README.md
+	$(REPORT3) -O html >>.README.md
 	echo >>.README.md
 	$(DELCSS) <.README.md >README.md
 	rm -f .README.md
