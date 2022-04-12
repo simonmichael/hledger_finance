@@ -43,7 +43,7 @@ update:
 	@make README.md
 	git commit -m "update csv"     -- oc.csv     || echo "csv has not changed"
 	git commit -m "update journal" -- oc.journal || echo "journal has not changed"
-	git commit -m "update reports" -- README.md@ || echo "reports have not changed"
+	git commit -m "update reports" -- README.md  || echo "reports have not changed"
 
 # update plain text reports in readme
 # README.md: hf.journal Makefile
