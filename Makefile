@@ -1,5 +1,5 @@
 SED=gsed
-DELCSS=$(SED) -E -z 's/<style>[^>]+><link href="hledger.css" rel="stylesheet">/\n<br>\n/g'
+DELCSS=$(SED) -E -z 's/<style>[^>]+><link[^>]+>/\n<br>\n/g'
 HLEDGER=hledger -f oc.journal
 
 REPORT1=$(HLEDGER) bs -E -p 'monthly from 1/1 to tomorrow'
