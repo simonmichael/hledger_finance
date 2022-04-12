@@ -14,6 +14,7 @@ To update:
 2. `make update` to gather the csv, regenerate journal and reports, [and commit]
 3. Push/merge to publish on github
 -->
+(Last column dates are an approximation, read them as "most recent report date".)
 <!-- REPORTS: -->
 <style>
 td { padding:0 0.5em; }
