@@ -12,7 +12,7 @@ To update:
     click Download CSV button
     right-click Download (v2) -> Download Linked File As / Save Link As ~/Downloads/hledger-oc.csv)
 2. `make update` to gather the csv, regenerate journal and reports, [and commit]
-3. Push/merge to publish on github
+3. Push to https://github.com/simonmichael/hledger_finance
 -->
 (Last column dates are an approximation, read them as "most recent report date".)
 <!-- REPORTS: -->
