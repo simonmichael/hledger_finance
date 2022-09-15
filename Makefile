@@ -20,7 +20,7 @@ oc.csv: ~/Downloads/hledger-oc.csv
 
 # regenerate journal from CSV
 oc.journal journal: oc.csv oc.csv.rules
-	(printf "include oc.accounts\n\n"; hledger -f $< print -x) >oc.journal
+	((printf "include oc.accounts\n\n"; hledger -f $< print -x) >new.journal && mv new.journal oc.journal) || (rm -f new.journal; false)
 	@make check
 
 check:
