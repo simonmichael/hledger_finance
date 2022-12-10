@@ -12,8 +12,10 @@ To update:
     click Download CSV button
     right-click Download (v2)
     Download Linked File As / Save Link As ~/Downloads/transactions.txt
-2. `make update` to gather the csv, regenerate journal and reports, [and commit]
-3. Push to https://github.com/simonmichael/hledger_finance
+2. `make update` to gather the csv, regenerate and check journal, update reports, and commit
+3. Check latest calculated OC balance against the one reported on the website
+   (hledger -f oc.journal bs, https://opencollective.com/hledger#category-BUDGET > TODAY'S BALANCE)
+4. Push to https://github.com/simonmichael/hledger_finance
 -->
 (Last column dates are an approximation, read them as "most recent report date".)
 <!-- REPORTS: -->

@@ -33,7 +33,7 @@ if %date ^(20[01]|2020|2021-0[1-5])
 #                    ^ our fiscal host name, hard-coded
 
 # ** From 2021-06-01, host fee appears as a separate transaction.
-# Also, the balance field is wrong after this date, or at least I can't figure out its logic.
+# And alas, the balance field is wrong after this date, or at least I can't figure out its logic.
 # balance2 %balance_ %currency_
 #
 # "datetime","shortId","shortGroup","description","type","kind","isRefund","isRefunded","shortRefundId","displayAmount","amount","paymentProcessorFee","netAmount","currency","accountSlug","accountName","oppositeAccountSlug","oppositeAccountName","paymentMethodService","paymentMethodType","expenseType","expenseTags","payoutMethodType","merchantId"
