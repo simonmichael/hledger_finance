@@ -1576,7 +1576,7 @@ include oc.accounts
     expenses:fees:STRIPE                     0.38 USD
 
 2021-07-14 Expense from Simon Michael - claiming regression bounty for #1597 (first expense / test)  ; id:60a5a450, group:4c3854d4, payment-method:, payment-type:
-    expenses:bounties-etc:simon           50.00 USD
+    expenses:bounties:simon               50.00 USD
     assets:opencollective:hledger        -50.25 USD
     expenses:fees:unknown-processor        0.25 USD
 
@@ -1590,7 +1590,7 @@ include oc.accounts
     expenses:fees:PAYPAL                 3.20 USD
 
 2021-07-19 Expense from Simon Michael - regression bounty  ; id:242ae183, group:eb8c86e6, payment-method:, payment-type:
-    expenses:bounties-etc:simon          100.00 USD
+    expenses:bounties:simon              100.00 USD
     assets:opencollective:hledger       -100.25 USD
     expenses:fees:unknown-processor        0.25 USD
 
@@ -1721,9 +1721,9 @@ include oc.accounts
     expenses:fees:STRIPE                     4.20 USD
 
 2021-08-02 Expense from Julian Andres Klode - regression bounty  ; id:9130ab30, group:36f56b4c, payment-method:, payment-type:
-    expenses:bounties-etc:julian-andres-klode      100.00 USD
-    assets:opencollective:hledger                 -100.76 USD
-    expenses:fees:unknown-processor                  0.76 USD
+    expenses:bounties:julian-andres-klode      100.00 USD
+    assets:opencollective:hledger             -100.76 USD
+    expenses:fees:unknown-processor              0.76 USD
 
 2021-08-05 Host Fee to Open Source Collective  ; id:29f0a126, group:9d8c0c88
     expenses:fees:open-source-collective        0.20 USD
@@ -1735,9 +1735,9 @@ include oc.accounts
     expenses:fees:unknown-processor          0.38 USD
 
 2021-08-06 Expense from Yann Büchau - regression bounty  ; id:835ee4ff, group:58c4bb8d, payment-method:, payment-type:
-    expenses:bounties-etc:yann-buechau      100.00 USD
-    assets:opencollective:hledger          -102.00 USD
-    expenses:fees:unknown-processor           2.00 USD
+    expenses:bounties:yann-buechau       100.00 USD
+    assets:opencollective:hledger       -102.00 USD
+    expenses:fees:unknown-processor        2.00 USD
 
 2021-08-14 Host Fee to Open Source Collective  ; id:abd76595, group:42af33cc
     expenses:fees:open-source-collective        0.50 USD
@@ -1767,14 +1767,14 @@ include oc.accounts
     expenses:fees:PAYPAL                   0.99 USD
 
 2021-08-26 Expense from Stephen Morgan - Collecting bounty on #1412  ; id:b8bc86e5, group:f59a6253, payment-method:, payment-type:
-    expenses:bounties-etc:stephen-morgan       10.00 USD
-    assets:opencollective:hledger             -10.44 USD
-    expenses:fees:unknown-processor             0.44 USD
+    expenses:bounties:stephen-morgan       10.00 USD
+    assets:opencollective:hledger         -10.44 USD
+    expenses:fees:unknown-processor         0.44 USD
 
 2021-08-26 Expense from Stephen Morgan - regression bounty  ; id:dc121057, group:8d140f93, payment-method:, payment-type:
-    expenses:bounties-etc:stephen-morgan      100.00 USD
-    assets:opencollective:hledger            -100.84 USD
-    expenses:fees:unknown-processor             0.84 USD
+    expenses:bounties:stephen-morgan      100.00 USD
+    assets:opencollective:hledger        -100.84 USD
+    expenses:fees:unknown-processor         0.84 USD
 
 2021-09-01 Host Fee to Open Source Collective  ; id:3f5c489d, group:dbf98dce
     expenses:fees:open-source-collective       10.00 USD
@@ -2083,9 +2083,9 @@ include oc.accounts
     expenses:fees:PAYPAL                               0.59 USD
 
 2021-10-17 Expense from David D Lowe - Regression bounty  ; id:6af44341, group:7c563358, payment-method:, payment-type:
-    expenses:bounties-etc:david-d-lowe      100.00 USD
-    assets:opencollective:hledger          -100.87 USD
-    expenses:fees:unknown-processor           0.87 USD
+    expenses:bounties:david-d-lowe       100.00 USD
+    assets:opencollective:hledger       -100.87 USD
+    expenses:fees:unknown-processor        0.87 USD
 
 2021-10-19 Host Fee to Open Source Collective  ; id:fefd9264, group:131e7440
     expenses:fees:open-source-collective       10.00 USD
@@ -2241,7 +2241,7 @@ include oc.accounts
     expenses:fees:STRIPE                     0.38 USD
 
 2021-11-05 Expense from arc - Regression Bounty  ; id:2b252d49, group:37a239ff, payment-method:, payment-type:
-    expenses:bounties-etc:aarrcc         100.00 USD
+    expenses:bounties:aarrcc             100.00 USD
     assets:opencollective:hledger       -102.00 USD
     expenses:fees:unknown-processor        2.00 USD
 
@@ -2264,9 +2264,9 @@ include oc.accounts
     expenses:fees:PAYPAL                               0.59 USD
 
 2021-11-15 Expense from Romain Gehrig - Regression Bounty  ; id:d565e515, group:5bb06854, payment-method:, payment-type:
-    expenses:bounties-etc:romain-gehrig      100.00 USD
-    assets:opencollective:hledger           -100.25 USD
-    expenses:fees:unknown-processor            0.25 USD
+    expenses:bounties:romain-gehrig      100.00 USD
+    assets:opencollective:hledger       -100.25 USD
+    expenses:fees:unknown-processor        0.25 USD
 
 2021-11-19 Host Fee to Open Source Collective  ; id:69f7f210, group:124dbc31
     expenses:fees:open-source-collective       10.00 USD
@@ -2638,9 +2638,9 @@ include oc.accounts
     expenses:fees:PAYPAL                     5.48 USD
 
 2022-01-24 Expense from holmescharles - regression bounty  ; id:223c09cc, group:89393085, payment-method:, payment-type:
-    expenses:bounties-etc:holmescharles      100.00 USD
-    assets:opencollective:hledger           -100.25 USD
-    expenses:fees:unknown-processor            0.25 USD
+    expenses:bounties:holmescharles      100.00 USD
+    assets:opencollective:hledger       -100.25 USD
+    expenses:fees:unknown-processor        0.25 USD
 
 2022-01-31 Host Fee to Open Source Collective  ; id:459fff99, group:cd2f5c20
     expenses:fees:open-source-collective        0.20 USD
@@ -3269,7 +3269,7 @@ include oc.accounts
     expenses:fees:PAYPAL                               0.59 USD
 
 2022-05-10 Expense from Simon Michael - Financial Accounting textbook  ; id:f49cd55c, group:eb7a56bc, payment-method:, payment-type:
-    expenses:bounties-etc:simon           78.12 USD
+    expenses:misc:simon                   78.12 USD
     assets:opencollective:hledger        -78.37 USD
     expenses:fees:unknown-processor        0.25 USD
 
@@ -3886,12 +3886,12 @@ include oc.accounts
     expenses:fees:PAYPAL                               0.59 USD
 
 2022-09-15 Expense from Eric Langlois - regression bounty  ; id:688cb3a1, group:52026fe7, payment-method:, payment-type:
-    expenses:bounties-etc:eric-langlois      100.00 USD
-    assets:opencollective:hledger           -100.94 USD
-    expenses:fees:unknown-processor            0.94 USD
+    expenses:bounties:eric-langlois      100.00 USD
+    assets:opencollective:hledger       -100.94 USD
+    expenses:fees:unknown-processor        0.94 USD
 
 2022-09-15 Expense from Simon Michael - regression bounty  ; id:68976dd2, group:f17a7600, payment-method:, payment-type:
-    expenses:bounties-etc:simon          100.00 USD
+    expenses:bounties:simon              100.00 USD
     assets:opencollective:hledger       -100.25 USD
     expenses:fees:unknown-processor        0.25 USD
 
