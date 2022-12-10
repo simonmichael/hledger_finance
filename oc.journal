@@ -3885,3 +3885,436 @@ include oc.accounts
     assets:opencollective:hledger                      1.41 USD
     expenses:fees:PAYPAL                               0.59 USD
 
+2022-09-15 Expense from Eric Langlois - regression bounty  ; id:688cb3a1, group:52026fe7, payment-method:, payment-type:
+    expenses:bounties-etc:eric-langlois      100.00 USD
+    assets:opencollective:hledger           -100.94 USD
+    expenses:fees:unknown-processor            0.94 USD
+
+2022-09-15 Expense from Simon Michael - regression bounty  ; id:68976dd2, group:f17a7600, payment-method:, payment-type:
+    expenses:bounties-etc:simon          100.00 USD
+    assets:opencollective:hledger       -100.25 USD
+    expenses:fees:unknown-processor        0.25 USD
+
+2022-09-23 Host Fee to Open Source Collective  ; id:75d69fb6, group:27d035ac
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-09-23 Monthly contribution from Guest (Individuals)  ; id:06e54c2d, group:27d035ac, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:guest-d120c27f       -2.00 USD
+    assets:opencollective:hledger            1.41 USD
+    expenses:fees:PAYPAL                     0.59 USD
+
+2022-09-24 Host Fee to Open Source Collective  ; id:f23acb81, group:a4515b03
+    expenses:fees:open-source-collective        2.50 USD
+    assets:opencollective:hledger              -2.50 USD
+
+2022-09-24 Monthly contribution from Olsens Revision ApS (Individuals)  ; id:adfec335, group:a4515b03, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:olsensrevision      -25.00 USD
+    assets:opencollective:hledger           23.26 USD
+    expenses:fees:PAYPAL                     1.74 USD
+
+2022-09-30 Host Fee to Open Source Collective  ; id:74dd72f9, group:9bd8e4e4
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-09-30 Monthly contribution from Richard Kelly (Individuals)  ; id:cd7144e1, group:9bd8e4e4, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:richard-kelly       -2.00 USD
+    assets:opencollective:hledger           1.44 USD
+    expenses:fees:PAYPAL                    0.56 USD
+
+2022-10-01 Host Fee to Open Source Collective  ; id:01cddc5e, group:e1df2eb5
+    expenses:fees:open-source-collective       10.00 USD
+    assets:opencollective:hledger             -10.00 USD
+
+2022-10-01 Monthly contribution from October Swimmer (Organisations)  ; id:b6d4d15e, group:e1df2eb5, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer     -100.00 USD
+    assets:opencollective:hledger            96.80 USD
+    expenses:fees:STRIPE                      3.20 USD
+
+2022-10-01 Host Fee to Open Source Collective  ; id:8e544cef, group:5e3eedd0
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-10-01 Monthly contribution from Michael Martinides (Individuals)  ; id:932d16c3, group:5e3eedd0, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:opencollective:hledger                1.62 USD
+    expenses:fees:STRIPE                         0.38 USD
+
+2022-10-01 Host Fee to Open Source Collective  ; id:e037c829, group:54344606
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-10-01 Monthly contribution from Frank (Individuals)  ; id:e1daeceb, group:54344606, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:guest-4c0726ae       -2.00 USD
+    assets:opencollective:hledger            1.62 USD
+    expenses:fees:STRIPE                     0.38 USD
+
+2022-10-01 Host Fee to Open Source Collective  ; id:db58419c, group:ca6cbe54
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-10-01 Monthly contribution from Rishi Hyanki (Individuals)  ; id:e6141c69, group:ca6cbe54, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki          -2.00 USD
+    assets:opencollective:hledger        1.64 USD
+    expenses:fees:STRIPE                 0.36 USD
+
+2022-10-01 Host Fee to Open Source Collective  ; id:394dabb5, group:e18a0685
+    expenses:fees:open-source-collective        1.00 USD
+    assets:opencollective:hledger              -1.00 USD
+
+2022-10-01 Monthly contribution from Tony Xiao (Individuals)  ; id:0c8b5572, group:e18a0685, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:tony-xiao1      -10.00 USD
+    assets:opencollective:hledger        9.41 USD
+    expenses:fees:STRIPE                 0.59 USD
+
+2022-10-01 Host Fee to Open Source Collective  ; id:988bd985, group:34038627
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-10-01 Monthly contribution from Brandon Barker (Individuals)  ; id:64c81f7f, group:34038627, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker       -2.00 USD
+    assets:opencollective:hledger           1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2022-10-01 Host Fee to Open Source Collective  ; id:6d2e3310, group:fa4e08b3
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-10-01 Monthly contribution from Ken Ewing (Individuals)  ; id:b4148f16, group:fa4e08b3, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:ken-ewing        -2.00 USD
+    assets:opencollective:hledger        1.64 USD
+    expenses:fees:STRIPE                 0.36 USD
+
+2022-10-01 Host Fee to Open Source Collective  ; id:8e8ac8c2, group:976d6c33
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-10-01 Monthly contribution from Jack Todaro (Individuals)  ; id:d487cd12, group:976d6c33, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:jack-todaro       -2.00 USD
+    assets:opencollective:hledger         1.62 USD
+    expenses:fees:STRIPE                  0.38 USD
+
+2022-10-01 Host Fee to Open Source Collective  ; id:65e3105d, group:0b3ccffc
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-10-01 Monthly contribution from James Blachly (Individuals)  ; id:6cc44945, group:0b3ccffc, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:james-blachly       -2.00 USD
+    assets:opencollective:hledger           1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2022-10-02 Host Fee to Open Source Collective  ; id:24b3b186, group:48e60b27
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-10-02 Monthly contribution from Brandon J Wong (Individuals)  ; id:ad4385c5, group:48e60b27, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandon-j-wong       -2.00 USD
+    assets:opencollective:hledger            1.62 USD
+    expenses:fees:STRIPE                     0.38 USD
+
+2022-10-07 Host Fee to Open Source Collective  ; id:91cef534, group:05cd2b78
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-10-07 Monthly contribution from Real Targeted Traffic (Individuals)  ; id:2929521d, group:05cd2b78, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:seo25-com        -2.00 USD
+    assets:opencollective:hledger        1.41 USD
+    expenses:fees:PAYPAL                 0.59 USD
+
+2022-10-08 Host Fee to Open Source Collective  ; id:6563d257, group:ecd50665
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-10-08 Monthly contribution from Targeted Organic Traffic (Individuals)  ; id:5c68283e, group:ecd50665, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:targeted-organic-traffic       -2.00 USD
+    assets:opencollective:hledger                      1.41 USD
+    expenses:fees:PAYPAL                               0.59 USD
+
+2022-10-23 Host Fee to Open Source Collective  ; id:53bdcd77, group:5fb69e24
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-10-23 Monthly contribution from Guest (Individuals)  ; id:cfc237ce, group:5fb69e24, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:guest-d120c27f       -2.00 USD
+    assets:opencollective:hledger            1.41 USD
+    expenses:fees:PAYPAL                     0.59 USD
+
+2022-10-24 Host Fee to Open Source Collective  ; id:9acb3c8f, group:489bb4af
+    expenses:fees:open-source-collective        2.50 USD
+    assets:opencollective:hledger              -2.50 USD
+
+2022-10-24 Monthly contribution from Olsens Revision ApS (Individuals)  ; id:4e07557f, group:489bb4af, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:olsensrevision      -25.00 USD
+    assets:opencollective:hledger           23.26 USD
+    expenses:fees:PAYPAL                     1.74 USD
+
+2022-10-31 Host Fee to Open Source Collective  ; id:f4e0805b, group:3ada7ca2
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-10-31 Monthly contribution from Richard Kelly (Individuals)  ; id:e86d868c, group:3ada7ca2, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:richard-kelly       -2.00 USD
+    assets:opencollective:hledger           1.44 USD
+    expenses:fees:PAYPAL                    0.56 USD
+
+2022-11-01 Host Fee to Open Source Collective  ; id:f1d57194, group:aaccfc6f
+    expenses:fees:open-source-collective       10.00 USD
+    assets:opencollective:hledger             -10.00 USD
+
+2022-11-01 Monthly contribution from October Swimmer (Organisations)  ; id:1adbf7fc, group:aaccfc6f, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer     -100.00 USD
+    assets:opencollective:hledger            96.80 USD
+    expenses:fees:STRIPE                      3.20 USD
+
+2022-11-01 Host Fee to Open Source Collective  ; id:bbb4ff63, group:ad85a239
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-11-01 Monthly contribution from Michael Martinides (Individuals)  ; id:b387b429, group:ad85a239, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:opencollective:hledger                1.62 USD
+    expenses:fees:STRIPE                         0.38 USD
+
+2022-11-01 Host Fee to Open Source Collective  ; id:9803272f, group:898202a9
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-11-01 Monthly contribution from Frank (Individuals)  ; id:23b6bc8a, group:898202a9, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:guest-4c0726ae       -2.00 USD
+    assets:opencollective:hledger            1.62 USD
+    expenses:fees:STRIPE                     0.38 USD
+
+2022-11-01 Host Fee to Open Source Collective  ; id:b913e574, group:99edbdda
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-11-01 Monthly contribution from Rishi Hyanki (Individuals)  ; id:8fedef2d, group:99edbdda, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki          -2.00 USD
+    assets:opencollective:hledger        1.64 USD
+    expenses:fees:STRIPE                 0.36 USD
+
+2022-11-01 Host Fee to Open Source Collective  ; id:75ea378e, group:85da7810
+    expenses:fees:open-source-collective        1.00 USD
+    assets:opencollective:hledger              -1.00 USD
+
+2022-11-01 Monthly contribution from Tony Xiao (Individuals)  ; id:273167f9, group:85da7810, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:tony-xiao1      -10.00 USD
+    assets:opencollective:hledger        9.41 USD
+    expenses:fees:STRIPE                 0.59 USD
+
+2022-11-01 Host Fee to Open Source Collective  ; id:dd9486b1, group:5730faa3
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-11-01 Monthly contribution from Brandon Barker (Individuals)  ; id:e762d404, group:5730faa3, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker       -2.00 USD
+    assets:opencollective:hledger           1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2022-11-01 Host Fee to Open Source Collective  ; id:5a8e8bc2, group:f9d114a3
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-11-01 Monthly contribution from Ken Ewing (Individuals)  ; id:fba15e29, group:f9d114a3, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:ken-ewing        -2.00 USD
+    assets:opencollective:hledger        1.64 USD
+    expenses:fees:STRIPE                 0.36 USD
+
+2022-11-01 Host Fee to Open Source Collective  ; id:01ce3c5b, group:353320b5
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-11-01 Monthly contribution from Jack Todaro (Individuals)  ; id:fe4e9604, group:353320b5, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:jack-todaro       -2.00 USD
+    assets:opencollective:hledger         1.62 USD
+    expenses:fees:STRIPE                  0.38 USD
+
+2022-11-01 Host Fee to Open Source Collective  ; id:a53315db, group:00ea61dc
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-11-01 Monthly contribution from James Blachly (Individuals)  ; id:b38d9237, group:00ea61dc, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:james-blachly       -2.00 USD
+    assets:opencollective:hledger           1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2022-11-02 Host Fee to Open Source Collective  ; id:880be7e7, group:f7c17452
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-11-02 Monthly contribution from Brandon J Wong (Individuals)  ; id:c08c6293, group:f7c17452, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandon-j-wong       -2.00 USD
+    assets:opencollective:hledger            1.62 USD
+    expenses:fees:STRIPE                     0.38 USD
+
+2022-11-07 Host Fee to Open Source Collective  ; id:69c41d7d, group:a2d84ae2
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-11-07 Monthly contribution from Real Targeted Traffic (Individuals)  ; id:bd4a1190, group:a2d84ae2, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:seo25-com        -2.00 USD
+    assets:opencollective:hledger        1.41 USD
+    expenses:fees:PAYPAL                 0.59 USD
+
+2022-11-08 Host Fee to Open Source Collective  ; id:efec4666, group:9492436a
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-11-08 Monthly contribution from Targeted Organic Traffic (Individuals)  ; id:dc0bc920, group:9492436a, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:targeted-organic-traffic       -2.00 USD
+    assets:opencollective:hledger                      1.41 USD
+    expenses:fees:PAYPAL                               0.59 USD
+
+2022-11-23 Host Fee to Open Source Collective  ; id:8c380281, group:435c45c8
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-11-23 Monthly contribution from Guest (Individuals)  ; id:7962c2de, group:435c45c8, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:guest-d120c27f       -2.00 USD
+    assets:opencollective:hledger            1.41 USD
+    expenses:fees:PAYPAL                     0.59 USD
+
+2022-11-24 Host Fee to Open Source Collective  ; id:75691bdc, group:83ea1d79
+    expenses:fees:open-source-collective        2.50 USD
+    assets:opencollective:hledger              -2.50 USD
+
+2022-11-24 Monthly contribution from Olsens Revision ApS (Individuals)  ; id:cfa6d66d, group:83ea1d79, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:olsensrevision      -25.00 USD
+    assets:opencollective:hledger           23.26 USD
+    expenses:fees:PAYPAL                     1.74 USD
+
+2022-11-25 Host Fee to Open Source Collective  ; id:5dd98fcc, group:6d402817
+    expenses:fees:open-source-collective        0.50 USD
+    assets:opencollective:hledger              -0.50 USD
+
+2022-11-25 Monthly contribution from Aviator Game (Individuals)  ; id:44e6b266, group:6d402817, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:aviator-game1       -5.00 USD
+    assets:opencollective:hledger           4.50 USD
+    expenses:fees:STRIPE                    0.50 USD
+
+2022-11-26 Host Fee to Open Source Collective  ; id:0f8b0bc5, group:2c7dea09
+    expenses:fees:open-source-collective        0.50 USD
+    assets:opencollective:hledger              -0.50 USD
+
+2022-11-26 Monthly contribution from Crash Game (Individuals)  ; id:74643aea, group:2c7dea09, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:crash-game       -5.00 USD
+    assets:opencollective:hledger        4.50 USD
+    expenses:fees:STRIPE                 0.50 USD
+
+2022-11-30 Host Fee to Open Source Collective  ; id:afdb2718, group:146fa804
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-11-30 Monthly contribution from Richard Kelly (Individuals)  ; id:0edd766b, group:146fa804, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:richard-kelly       -2.00 USD
+    assets:opencollective:hledger           1.44 USD
+    expenses:fees:PAYPAL                    0.56 USD
+
+2022-12-01 Host Fee to Open Source Collective  ; id:1aed0dc7, group:7875c75f
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-12-01 Monthly contribution from Michael Martinides (Individuals)  ; id:70022e4f, group:7875c75f, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:michael-martinides       -2.00 USD
+    assets:opencollective:hledger                1.62 USD
+    expenses:fees:STRIPE                         0.38 USD
+
+2022-12-01 Host Fee to Open Source Collective  ; id:404cb657, group:d77a9c8e
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-12-01 Monthly contribution from Rishi Hyanki (Individuals)  ; id:600d79e7, group:d77a9c8e, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:rhyanki          -2.00 USD
+    assets:opencollective:hledger        1.64 USD
+    expenses:fees:STRIPE                 0.36 USD
+
+2022-12-01 Host Fee to Open Source Collective  ; id:af58c29b, group:ff61f9e4
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-12-01 Monthly contribution from Brandon Barker (Individuals)  ; id:7d6ec401, group:ff61f9e4, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandonbarker       -2.00 USD
+    assets:opencollective:hledger           1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2022-12-01 Host Fee to Open Source Collective  ; id:345ee19b, group:a0ab33cc
+    expenses:fees:open-source-collective       10.00 USD
+    assets:opencollective:hledger             -10.00 USD
+
+2022-12-01 Monthly contribution from October Swimmer (Organisations)  ; id:7210d18c, group:a0ab33cc, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:october-swimmer     -100.00 USD
+    assets:opencollective:hledger            96.80 USD
+    expenses:fees:STRIPE                      3.20 USD
+
+2022-12-01 Host Fee to Open Source Collective  ; id:9debd51a, group:49b8a44a
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-12-01 Monthly contribution from Jack Todaro (Individuals)  ; id:7bd26248, group:49b8a44a, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:jack-todaro       -2.00 USD
+    assets:opencollective:hledger         1.62 USD
+    expenses:fees:STRIPE                  0.38 USD
+
+2022-12-01 Host Fee to Open Source Collective  ; id:e31c7f7d, group:473da75d
+    expenses:fees:open-source-collective        1.00 USD
+    assets:opencollective:hledger              -1.00 USD
+
+2022-12-01 Monthly contribution from Tony Xiao (Individuals)  ; id:c7e34d72, group:473da75d, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:tony-xiao1      -10.00 USD
+    assets:opencollective:hledger        9.41 USD
+    expenses:fees:STRIPE                 0.59 USD
+
+2022-12-01 Host Fee to Open Source Collective  ; id:bf1b7b62, group:d181dc67
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-12-01 Monthly contribution from James Blachly (Individuals)  ; id:7f3d9bb9, group:d181dc67, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:james-blachly       -2.00 USD
+    assets:opencollective:hledger           1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2022-12-01 Host Fee to Open Source Collective  ; id:c47f3070, group:8d22b7e7
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-12-01 Monthly contribution from Brandon J Wong (Individuals)  ; id:f4245622, group:8d22b7e7, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:brandon-j-wong       -2.00 USD
+    assets:opencollective:hledger            1.62 USD
+    expenses:fees:STRIPE                     0.38 USD
+
+2022-12-01 Host Fee to Open Source Collective  ; id:18b40a89, group:72d62459
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-12-01 Monthly contribution from Ken Ewing (Individuals)  ; id:9fd6643e, group:72d62459, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:ken-ewing        -2.00 USD
+    assets:opencollective:hledger        1.64 USD
+    expenses:fees:STRIPE                 0.36 USD
+
+2022-12-01 Host Fee to Open Source Collective  ; id:10d2e0bc, group:83376438
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-12-01 Monthly contribution from Frank (Individuals)  ; id:52cc676b, group:83376438, payment-method:STRIPE, payment-type:CREDITCARD
+    revenues:donations:guest-4c0726ae       -2.00 USD
+    assets:opencollective:hledger            1.62 USD
+    expenses:fees:STRIPE                     0.38 USD
+
+2022-12-07 Host Fee to Open Source Collective  ; id:1d588f68, group:3b596441
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-12-07 Monthly contribution from Real Targeted Traffic (Individuals)  ; id:eba000ce, group:3b596441, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:seo25-com        -2.00 USD
+    assets:opencollective:hledger        1.41 USD
+    expenses:fees:PAYPAL                 0.59 USD
+
+2022-12-08 Host Fee to Open Source Collective  ; id:d4f2aaf3, group:0f6ba1a9
+    expenses:fees:open-source-collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2022-12-08 Monthly contribution from Targeted Organic Traffic (Individuals)  ; id:0b0cf90f, group:0f6ba1a9, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:targeted-organic-traffic       -2.00 USD
+    assets:opencollective:hledger                      1.41 USD
+    expenses:fees:PAYPAL                               0.59 USD
+
