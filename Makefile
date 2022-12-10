@@ -3,10 +3,10 @@ DELCSS=$(SED) -E -z 's/<style>[^>]+><link[^>]+>/\n<br>\n/g'
 HLEDGER=hledger -f oc.journal
 
 # avoid -t as it currently doesn't indent in HTML
-REPORT1=$(HLEDGER) bs -E -p 'monthly from 1/1 to tomorrow'
-REPORT2=$(HLEDGER) is -S -p 'monthly from 1/1 to tomorrow' #--alias '/(revenues:donations).*/=\1'
-REPORT3=$(HLEDGER) bs -E -p 'yearly to tomorrow'
-REPORT4=$(HLEDGER) is -TS -p 'yearly to tomorrow' #--alias '/(revenues:donations).*/=\1'
+REPORT1=$(HLEDGER) bs --drop 1 -E -p 'quarterly from 1/1 to tomorrow'
+REPORT2=$(HLEDGER) is --drop 1 -S -p 'quarterly from 1/1 to tomorrow' #--alias '/(revenues:donations).*/=\1'
+REPORT3=$(HLEDGER) bs --drop 1 -E -p 'yearly to tomorrow'
+REPORT4=$(HLEDGER) is --drop 1 -TS -p 'yearly to tomorrow' #--alias '/(revenues:donations).*/=\1'
 # REPORT3=$(HLEDGER) cf -YET -e tomorrow
 
 default: report
