@@ -11,12 +11,12 @@ REPORT4=$(HLEDGER) is -TS -p 'yearly to tomorrow' #--alias '/(revenues:donations
 
 default: report
 
-# Move a downloaded CSV file here.
-# This is the download from https://opencollective.com/hledger/transactions -> Download CSV button
-oc.csv: ~/Downloads/hledger-oc.csv
+# Move a downloaded CSV file here (the download from
+# https://opencollective.com/hledger/transactions?kind=CONTRIBUTION%2CEXPENSE%2CHOST_FEE > Download CSV > Download (V2)).
+oc.csv: ~/Downloads/transactions.txt
 	mv $< $@
 
-.INTERMEDIATE: ~/Downloads/hledger-oc.csv
+.INTERMEDIATE: ~/Downloads/transactions.txt
 
 # regenerate journal from CSV
 oc.journal journal: oc.csv oc.csv.rules

@@ -10,7 +10,8 @@ To update:
 1. Download latest oc.csv
     https://opencollective.com/hledger/transactions?kind=CONTRIBUTION%2CEXPENSE%2CHOST_FEE (all kinds selected)
     click Download CSV button
-    right-click Download (v2) -> Download Linked File As / Save Link As ~/Downloads/hledger-oc.csv)
+    right-click Download (v2)
+    Download Linked File As / Save Link As ~/Downloads/transactions.txt
 2. `make update` to gather the csv, regenerate journal and reports, [and commit]
 3. Push to https://github.com/simonmichael/hledger_finance
 -->
