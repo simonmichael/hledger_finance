@@ -53,12 +53,13 @@ if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
 
 if %type DEBIT
  account1 expenses:misc:%oppositeAccountSlug 
+if %description bounty
+ account1 expenses:bounties:%oppositeAccountSlug
 
 if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
 & %kind EXPENSE
  comment id:%shortId, group:%shortGroup, payment-method:%paymentMethodService, payment-type:%paymentMethodType
  amount1  -%amount %currency_
- account1 expenses:bounties-etc:%oppositeAccountSlug
  amount2  %netAmount %currency_
  account2 assets:opencollective:%accountslug
  amount3  -%paymentProcessorFee %currency_
