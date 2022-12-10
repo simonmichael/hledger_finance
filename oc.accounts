@@ -1,12 +1,12 @@
 account assets
-account liabilities
-account equity
-account revenues
-account expenses
-
 account assets:oc:hledger
+account assets:opencollective:hledger
+account equity
+account expenses
+account expenses:bounties-etc:aarrcc
 account expenses:bounties-etc:arne-schlueter
 account expenses:bounties-etc:david-d-lowe
+account expenses:bounties-etc:eric-langlois
 account expenses:bounties-etc:holmescharles
 account expenses:bounties-etc:julian-andres-klode
 account expenses:bounties-etc:romain-gehrig
@@ -18,12 +18,17 @@ account expenses:fees:PAYPAL
 account expenses:fees:STRIPE
 account expenses:fees:open-source-collective
 account expenses:fees:unknown-processor
+account expenses:misc:support-ukraine
+account liabilities
+account revenues
 account revenues:donations:andre-bubel
 account revenues:donations:anselm-peischl
 account revenues:donations:apmhelp
+account revenues:donations:aviator-game1
 account revenues:donations:brandon-j-wong
 account revenues:donations:brandonbarker
 account revenues:donations:colton-lewis
+account revenues:donations:crash-game
 account revenues:donations:damien-cassou
 account revenues:donations:everyrole
 account revenues:donations:finmasters
@@ -31,6 +36,7 @@ account revenues:donations:guest-4c0726ae
 account revenues:donations:guest-87be5777
 account revenues:donations:guest-a949b49b
 account revenues:donations:guest-c173624c
+account revenues:donations:guest-d120c27f
 account revenues:donations:guest-f1fc70f8
 account revenues:donations:gyula_weber
 account revenues:donations:hlo_apc
@@ -45,6 +51,7 @@ account revenues:donations:msatc
 account revenues:donations:october-swimmer
 account revenues:donations:oldicelandic
 account revenues:donations:olsensrevision
+account revenues:donations:pablo6
 account revenues:donations:paulo-makdisse
 account revenues:donations:peti
 account revenues:donations:rhyanki
@@ -55,5 +62,4 @@ account revenues:donations:targeted-organic-traffic
 account revenues:donations:tony-xiao1
 account revenues:donations:writersperhour
 account revenues:donations:yann-buechau
-
 commodity USD
