@@ -2240,10 +2240,10 @@ include oc.accounts
     assets:opencollective:hledger            1.62 USD
     expenses:fees:STRIPE                     0.38 USD
 
-2021-11-05 Expense from Arne Schlüter - Regression Bounty  ; id:2b252d49, group:37a239ff, payment-method:, payment-type:
-    expenses:bounties-etc:arne-schlueter      100.00 USD
-    assets:opencollective:hledger            -102.00 USD
-    expenses:fees:unknown-processor             2.00 USD
+2021-11-05 Expense from arc - Regression Bounty  ; id:2b252d49, group:37a239ff, payment-method:, payment-type:
+    expenses:bounties-etc:aarrcc         100.00 USD
+    assets:opencollective:hledger       -102.00 USD
+    expenses:fees:unknown-processor        2.00 USD
 
 2021-11-07 Host Fee to Open Source Collective  ; id:3fba7047, group:bbbec56e
     expenses:fees:open-source-collective        0.20 USD
@@ -2281,7 +2281,7 @@ include oc.accounts
     expenses:fees:open-source-collective       10.00 USD
     assets:opencollective:hledger             -10.00 USD
 
-2021-11-24 Monthly contribution from Olsens Revision ApS (Organisations)  ; id:73e33fba, group:c5647b65, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+2021-11-24 Monthly contribution from Olsens Revision ApS (Individuals)  ; id:73e33fba, group:c5647b65, payment-method:PAYPAL, payment-type:SUBSCRIPTION
     revenues:donations:olsensrevision     -100.00 USD
     assets:opencollective:hledger           94.52 USD
     expenses:fees:PAYPAL                     5.48 USD
@@ -2461,7 +2461,7 @@ include oc.accounts
     expenses:fees:open-source-collective       10.00 USD
     assets:opencollective:hledger             -10.00 USD
 
-2021-12-24 Monthly contribution from Olsens Revision ApS (Organisations)  ; id:edbf1a89, group:bbe38e50, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+2021-12-24 Monthly contribution from Olsens Revision ApS (Individuals)  ; id:edbf1a89, group:bbe38e50, payment-method:PAYPAL, payment-type:SUBSCRIPTION
     revenues:donations:olsensrevision     -100.00 USD
     assets:opencollective:hledger           94.52 USD
     expenses:fees:PAYPAL                     5.48 USD
@@ -2632,7 +2632,7 @@ include oc.accounts
     expenses:fees:open-source-collective       10.00 USD
     assets:opencollective:hledger             -10.00 USD
 
-2022-01-24 Monthly contribution from Olsens Revision ApS (Organisations)  ; id:1a297f6c, group:036f6c6c, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+2022-01-24 Monthly contribution from Olsens Revision ApS (Individuals)  ; id:1a297f6c, group:036f6c6c, payment-method:PAYPAL, payment-type:SUBSCRIPTION
     revenues:donations:olsensrevision     -100.00 USD
     assets:opencollective:hledger           94.52 USD
     expenses:fees:PAYPAL                     5.48 USD
@@ -2871,7 +2871,7 @@ include oc.accounts
     expenses:fees:open-source-collective       10.00 USD
     assets:opencollective:hledger             -10.00 USD
 
-2022-03-01 Monthly contribution from Olsens Revision ApS (Organisations)  ; id:3ece3784, group:91a8319b, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+2022-03-01 Monthly contribution from Olsens Revision ApS (Individuals)  ; id:3ece3784, group:91a8319b, payment-method:PAYPAL, payment-type:SUBSCRIPTION
     revenues:donations:olsensrevision     -100.00 USD
     assets:opencollective:hledger           94.52 USD
     expenses:fees:PAYPAL                     5.48 USD
@@ -2961,7 +2961,7 @@ include oc.accounts
     expenses:fees:open-source-collective       10.00 USD
     assets:opencollective:hledger             -10.00 USD
 
-2022-03-24 Monthly contribution from Olsens Revision ApS (Organisations)  ; id:03721886, group:e1062d2b, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+2022-03-24 Monthly contribution from Olsens Revision ApS (Individuals)  ; id:03721886, group:e1062d2b, payment-method:PAYPAL, payment-type:SUBSCRIPTION
     revenues:donations:olsensrevision     -100.00 USD
     assets:opencollective:hledger           94.52 USD
     expenses:fees:PAYPAL                     5.48 USD
@@ -3102,9 +3102,9 @@ include oc.accounts
     expenses:fees:PAYPAL                               0.59 USD
 
 2022-04-12 Contribution to Support Ukraine  ; id:281bfbee, group:6a28d226, payment-method:OPENCOLLECTIVE, payment-type:COLLECTIVE
-    expenses:misc:support-ukraine       500.00 USD
-    assets:opencollective:hledger      -500.00 USD
-    expenses:fees:OPENCOLLECTIVE                 0
+    expenses:misc:support-ukraine      500.00 USD
+    assets:opencollective:hledger     -500.00 USD
+    expenses:fees:OPENCOLLECTIVE                0
 
 2022-04-19 Host Fee to Open Source Collective  ; id:6824c094, group:73e61437
     expenses:fees:open-source-collective       10.00 USD
@@ -3128,7 +3128,7 @@ include oc.accounts
     expenses:fees:open-source-collective       10.00 USD
     assets:opencollective:hledger             -10.00 USD
 
-2022-04-24 Monthly contribution from Olsens Revision ApS (Organisations)  ; id:56424866, group:75644a16, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+2022-04-24 Monthly contribution from Olsens Revision ApS (Individuals)  ; id:56424866, group:75644a16, payment-method:PAYPAL, payment-type:SUBSCRIPTION
     revenues:donations:olsensrevision     -100.00 USD
     assets:opencollective:hledger           94.52 USD
     expenses:fees:PAYPAL                     5.48 USD
@@ -3286,7 +3286,7 @@ include oc.accounts
     expenses:fees:open-source-collective       10.00 USD
     assets:opencollective:hledger             -10.00 USD
 
-2022-05-24 Monthly contribution from Olsens Revision ApS (Organisations)  ; id:23f1d869, group:d0bf407e, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+2022-05-24 Monthly contribution from Olsens Revision ApS (Individuals)  ; id:23f1d869, group:d0bf407e, payment-method:PAYPAL, payment-type:SUBSCRIPTION
     revenues:donations:olsensrevision     -100.00 USD
     assets:opencollective:hledger           94.52 USD
     expenses:fees:PAYPAL                     5.48 USD
@@ -3448,7 +3448,7 @@ include oc.accounts
     expenses:fees:open-source-collective       10.00 USD
     assets:opencollective:hledger             -10.00 USD
 
-2022-06-24 Monthly contribution from Olsens Revision ApS (Organisations)  ; id:1f85b3be, group:8c08256f, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+2022-06-24 Monthly contribution from Olsens Revision ApS (Individuals)  ; id:1f85b3be, group:8c08256f, payment-method:PAYPAL, payment-type:SUBSCRIPTION
     revenues:donations:olsensrevision     -100.00 USD
     assets:opencollective:hledger           94.52 USD
     expenses:fees:PAYPAL                     5.48 USD
@@ -3610,7 +3610,7 @@ include oc.accounts
     expenses:fees:open-source-collective       10.00 USD
     assets:opencollective:hledger             -10.00 USD
 
-2022-07-24 Monthly contribution from Olsens Revision ApS (Organisations)  ; id:fbd2e86c, group:3cd89062, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+2022-07-24 Monthly contribution from Olsens Revision ApS (Individuals)  ; id:fbd2e86c, group:3cd89062, payment-method:PAYPAL, payment-type:SUBSCRIPTION
     revenues:donations:olsensrevision     -100.00 USD
     assets:opencollective:hledger           94.52 USD
     expenses:fees:PAYPAL                     5.48 USD
@@ -3754,7 +3754,7 @@ include oc.accounts
     expenses:fees:open-source-collective       10.00 USD
     assets:opencollective:hledger             -10.00 USD
 
-2022-08-24 Monthly contribution from Olsens Revision ApS (Organisations)  ; id:0d6adaf5, group:d4b72292, payment-method:PAYPAL, payment-type:SUBSCRIPTION
+2022-08-24 Monthly contribution from Olsens Revision ApS (Individuals)  ; id:0d6adaf5, group:d4b72292, payment-method:PAYPAL, payment-type:SUBSCRIPTION
     revenues:donations:olsensrevision     -100.00 USD
     assets:opencollective:hledger           94.52 USD
     expenses:fees:PAYPAL                     5.48 USD
