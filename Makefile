@@ -18,14 +18,18 @@ oc.csv: ~/Downloads/transactions.txt
 
 .INTERMEDIATE: ~/Downloads/transactions.txt
 
-# regenerate journal from CSV
+# 1. regenerate journal from CSV
+# 2. add new account declarations (preserving old ones)
+# 3. run journal checks
 oc.journal journal: oc.csv oc.csv.rules
 	((printf "include oc.accounts\n\n"; hledger -f $< print -x) >new.journal && mv new.journal oc.journal) || (rm -f new.journal; false)
+	((cat oc.accounts; hledger -f oc.journal accounts --undeclared --directives) | sort > oc.accounts.new && mv oc.accounts.new oc.accounts) || (rm -f oc.accounts.new; false)
 	@make check
 
+CHECKS=accounts commodities balancednoautoconversion ordereddates
 check:
 	@printf "checking journal.. "
-	@$(HLEDGER) check commodities balancednoautoconversion ordereddates && echo ok
+	@$(HLEDGER) check $(CHECKS) && echo all ok: $(CHECKS)
 
 # show reports on stdout
 report: oc.journal Makefile
