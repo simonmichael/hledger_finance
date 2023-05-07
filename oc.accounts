@@ -1,12 +1,11 @@
+#account expenses:bounties:arne-schlueter
 account assets
-account assets:oc:hledger
-account assets:opencollective:hledger
+account assets:opencollective:hledger  ; type:C
 account equity
 account expenses
 account expenses:bounties:aarrcc
 account expenses:bounties:allan-odgaard
 account expenses:bounties:andras-fabian
-account expenses:bounties:arne-schlueter
 account expenses:bounties:chris-lemaire
 account expenses:bounties:david-d-lowe
 account expenses:bounties:eric-langlois

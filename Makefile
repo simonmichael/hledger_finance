@@ -34,6 +34,7 @@ oc.csv: ~/Downloads/hledger-transactions.csv   # gather any downloaded opencolle
 oc.journal: oc.csv oc.csv.rules  # regenerate journal from csv
 	((printf "include oc.accounts\n\n"; hledger -f $< print -x) >new.journal && mv new.journal oc.journal) || (rm -f new.journal; false)
 
+# This always starts with the existing oc.accounts, may need to clean that manually from time to time.
 oc.accounts: oc.journal  # declare any new accounts found in the journal
 	((cat oc.accounts; hledger -f oc.journal accounts --undeclared --directives) | sort > oc.accounts.new && mv oc.accounts.new oc.accounts) || (rm -f oc.accounts.new; false)
 
