@@ -10,8 +10,8 @@ To update:
 1. Download latest oc.csv
     https://opencollective.com/hledger/transactions?kind=CONTRIBUTION%2CEXPENSE%2CHOST_FEE (all kinds selected)
     click Download CSV button
-    right-click Download (v2)
-    Download Linked File As / Save Link As ~/Downloads/transactions.txt
+        old: right-click Download (v2), Download Linked File As / Save Link As ~/Downloads/transactions.txt
+        new: keep defaults, click Export CSV
 2. `make update` to gather the csv, regenerate and check journal, update reports, and commit
 3. Check latest calculated OC balance against the one reported on the website
    (hledger -f oc.journal bs, https://opencollective.com/hledger#category-BUDGET > TODAY'S BALANCE)
