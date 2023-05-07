@@ -33,14 +33,12 @@ if %date ^(20[01]|2020|2021-0[1-5])
 #                    ^ our fiscal host name, hard-coded
 
 # ** From 2021-06-01, host fee appears as a separate transaction.
-# And alas, the balance field is wrong after this date, or at least I can't figure out its logic.
-# balance2 %balance_ %currency_
-#
 # "datetime","shortId","shortGroup","description","type","kind","isRefund","isRefunded","shortRefundId","displayAmount","amount","paymentProcessorFee","netAmount","currency","accountSlug","accountName","oppositeAccountSlug","oppositeAccountName","paymentMethodService","paymentMethodType","expenseType","expenseTags","payoutMethodType","merchantId"
 # "2021-06-01T02:08:37","65365e36","6b474b38","Monthly contribution from October Swimmer (Sponsors)","CREDIT","CONTRIBUTION","","","","$100.00 USD",100,-3.2,96.8,"USD","hledger","hledger","october-swimmer","October Swimmer","STRIPE","CREDITCARD",,"",,
 # "2021-06-01T02:08:37","95a61220","6b474b38","Host Fee to Open Source Collective","DEBIT","HOST_FEE","","","","-$10.00 USD",-10,0,-10,"USD","hledger","hledger","opensource","Open Source Collective",,,,"",,
 
 # >= 2021-06-01
+# In 2022 downloads, the balance field's values didn't work, but in 2023 it seems fixed.
 if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
 & %kind CONTRIBUTION
  comment id:%shortId, group:%shortGroup, payment-method:%paymentMethodService, payment-type:%paymentMethodType
@@ -48,6 +46,7 @@ if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
  account1 revenues:donations:%oppositeAccountSlug
  amount2  %netAmount %currency_
  account2 assets:opencollective:%accountslug
+ balance2 %balance_ %currency_
  amount3  -%paymentProcessorFee %currency_
  account3 expenses:fees:%paymentMethodService%payoutMethodType
 
