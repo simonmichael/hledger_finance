@@ -9,47 +9,53 @@ REPORT3=$(HLEDGER) bs --drop 1 --layout=bare -E -p 'yearly to tomorrow'
 REPORT4=$(HLEDGER) is --drop 1 --layout=bare -TS -p 'yearly to tomorrow' #--alias '/(revenues:donations).*/=\1'
 # REPORT3=$(HLEDGER) cf -YET -e tomorrow
 
+# generate plots with hledger-plot addon
 PLOT1=$(HLEDGER) plot -- bal --depth=1 ^assets   --historical  --terminal --rcParams '{"figure.figsize":[8,3]}' --no-today -q --title "hledger assets"
 PLOT2=$(HLEDGER) plot -- bal --depth=1 ^expenses --monthly --terminal --rcParams '{"figure.figsize":[8,3]}' --drawstyle 'steps-mid' --no-today -q --title "hledger monthly expenses"
 PLOT3=$(HLEDGER) plot -- bal --depth=1 ^revenues --monthly --invert  --terminal --rcParams '{"figure.figsize":[8,3]}' --drawstyle 'steps-mid' --no-today -q --title "hledger monthly revenues"
 
-default: report plots
+RG=rg -N --sort=path
 
-# Move a downloaded CSV file here (the download from
-# https://opencollective.com/hledger/transactions?kind=CONTRIBUTION%2CEXPENSE%2CHOST_FEE > Download CSV > Download (V2)).
-oc.csv: ~/Downloads/transactions.txt
+help: # list make targets
+	@$(RG) '^(\w[^:]*): [^#]*(# .*)|^# \*\* (.*)' -or '$$3 $$1|$$2' $(MAKEFILE_LIST) | column -t -s'|' || true
+# (which have a single-# same-line comment)
+
+help-%: # list make targets matching a pattern
+	@make -s help | $(RG) -i "$*" || true
+
+# gather the download from https://opencollective.com/hledger/transactions?kind=CONTRIBUTION%2CEXPENSE%2CHOST_FEE > Download CSV
+oc.csv: ~/Downloads/hledger-transactions.csv   # gather any downloaded opencollective hledger CSV here
+	-mv $@ $@.old || true
 	mv $< $@
 
-.INTERMEDIATE: ~/Downloads/transactions.txt
+.INTERMEDIATE: ~/Downloads/hledger-transactions.csv
 
-# 1. regenerate journal from CSV
-# 2. add new account declarations (preserving old ones)
-# 3. run journal checks
-oc.journal journal: oc.csv oc.csv.rules
+
+oc.journal: oc.csv oc.csv.rules  # regenerate journal from csv
 	((printf "include oc.accounts\n\n"; hledger -f $< print -x) >new.journal && mv new.journal oc.journal) || (rm -f new.journal; false)
+
+oc.accounts: oc.journal  # declare any new accounts found in the journal
 	((cat oc.accounts; hledger -f oc.journal accounts --undeclared --directives) | sort > oc.accounts.new && mv oc.accounts.new oc.accounts) || (rm -f oc.accounts.new; false)
-	@make check
 
 CHECKS=accounts commodities balancednoautoconversion ordereddates
-check:
+check:  # check the journal for problems
 	@printf "checking journal.. "
 	@$(HLEDGER) check $(CHECKS) && echo all ok: $(CHECKS)
 
-# show reports on stdout
-report: oc.journal Makefile
+journal: oc.journal oc.accounts check Makefile  # make oc.journal + oc.accounts + check
+
+report: journal Makefile  # show reports on stdout
 	$(REPORT1) --pretty; echo
 	$(REPORT2) --pretty; echo
 	$(REPORT3) --pretty; echo
 	$(REPORT4) --pretty; echo
 
-# show plots on stdout
-plots: oc.journal Makefile
+plot: journal Makefile  # generate plots with hledger-plot  XXX not working
 	echo;$(PLOT1); echo
 	echo;$(PLOT2); echo
 	echo;$(PLOT3); echo
 
-# update html reports in readme
-README.md readme: oc.journal Makefile
+README.md: journal Makefile  # update reports in README.md
 	$(SED) '/<!-- REPORTS: -->/q' README.md >.README.md
 	$(REPORT1) -O html >>.README.md
 	$(REPORT2) -O html >>.README.md
@@ -59,12 +65,12 @@ README.md readme: oc.journal Makefile
 	$(DELCSS) <.README.md >README.md
 	rm -f .README.md
 
-# update journal, readme, and commit both
-update:
+update:  # make journal + README.md and commit both
 	@make README.md
-	git commit -m "update csv"     -- oc.csv     || echo "csv has not changed"
-	git commit -m "update journal" -- oc.journal || echo "journal has not changed"
-	git commit -m "update reports" -- README.md  || echo "reports have not changed"
+	git commit -m "update csv"      -- oc.csv      || echo "csv has not changed"
+	git commit -m "update journal"  -- oc.journal  || echo "journal has not changed"
+	git commit -m "update accounts" -- oc.accounts || echo "accounts have not changed"
+	git commit -m "update reports"  -- README.md   || echo "reports have not changed"
 
 # update plain text reports in readme
 # README.md: hf.journal Makefile
