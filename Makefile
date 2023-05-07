@@ -62,7 +62,7 @@ README.md: journal Makefile  # update reports and (if hledger-plot is installed)
 	$(REPORT2) -O html >>.README.md
 	$(REPORT3) -O html >>.README.md
 	$(REPORT4) -O html >>.README.md
-	-(printf "\n\`\`\`\n" && $(PLOT1) && printf "\n\`\`\`\n";) >>.README.md
+	-(printf "\n\n\`\`\`\n" && $(PLOT1) && printf "\n\`\`\`\n";) >>.README.md
 	-(printf "\n\`\`\`\n" && $(PLOT2) && printf "\n\`\`\`\n";) >>.README.md
 	-(printf "\n\`\`\`\n" && $(PLOT3) && printf "\n\`\`\`\n";) >>.README.md
 	-echo >>.README.md
