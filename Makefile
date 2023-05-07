@@ -11,8 +11,8 @@ REPORT4=$(HLEDGER) is --drop 1 --layout=bare -TS -p 'yearly to tomorrow' #--alia
 
 # generate plots with hledger-plot addon
 PLOT1=$(HLEDGER) plot -- bal --depth=1 ^assets   --historical  --terminal --rcParams '{"figure.figsize":[8,3]}' --no-today -q --title "hledger assets"
-PLOT2=$(HLEDGER) plot -- bal --depth=1 ^expenses --monthly --terminal --rcParams '{"figure.figsize":[8,3]}' --drawstyle 'steps-mid' --no-today -q --title "hledger monthly expenses"
-PLOT3=$(HLEDGER) plot -- bal --depth=1 ^revenues --monthly --invert  --terminal --rcParams '{"figure.figsize":[8,3]}' --drawstyle 'steps-mid' --no-today -q --title "hledger monthly revenues"
+PLOT2=$(HLEDGER) plot -- bal --depth=1 ^revenues --monthly --invert  --terminal --rcParams '{"figure.figsize":[8,3]}' --drawstyle 'steps-mid' --no-today -q --title "hledger monthly revenues"
+PLOT3=$(HLEDGER) plot -- bal --depth=1 ^expenses --monthly --terminal --rcParams '{"figure.figsize":[8,3]}' --drawstyle 'steps-mid' --no-today -q --title "hledger monthly expenses"
 
 RG=rg -N --sort=path
 
@@ -41,22 +41,22 @@ oc.accounts: oc.journal  # declare any new accounts found in the journal
 CHECKS=accounts commodities balancednoautoconversion ordereddates
 check:  # check the journal for problems
 	@printf "checking journal.. "
-	@$(HLEDGER) check $(CHECKS) && echo all ok: $(CHECKS)
+	@$(HLEDGER) check $(CHECKS) && echo "all ok ✅"
 
 journal: oc.journal oc.accounts check Makefile  # make oc.journal + oc.accounts + check
 
-report: journal Makefile  # show reports on stdout
+reports: journal Makefile  # show reports in terminal
 	$(REPORT1) --pretty; echo
 	$(REPORT2) --pretty; echo
 	$(REPORT3) --pretty; echo
 	$(REPORT4) --pretty; echo
 
-plot: journal Makefile  # generate plots with hledger-plot  XXX not working
-	echo;$(PLOT1); echo
-	echo;$(PLOT2); echo
-	echo;$(PLOT3); echo
+charts: journal Makefile  # show charts in terminal
+	@echo; $(PLOT1); echo
+	@echo; $(PLOT2); echo
+	@echo; $(PLOT3); echo
 
-README.md: journal Makefile  # update reports in README.md
+README.md: journal Makefile  # update reports and charts in README.md
 	$(SED) '/<!-- REPORTS: -->/q' README.md >.README.md
 	$(REPORT1) -O html >>.README.md
 	$(REPORT2) -O html >>.README.md
