@@ -4,11 +4,15 @@ account assets:opencollective:hledger
 account equity
 account expenses
 account expenses:bounties:aarrcc
+account expenses:bounties:allan-odgaard
+account expenses:bounties:andras-fabian
 account expenses:bounties:arne-schlueter
+account expenses:bounties:chris-lemaire
 account expenses:bounties:david-d-lowe
 account expenses:bounties:eric-langlois
 account expenses:bounties:holmescharles
 account expenses:bounties:julian-andres-klode
+account expenses:bounties:pablo6
 account expenses:bounties:romain-gehrig
 account expenses:bounties:simon
 account expenses:bounties:stephen-morgan
@@ -47,6 +51,7 @@ account revenues:donations:incognito-6a1e7e79
 account revenues:donations:jack-todaro
 account revenues:donations:james-blachly
 account revenues:donations:ken-ewing
+account revenues:donations:markus-schmitz
 account revenues:donations:michael-martinides
 account revenues:donations:msatc
 account revenues:donations:october-swimmer
