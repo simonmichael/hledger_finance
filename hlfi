@@ -36,14 +36,14 @@ a() { # - show assets
 }
 
 r() { # - show revenues
-    hledger -f "$JOURNAL" bal type:r --layout bare --pretty --drop 1 -p "$PERIOD" -S "$@"
+    hledger -f "$JOURNAL" bal type:r --layout bare --pretty --drop 1 -p "$PERIOD" -S --invert "$@"
 }
 
 x() { # - show expenses
-    hledger -f "$JOURNAL" bal type:x --layout bare --pretty --drop 1 -p "$PERIOD" -S "$@"
+    hledger -f "$JOURNAL" bal type:x --layout bare --pretty --drop 1 -p "$PERIOD" -S --invert "$@"
 }
 
-bar-a() { # - show assets bar chart
+b-a() { # - show assets bar chart
     hledger-bar -v 200 -f "$JOURNAL" -Q type:al -H "$@"
 }
 
