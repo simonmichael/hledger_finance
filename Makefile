@@ -21,7 +21,7 @@ LINE2=./hlfi line-r
 LINE3=./hlfi line-x
 
 help: # list make targets
-	@printf "hledger project finance makefile\nTargets:\n"
+	@printf "hledger project finance makefile. See also ./hlfi\nTargets:\n"
 	@$(RG) '^(\w[^:]*): [^#]*(# .*)|^# \*\* (.*)' -or '$$3 $$1|$$2' $(MAKEFILE_LIST) | column -t -s'|' || true
 # (which have a single-# same-line comment)
 

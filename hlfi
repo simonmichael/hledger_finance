@@ -26,9 +26,9 @@ hlfi - hledger project finance tool
 Usage: hlfi [COMMAND]
 Commands:
 $(grep -E '^\w.*\(\) *{ *#' "$SCRIPT" | sed -e 's/() *{//' -e 's/# /\t/')
-CMD 	- other commands are passed through to hledger -f $JOURNAL
+CMD 	- pass other commands through to hledger -f $JOURNAL
 
-Reports are $PERIOD by default.
+Add hledger options to customise reports.
 EOF
 }
 
@@ -53,31 +53,28 @@ x() { # - show expenses
 }
 
 bar-a() { # - show assets bar chart
-    echo "Quarterly net worth:"
-    hledger-bar -v 200 -f oc.journal -Q type:al -H
+    hledger-bar -v 200 -f oc.journal -Q type:al -H "$@"
 }
 
 bar-r() { # - show revenues bar chart
-    echo "Quarterly revenues:"
-    hledger-bar -v 40 -f oc.journal -Q type:r --invert
+    hledger-bar -v 40 -f oc.journal -Q type:r --invert "$@"
 }
 
 bar-x() { # - show expenses bar chart
-    echo "Quarterly expenses:"
-    hledger-bar -v 40 -f oc.journal -Q type:x --invert
+    hledger-bar -v 40 -f oc.journal -Q type:x --invert "$@"
 }
 
 # XXX with partial workaround for https://github.com/gooofy/drawilleplot/issues/4
 line-a() { # - show assets line chart
-    hledger -f oc.journal plot -- bal --depth=1 ^assets   --historical  --terminal --rcParams '{"figure.figsize":[8,3]}' --no-today -q --title "hledger assets" | sed 's/⠀/ /g'
+    hledger -f oc.journal plot -- bal --depth=1 ^assets   --historical  --terminal --rcParams '{"figure.figsize":[8,3]}' --no-today -q --title "hledger assets" "$@" | sed 's/⠀/ /g'
 }
 
 line-r() { # - show revenues line chart
-    hledger -f oc.journal plot -- bal --depth=1 ^revenues --monthly --invert  --terminal --rcParams '{"figure.figsize":[8,3]}' --drawstyle 'steps-mid' --no-today -q --title "hledger monthly revenues" | sed 's/⠀/ /g'
+    hledger -f oc.journal plot -- bal --depth=1 ^revenues --monthly --invert  --terminal --rcParams '{"figure.figsize":[8,3]}' --drawstyle 'steps-mid' --no-today -q --title "hledger monthly revenues" "$@" | sed 's/⠀/ /g'
 }
 
 line-x() { # - show expenses line chart
-    hledger -f oc.journal plot -- bal --depth=1 ^expenses --monthly --terminal --rcParams '{"figure.figsize":[8,3]}' --drawstyle 'steps-mid' --no-today -q --title "hledger monthly expenses" | sed 's/⠀/ /g'
+    hledger -f oc.journal plot -- bal --depth=1 ^expenses --monthly --terminal --rcParams '{"figure.figsize":[8,3]}' --drawstyle 'steps-mid' --no-today -q --title "hledger monthly expenses" "$@" | sed 's/⠀/ /g'
 }
 
 if [[ $# -eq 0 ]]; then help                  # no args shows help
