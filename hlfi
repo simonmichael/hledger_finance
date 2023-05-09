@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # hlfi - hledger project finance scripts
-
 # shellcheck shell=bash disable=SC2317
 
 set -e
@@ -8,14 +7,6 @@ cd "$(dirname "$0")"
 SCRIPT=$(basename "$0")
 JOURNAL=oc.journal
 PERIOD="quarterly from 1/1 to tomorrow"
-# bash is not good for reusing argument lists. Try osh/oil ?
-# HLEDGER="hledger -f $JOURNAL"
-# BALARGS="--layout=bare --drop 1"
-# BALARGS=(--layout=bare --drop 1)
-# DEFPERIOD_="quarterly this year"
-# DEFPERIOD=(-p $DEFPERIOD_)
-# echo $DEFPERIOD
-# echo "${DEFPERIOD[@]}"
 
 line() { echo "--------------------------------------------------------------------------------"; }
 
@@ -26,58 +17,58 @@ hlfi - hledger project finance tool
 Usage: hlfi [COMMAND]
 Commands:
 $(grep -E '^\w.*\(\) *{ *#' "$SCRIPT" | sed -e 's/() *{//' -e 's/# /\t/')
-CMD 	- pass other commands through to hledger -f $JOURNAL
+CMD 	- run other hledger commands on the hledger project's journal
 
 Add hledger options to customise reports.
 EOF
 }
 
-bs() { # - show assets/liabilities
-    hledger -f oc.journal bs --layout bare --pretty --drop 1 -p "$PERIOD" -E "$@"
+bs() { # - show balance sheet
+    hledger -f "$JOURNAL" bs --layout bare --pretty --drop 1 -p "$PERIOD" -E "$@"
 }
 
 is() { # - show income statement
-    hledger -f oc.journal is --layout bare --pretty --drop 1 -p "$PERIOD" -S "$@"
+    hledger -f "$JOURNAL" is --layout bare --pretty --drop 1 -p "$PERIOD" -S "$@"
 }
 
 a() { # - show assets
-    hledger -f oc.journal bal type:al -H --layout bare --pretty --drop 1 -p "$PERIOD" -E "$@"
+    hledger -f "$JOURNAL" bal type:al -H --layout bare --pretty --drop 1 -p "$PERIOD" -E "$@"
 }
 
 r() { # - show revenues
-    hledger -f oc.journal bal type:r --layout bare --pretty --drop 1 -p "$PERIOD" -S "$@"
+    hledger -f "$JOURNAL" bal type:r --layout bare --pretty --drop 1 -p "$PERIOD" -S "$@"
 }
 
 x() { # - show expenses
-    hledger -f oc.journal bal type:x --layout bare --pretty --drop 1 -p "$PERIOD" -S "$@"
+    hledger -f "$JOURNAL" bal type:x --layout bare --pretty --drop 1 -p "$PERIOD" -S "$@"
 }
 
 bar-a() { # - show assets bar chart
-    hledger-bar -v 200 -f oc.journal -Q type:al -H "$@"
+    hledger-bar -v 200 -f "$JOURNAL" -Q type:al -H "$@"
 }
 
 bar-r() { # - show revenues bar chart
-    hledger-bar -v 40 -f oc.journal -Q type:r --invert "$@"
+    hledger-bar -v 40 -f "$JOURNAL" -Q type:r --invert "$@"
 }
 
 bar-x() { # - show expenses bar chart
-    hledger-bar -v 40 -f oc.journal -Q type:x --invert "$@"
+    hledger-bar -v 40 -f "$JOURNAL" -Q type:x --invert "$@"
 }
 
 # XXX with partial workaround for https://github.com/gooofy/drawilleplot/issues/4
 line-a() { # - show assets line chart
-    hledger -f oc.journal plot -- bal --depth=1 ^assets   --historical  --terminal --rcParams '{"figure.figsize":[8,3]}' --no-today -q --title "hledger assets" "$@" | sed 's/⠀/ /g'
+    hledger -f "$JOURNAL" plot -- bal --depth=1 ^assets   --historical  --terminal --rcParams '{"figure.figsize":[8,3]}' --no-today -q --title "hledger assets" "$@" | sed 's/⠀/ /g'
 }
 
 line-r() { # - show revenues line chart
-    hledger -f oc.journal plot -- bal --depth=1 ^revenues --monthly --invert  --terminal --rcParams '{"figure.figsize":[8,3]}' --drawstyle 'steps-mid' --no-today -q --title "hledger monthly revenues" "$@" | sed 's/⠀/ /g'
+    hledger -f "$JOURNAL" plot -- bal --depth=1 ^revenues --monthly --invert  --terminal --rcParams '{"figure.figsize":[8,3]}' --drawstyle 'steps-mid' --no-today -q --title "hledger monthly revenues" "$@" | sed 's/⠀/ /g'
 }
 
 line-x() { # - show expenses line chart
-    hledger -f oc.journal plot -- bal --depth=1 ^expenses --monthly --terminal --rcParams '{"figure.figsize":[8,3]}' --drawstyle 'steps-mid' --no-today -q --title "hledger monthly expenses" "$@" | sed 's/⠀/ /g'
+    hledger -f "$JOURNAL" plot -- bal --depth=1 ^expenses --monthly --terminal --rcParams '{"figure.figsize":[8,3]}' --drawstyle 'steps-mid' --no-today -q --title "hledger monthly expenses" "$@" | sed 's/⠀/ /g'
 }
 
 if [[ $# -eq 0 ]]; then help                  # no args shows help
 elif declare -f "$1" > /dev/null; then "$@";  # arg 1 selects a function above
-else hledger -f oc.journal "$@"; fi           # or fall through to hledger
+else hledger -f "$JOURNAL" "$@"; fi           # or fall through to hledger
 exit
