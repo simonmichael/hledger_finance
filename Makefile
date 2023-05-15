@@ -1,24 +1,24 @@
 SED=gsed
-RG=rg -N --sort=path
+RG=rg -IN --sort=path
 HLEDGER=hledger -f oc.journal
 DELCSS=$(SED) -E -z 's/<style>[^>]+><link[^>]+>/\n<br>\n/g'
 
 # main reports
 # avoid -t as it currently doesn't indent in HTML
 REPORT1=./hlfi bs
-REPORT2=./hlfi is -S
+REPORT2=./hlfi is
 REPORT3=./hlfi bs -Y -b2017
-REPORT4=./hlfi is -TS -Y -b2017
+REPORT4=./hlfi is -T -Y -b2017
 
 # main bar charts
-BAR1=./hlfi bar-a
-BAR2=./hlfi bar-r
-BAR3=./hlfi bar-x
+BAR1=echo "Quarterly net worth:"; ./hlfi b-a
+BAR2=echo "Quarterly revenues:"; ./hlfi b-r
+BAR3=echo "Quarterly expenses:"; ./hlfi b-x
 
 # main line charts
-LINE1=./hlfi line-a
-LINE2=./hlfi line-r
-LINE3=./hlfi line-x
+LINE1=./hlfi l-a
+LINE2=./hlfi l-r
+LINE3=./hlfi l-x
 
 help: # list make targets
 	@printf "hledger project finance makefile. See also ./hlfi\nTargets:\n"
