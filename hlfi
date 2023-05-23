@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# hlfi - hledger project finance scripts
+# hlfi - see help below
 # shellcheck shell=bash disable=SC2317
 
 set -e
@@ -13,7 +13,7 @@ line() { echo "-----------------------------------------------------------------
 help() { # - show this help
     line
     cat <<EOF
-hlfi - hledger project finance tool
+hlfi - reporting tool for hledger project finances
 Usage: hlfi [COMMAND]
 Commands:
 $(grep -E '^\w.*\(\) *{ *#' "$SCRIPT" | sed -e 's/() *{//' -e 's/# /\t/')
@@ -44,14 +44,17 @@ x() { # - show expenses
 }
 
 b-a() { # - show assets bar chart
+    echo "Quarterly net worth:"
     hledger-bar -v 200 -f "$JOURNAL" -Q type:al -H "$@"
 }
 
 b-r() { # - show revenues bar chart
+    echo "Quarterly revenues:"
     hledger-bar -v 40 -f "$JOURNAL" -Q type:r --invert "$@"
 }
 
 b-x() { # - show expenses bar chart
+    echo "Quarterly expenses:"
     hledger-bar -v 40 -f "$JOURNAL" -Q type:x --invert "$@"
 }
 
@@ -66,6 +69,36 @@ l-r() { # - show revenues line chart
 
 l-x() { # - show expenses line chart
     hledger -f "$JOURNAL" plot -- bal --depth=1 ^expenses --monthly --terminal --rcParams '{"figure.figsize":[8,3]}' --drawstyle 'steps-mid' --no-today -q --title "hledger monthly expenses" "$@" | sed 's/⠀/ /g'
+}
+
+reports() {  # show main README reports in terminal. Add -o html for HTML.
+    # avoid -t as it currently doesn't indent in HTML
+    bs "$@"
+    echo
+    is "$@"
+    echo
+    bs -Y -b2017 "$@"
+    echo
+    is -T -Y -b2017 "$@"
+    echo
+}
+
+barcharts() {  # show main hledger-bar charts in terminal
+    b-a "$@"
+    echo
+    b-r "$@"
+    echo
+    b-x "$@"
+    echo
+}
+
+linecharts() {  # show main hledger-plot charts in terminal
+    l-a "$@"
+    echo
+    l-r "$@"
+    echo
+    l-x "$@"
+    echo
 }
 
 if [[ $# -eq 0 ]]; then help                  # no args shows help

@@ -1,27 +1,9 @@
 SED=gsed
 RG=rg -IN --sort=path
 HLEDGER=hledger -f oc.journal
-DELCSS=$(SED) -E -z 's/<style>[^>]+><link[^>]+>/\n<br>\n/g'
-
-# main reports
-# avoid -t as it currently doesn't indent in HTML
-REPORT1=./hlfi bs
-REPORT2=./hlfi is
-REPORT3=./hlfi bs -Y -b2017
-REPORT4=./hlfi is -T -Y -b2017
-
-# main bar charts
-BAR1=echo "Quarterly net worth:"; ./hlfi b-a
-BAR2=echo "Quarterly revenues:"; ./hlfi b-r
-BAR3=echo "Quarterly expenses:"; ./hlfi b-x
-
-# main line charts
-LINE1=./hlfi l-a
-LINE2=./hlfi l-r
-LINE3=./hlfi l-x
 
 help: # list make targets
-	@printf "hledger project finance makefile. See also ./hlfi\nTargets:\n"
+	@printf "hledger project finance makefile. This mainly manages data, for reports see ./hlfi\nTargets:\n"
 	@$(RG) '^(\w[^:]*): [^#]*(# .*)|^# \*\* (.*)' -or '$$3 $$1|$$2' $(MAKEFILE_LIST) | column -t -s'|' || true
 # (which have a single-# same-line comment)
 
@@ -49,35 +31,28 @@ check:  # check the journal for problems
 
 journal: oc.journal oc.accounts check Makefile  # make oc.journal + oc.accounts + check
 
-reports: journal Makefile  # show main reports in terminal
-	@$(REPORT1); echo
-	@$(REPORT2); echo
-	@$(REPORT3); echo
-	@$(REPORT4); echo
-
-bar-charts: journal Makefile  # show main charts in terminal with hledger-bar
-	@$(BAR1); echo
-	@$(BAR2); echo
-	@$(BAR3); echo
-
-line-charts: journal Makefile  # show main charts in terminal with hledger-plot
-	@$(LINE1); echo
-	@$(LINE2); echo
-	@$(LINE3); echo
-
-README.md: journal Makefile  # update reports and (if hledger-plot is installed) charts in README.md
+README.md: journal Makefile  # update reports and charts in README.md
 	$(SED) '/<!-- REPORTS: -->/q' README.md >.README.md
-	$(REPORT1) -O html >>.README.md
-	$(REPORT2) -O html >>.README.md
-	$(REPORT3) -O html >>.README.md
-	$(REPORT4) -O html >>.README.md
-	-(printf "\n\n\`\`\`\n" && $(BAR1) && printf "\n\`\`\`\n";) >>.README.md
-	-(printf "\n\n\`\`\`\n" && $(BAR2) && printf "\n\`\`\`\n";) >>.README.md
-	-(printf "\n\n\`\`\`\n" && $(BAR3) && printf "\n\`\`\`\n";) >>.README.md
-	-(printf "\n\n\`\`\`\n" && $(LINE1) && printf "\n\`\`\`\n";) >>.README.md
-	-(printf "\n\n\`\`\`\n" && $(LINE2) && printf "\n\`\`\`\n";) >>.README.md
-	-(printf "\n\n\`\`\`\n" && $(LINE3) && printf "\n\`\`\`\n";) >>.README.md
-	$(DELCSS) <.README.md >README.md
+	./hlfi reports -O html >>.README.md
+	echo '```' >>.README.md
+	./hlfi b-a >>.README.md
+	echo '```' >>.README.md
+	echo '```' >>.README.md
+	./hlfi b-r >>.README.md
+	echo '```' >>.README.md
+	echo '```' >>.README.md
+	./hlfi b-x >>.README.md
+	echo '```' >>.README.md
+	echo '```' >>.README.md
+	./hlfi l-a >>.README.md
+	echo '```' >>.README.md
+	echo '```' >>.README.md
+	./hlfi l-r >>.README.md
+	echo '```' >>.README.md
+	echo '```' >>.README.md
+	./hlfi l-x >>.README.md
+	echo '```' >>.README.md
+	$(SED) -E -z 's/<style>[^>]+><link[^>]+>/\n<br>\n/g' <.README.md >README.md  # remove HTML reports' CSS
 	rm -f .README.md
 
 update:  # make journal + README.md and commit both
