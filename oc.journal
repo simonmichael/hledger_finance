@@ -1729,10 +1729,10 @@ include oc.accounts
     expenses:fees:open-source-collective        0.20 USD
     assets:opencollective:hledger              -0.20 USD
 
-2021-08-05 Monthly contribution from Brandon J Wong (Individuals)  ; id:286a2206, group:9d8c0c88, payment-method:, payment-type:
+2021-08-05 Monthly contribution from Brandon J Wong (Individuals)  ; id:286a2206, group:9d8c0c88, payment-method:STRIPE, payment-type:CREDITCARD
     revenues:donations:brandon-j-wong       -2.00 USD
     assets:opencollective:hledger            1.62 USD = 3470.32 USD
-    expenses:fees:unknown-processor          0.38 USD
+    expenses:fees:STRIPE                     0.38 USD
 
 2021-08-06 Expense from Yann Büchau - regression bounty  ; id:835ee4ff, group:58c4bb8d, payment-method:, payment-type:
     expenses:bounties:yann-buechau       100.00 USD
@@ -1906,10 +1906,10 @@ include oc.accounts
     expenses:fees:open-source-collective        0.20 USD
     assets:opencollective:hledger              -0.20 USD
 
-2021-09-02 Monthly contribution from Brandon J Wong (Individuals)  ; id:07ce11af, group:f8ac6bbe, payment-method:, payment-type:
+2021-09-02 Monthly contribution from Brandon J Wong (Individuals)  ; id:07ce11af, group:f8ac6bbe, payment-method:STRIPE, payment-type:CREDITCARD
     revenues:donations:brandon-j-wong       -2.00 USD
     assets:opencollective:hledger            1.62 USD = 3639.94 USD
-    expenses:fees:unknown-processor          0.38 USD
+    expenses:fees:STRIPE                     0.38 USD
 
 2021-09-04 Host Fee to Open Source Collective  ; id:dd9f83fd, group:8387d5d6
     expenses:fees:open-source-collective        5.00 USD
@@ -2059,10 +2059,10 @@ include oc.accounts
     expenses:fees:open-source-collective        0.20 USD
     assets:opencollective:hledger              -0.20 USD
 
-2021-10-02 Monthly contribution from Brandon J Wong (Individuals)  ; id:7ad19f21, group:d36cd41c, payment-method:, payment-type:
+2021-10-02 Monthly contribution from Brandon J Wong (Individuals)  ; id:7ad19f21, group:d36cd41c, payment-method:STRIPE, payment-type:CREDITCARD
     revenues:donations:brandon-j-wong       -2.00 USD
     assets:opencollective:hledger            1.62 USD = 4053.82 USD
-    expenses:fees:unknown-processor          0.38 USD
+    expenses:fees:STRIPE                     0.38 USD
 
 2021-10-08 Host Fee to Open Source Collective  ; id:7acb7d8f, group:d1930561
     expenses:fees:open-source-collective        0.20 USD
