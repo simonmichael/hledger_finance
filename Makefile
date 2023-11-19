@@ -18,16 +18,16 @@ oc.csv: ~/Downloads/hledger-transactions.csv   # gather any downloaded opencolle
 .INTERMEDIATE: ~/Downloads/hledger-transactions.csv
 
 oc.journal: oc.csv oc.csv.rules  # regenerate journal from csv
-	((printf "include oc.accounts\n\n"; hledger -f $< print -x) >new.journal && mv new.journal oc.journal) || (rm -f new.journal; false)
+	((printf "include oc.accounts\n\n"; $(HLEDGER) -f $< print -x) >new.journal && mv new.journal oc.journal) || (rm -f new.journal; false)
 
 # This preserves the existing content of oc.accounts, may need to clean that manually from time to time.
 oc.accounts: oc.journal  # declare any new accounts found in the journal
-	((cat oc.accounts; hledger -f oc.journal accounts --undeclared --directives) | sort > oc.accounts.new && mv oc.accounts.new oc.accounts) || (rm -f oc.accounts.new; false)
+	((cat oc.accounts; $(HLEDGER) -f oc.journal accounts --undeclared --directives) | sort > oc.accounts.new && mv oc.accounts.new oc.accounts) || (rm -f oc.accounts.new; false)
 
 CHECKS=accounts commodities balanced ordereddates
 check:  # check the journal for problems
 	@printf "checking journal.. "
-	@$(HLEDGER) check $(CHECKS) && echo "all ok ✅"
+	@$(HLEDGER) -f oc.journal check $(CHECKS) && echo "all ok ✅"
 
 journal: oc.journal oc.accounts check Makefile  # make oc.journal + oc.accounts + check
 
