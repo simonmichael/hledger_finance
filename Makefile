@@ -1,6 +1,6 @@
 SED=gsed
 RG=rg -IN --sort=path
-HLEDGER=hledger -f oc.journal
+HLEDGER=hledger-1.30
 
 help: # list make targets
 	@printf "hledger project finance makefile. This mainly manages data, for reports see ./hlfi\nTargets:\n"
