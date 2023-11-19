@@ -24,7 +24,7 @@ oc.journal: oc.csv oc.csv.rules  # regenerate journal from csv
 oc.accounts: oc.journal  # declare any new accounts found in the journal
 	((cat oc.accounts; hledger -f oc.journal accounts --undeclared --directives) | sort > oc.accounts.new && mv oc.accounts.new oc.accounts) || (rm -f oc.accounts.new; false)
 
-CHECKS=accounts commodities balancednoautoconversion ordereddates
+CHECKS=accounts commodities balanced ordereddates
 check:  # check the journal for problems
 	@printf "checking journal.. "
 	@$(HLEDGER) check $(CHECKS) && echo "all ok ✅"
