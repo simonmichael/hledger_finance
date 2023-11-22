@@ -1,6 +1,6 @@
 SED=gsed
 RG=rg -IN --sort=path
-HLEDGER=hledger-1.30
+HLEDGER=hledger
 
 help: # list make targets
 	@printf "hledger project finance makefile. This mainly manages data, for reports see ./hlfi\nTargets:\n"
@@ -18,7 +18,7 @@ oc.csv: ~/Downloads/hledger-transactions.csv   # gather any downloaded opencolle
 .INTERMEDIATE: ~/Downloads/hledger-transactions.csv
 
 oc.journal: oc.csv oc.csv.rules  # regenerate journal from csv
-	((printf "include oc.accounts\n\n"; $(HLEDGER) -f $< print -x) >new.journal && mv new.journal oc.journal) || (rm -f new.journal; false)
+	((printf "include oc.accounts\n\n"; $(HLEDGER) -f $< print -x -c '1.00 USD' --round=soft) >new.journal && mv new.journal oc.journal) || (rm -f new.journal; false)
 
 # This preserves the existing content of oc.accounts, may need to clean that manually from time to time.
 oc.accounts: oc.journal  # declare any new accounts found in the journal
