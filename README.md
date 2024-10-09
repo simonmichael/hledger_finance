@@ -15,15 +15,16 @@ In this directory:
 
 ## Reports
 
-The rest of this README is reports, regenerated semi-automatically.
-These are pretty rough, but viewable on Github.
-Last column dates are an approximation, read them as "most recent report date".
+The rest of this README is reports, which attempt to be somewhat readable on Github.
+These are regenerated semi-automatically, and may improve as data and rules are cleaned up.
+Last column dates are an approximation, read them as "when these were last updated".
 
 <!--
 Update procedure:
 1. Manually download the latest oc.csv, monthly or so.
   (We get most new transactions on the 23rd and 24th of the month and for a few days around start of month.)
-  https://opencollective.com/hledger/transactions?kind=CONTRIBUTION%2CEXPENSE%2CHOST_FEE (all kinds selected)
+  View latest OC transactions (https://opencollective.com/hledger/transactions)
+  ensure all KINDs selected:   https://opencollective.com/hledger/transactions?kind=CONTRIBUTION%2CEXPENSE%2CHOST_FEE%2CPAYMENT_PROCESSOR_FEE%2CPAYMENT_PROCESSOR_COVER
   click Download CSV
 	click Export CSV
 2. `make update` to gather the csv, regenerate and check journal, update reports, and commit
