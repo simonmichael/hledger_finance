@@ -46,9 +46,9 @@ if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
  account1 revenues:donations:%oppositeAccountSlug
  amount2  %netAmount %currency_
  account2 assets:opencollective:%accountslug
- balance2 %balance_ %currency_
  amount3  -%paymentProcessorFee %currency_
  account3 expenses:fees:%paymentMethodService%payoutMethodType
+ balance2 %balance_ %currency_
 
 if %type DEBIT
  account1 expenses:misc:%oppositeAccountSlug 
@@ -65,13 +65,13 @@ if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
  account3 expenses:fees:%paymentMethodService%payoutMethodType
 
 if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
-& %kind HOST_FEE
+& %kind HOST_FEE|PAYMENT_PROCESSOR_FEE|PAYMENT_PROCESSOR_COVER
  comment id:%shortId, group:%shortGroup
  amount2  %netAmount %currency_
  account2 assets:opencollective:%accountslug
  amount1  -%amount %currency_
- account1 expenses:fees:open-source-collective
-#                    ^ fiscal host name, could use %oppositeAccountSlug
+ account1 expenses:fees:%oppositeAccountName
+
 
 # ** Misc (all dates)
 
@@ -89,6 +89,7 @@ if %kind (CONTRIBUTION|EXPENSE)
 # & %datetime 202[0-3]
 if
 %description october swimmer
+%description brandon j wong
 %description brandon j wong
  comment id:%shortId, group:%shortGroup, payment-method:STRIPE, payment-type:CREDITCARD
  account3 expenses:fees:STRIPE
