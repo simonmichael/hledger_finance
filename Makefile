@@ -10,7 +10,7 @@ help: # list make targets
 help-%: # list make targets matching a pattern
 	@make -s help | $(RG) -i "$*" || true
 
-# gather the download from https://opencollective.com/hledger/transactions?kind=CONTRIBUTION%2CEXPENSE%2CHOST_FEE > Download CSV
+# Gather the latest download from Open Collective. See README.
 oc.csv: ~/Downloads/hledger-transactions.csv   # gather any downloaded opencollective hledger CSV here
 	-mv $@ $@.old || true
 	mv $< $@
@@ -32,7 +32,7 @@ check:  # check the journal for problems
 journal: oc.journal oc.accounts check Makefile  # make oc.journal + oc.accounts + check
 
 README.md: journal Makefile  # update reports and charts in README.md
-	$(SED) '/<!-- REPORTS: -->/q' README.md >.README.md
+	$(SED) '/<!-- REPORTS:/q' README.md >.README.md
 	./hlfi reports -O html >>.README.md
 	echo >>.README.md
 	echo '```' >>.README.md

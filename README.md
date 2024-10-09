@@ -4,22 +4,35 @@ and perhaps add additional entries to manage project finances.
 This is also serves as a real-world example, collaborative accounting
 practice, and dogfooding. See also: https://hledger.org/finance
 
+This repo is separate from the main hledger repo,
+but typically checked out as `finance/` within the latter's working copy.
+
+In this directory:
+
+- `Makefile` - maintenance scripts, eg for updating the journal and readme. `make` to see help.
+- `hlfi`     - financial report scripts. `./hlfi` to see help.
+- `oc.*`     - CSV, rules, journals for our Open Collective transactions
+
 ## Reports
+
+The rest of this README is reports, regenerated semi-automatically.
+These are pretty rough, but viewable on Github.
+Last column dates are an approximation, read them as "most recent report date".
+
 <!--
-We most often get new transactions on the 23rd and 24th and for a few days around start of month.
-To update:
-1. Download latest oc.csv
-    https://opencollective.com/hledger/transactions?kind=CONTRIBUTION%2CEXPENSE%2CHOST_FEE (all kinds selected)
-    click Download CSV
+Update procedure:
+1. Manually download the latest oc.csv, monthly or so.
+  (We get most new transactions on the 23rd and 24th of the month and for a few days around start of month.)
+  https://opencollective.com/hledger/transactions?kind=CONTRIBUTION%2CEXPENSE%2CHOST_FEE (all kinds selected)
+  click Download CSV
 	click Export CSV
 2. `make update` to gather the csv, regenerate and check journal, update reports, and commit
 3. Review commits, investigate/resolve any hledger version-related changes
 4. Check latest calculated OC balance against the one reported on the website
-   (hledger -f oc.journal bs, https://opencollective.com/hledger#category-BUDGET > TODAY'S BALANCE)
+  (hledger -f oc.journal bs, https://opencollective.com/hledger#category-BUDGET > TODAY'S BALANCE)
 5. Push to https://github.com/simonmichael/hledger_finance
 -->
-(Last column dates are an approximation, read them as "most recent report date".)
-<!-- REPORTS: -->
+<!-- REPORTS: (don't edit below) -->
 
 <br>
 <table><tr><th colspan="6" style="text-align:left"><h2>Balance Sheet 2023-03-31..2023-12-31</h2></th></tr><tr><th></th><th>Commodity</th><th>2023-03-31</th><th>2023-06-30</th><th>2023-09-30</th><th>2023-12-31</th></tr><tr><td colspan="6">&nbsp;</td></tr><tr><th colspan="6" style="text-align:left">Assets</th></tr><tr><td class="account" style="text-align:left">opencollective:hledger</td><td class="amount" style="text-align:right">USD</td><td class="amount" style="text-align:right">7187.88</td><td class="amount" style="text-align:right">7287.42</td><td class="amount" style="text-align:right">7662.92</td><td class="amount" style="text-align:right">7460.48</td></tr><tr><th style="text-align:left">total</th><th class="amount coltotal" style="text-align:right">USD</th><th class="amount coltotal" style="text-align:right">7187.88</th><th class="amount coltotal" style="text-align:right">7287.42</th><th class="amount coltotal" style="text-align:right">7662.92</th><th class="amount coltotal" style="text-align:right">7460.48</th></tr><tr><td colspan="6">&nbsp;</td></tr><tr><th colspan="6" style="text-align:left">Liabilities</th></tr><tr><td colspan="6">&nbsp;</td></tr><tr><th style="text-align:left">Net:</th><th class="amount coltotal" style="text-align:right">USD</th><th class="amount coltotal" style="text-align:right">7187.88</th><th class="amount coltotal" style="text-align:right">7287.42</th><th class="amount coltotal" style="text-align:right">7662.92</th><th class="amount coltotal" style="text-align:right">7460.48</th></tr></table>
