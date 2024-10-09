@@ -20,7 +20,8 @@ These are regenerated semi-automatically, and may improve as data and rules are 
 Last column dates are an approximation, read them as "when these were last updated".
 
 <!--
-Update procedure:
+Process:
+
 1. Manually download the latest oc.csv, monthly or so.
   (We get most new transactions on the 23rd and 24th of the month and for a few days around start of month.)
   View latest OC transactions (https://opencollective.com/hledger/transactions)
@@ -32,6 +33,8 @@ Update procedure:
 4. Check latest calculated OC balance against the one reported on the website
   (hledger -f oc.journal bs, https://opencollective.com/hledger#category-BUDGET > TODAY'S BALANCE)
 5. Push to https://github.com/simonmichael/hledger_finance
+
+TODO: add non-OC transactions: bounty donations..
 -->
 <!-- REPORTS: (don't edit below) -->
 
