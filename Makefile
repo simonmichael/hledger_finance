@@ -55,7 +55,7 @@ README.md readme: journal Makefile  # update reports and charts in README.md
 	echo '```' >>.README.md
 	./hlfi l-x >>.README.md
 	echo '```' >>.README.md
-	$(SED) -E -z 's/<style>[^>]+><link[^>]+>/\n<br>\n/g' <.README.md >README.md  # remove HTML reports' CSS
+	$(SED) -E -z 's/<link[^>]+><style>[^>]+>/\n<br>\n/g' <.README.md >README.md  # remove HTML reports' CSS
 	rm -f .README.md
 
 update:  # make journal + README.md and commit both
