@@ -1,6 +1,8 @@
 SED=gsed
 RG=rg -IN --sort=path
-HLEDGER=hledger
+
+# hlfi uses ./hledger.conf, but this Makefile currently does not, so -n needed.
+HLEDGER=hledger -n
 
 help: # list make targets
 	@printf "hledger project finance makefile. This mainly manages data, for reports see ./hlfi\nTargets:\n"
@@ -31,7 +33,7 @@ check:  # check the journal for problems
 
 journal: oc.journal oc.accounts check Makefile  # make oc.journal + oc.accounts + check
 
-README.md: journal Makefile  # update reports and charts in README.md
+README.md readme: journal Makefile  # update reports and charts in README.md
 	$(SED) '/<!-- REPORTS:/q' README.md >.README.md
 	./hlfi reports -O html >>.README.md
 	echo >>.README.md
