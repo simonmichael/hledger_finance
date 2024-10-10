@@ -23,6 +23,7 @@ oc.journal: oc.csv oc.csv.rules  # regenerate journal from csv
 	((printf "include oc.accounts\n\n"; $(HLEDGER) -f $< print -x -c '1.00 USD' --round=soft) >new.journal && mv new.journal oc.journal) || (rm -f new.journal; false)
 
 # This preserves the existing content of oc.accounts, may need to clean that manually from time to time.
+# XXX Doesn't preserve display order, have to fix manually right now
 oc.accounts: oc.journal  # declare any new accounts found in the journal
 	((cat oc.accounts; $(HLEDGER) -f oc.journal accounts --undeclared --directives) | sort > oc.accounts.new && mv oc.accounts.new oc.accounts) || (rm -f oc.accounts.new; false)
 
