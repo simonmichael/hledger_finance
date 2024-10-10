@@ -27,7 +27,7 @@ if %type DEBIT
 
 # < 2021-06-01
 if %date ^(20[01]|2020|2021-0[1-5])
- comment id:%shortId, group:%shortGroup, payment-method:%paymentMethodService, payment-type:%paymentMethodType
+ comment id:%shortId, group:%shortGroup, payment-service:%paymentMethodService, payment-type:%paymentMethodType
  amount1  -%amount %currency_
  account1 revenues:donations:%oppositeAccountName
  amount2  %netAmount %currency_
@@ -47,7 +47,7 @@ if %date ^(20[01]|2020|2021-0[1-5])
 # In 2022 downloads, the balance field's values didn't work, but in 2023 it seems fixed.
 if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
 & %kind CONTRIBUTION
- comment id:%shortId, group:%shortGroup, payment-method:%paymentMethodService, payment-type:%paymentMethodType
+ comment id:%shortId, group:%shortGroup, payment-service:%paymentMethodService, payment-type:%paymentMethodType
  amount1  -%amount %currency_
  account1 revenues:donations:%oppositeAccountName
  amount2  %netAmount %currency_
@@ -79,7 +79,7 @@ if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
 
 if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
 & %kind EXPENSE
- comment id:%shortId, group:%shortGroup, payment-method:%paymentMethodService, payment-type:%paymentMethodType
+ comment id:%shortId, group:%shortGroup, payment-service:%paymentMethodService, payment-type:%paymentMethodType
  amount1  -%amount %currency_
  amount2  %netAmount %currency_
  account2 assets:opencollective:%accountName
@@ -93,7 +93,7 @@ if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
 
 if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
 & %kind HOST_FEE|PAYMENT_PROCESSOR_FEE|PAYMENT_PROCESSOR_COVER
- comment id:%shortId, group:%shortGroup
+ comment id:%shortId, group:%shortGroup, payment-service:%paymentMethodService, payment-type:%paymentMethodType
  amount2  %netAmount %currency_
  account2 assets:opencollective:%accountName
  amount1  -%amount %currency_
@@ -117,6 +117,6 @@ if %kind (CONTRIBUTION|EXPENSE)
 # if
 # %description october swimmer
 # %description brandon j wong
-#  comment id:%shortId, group:%shortGroup, payment-method:STRIPE, payment-type:CREDITCARD
+#  comment id:%shortId, group:%shortGroup, payment-service:STRIPE, payment-type:CREDITCARD
 #  account3 expenses:fees:STRIPE
 
