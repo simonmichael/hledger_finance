@@ -1,0 +1,5 @@
+commodity USD
+
+include accounts.journal
+include oc.journal
+include extra.journal

@@ -20,19 +20,18 @@ oc.csv: ~/Downloads/hledger-transactions.csv   # gather any downloaded opencolle
 .INTERMEDIATE: ~/Downloads/hledger-transactions.csv
 
 oc.journal: oc.csv oc.csv.rules  # regenerate journal from csv
-	((printf "include oc.accounts\n\n"; $(HLEDGER) -f $< print -x -c '1.00 USD' --round=soft) >new.journal && mv new.journal oc.journal) || (rm -f new.journal; false)
+	($(HLEDGER) -f $< print -x -c '1.00 USD' --round=soft >new.journal && mv new.journal oc.journal) || (rm -f new.journal; false)
 
-# This preserves the existing content of oc.accounts, may need to clean that manually from time to time.
-# XXX Doesn't preserve display order, have to fix manually right now
-oc.accounts: oc.journal  # declare any new accounts found in the journal
-	((cat oc.accounts; $(HLEDGER) -f oc.journal accounts --undeclared --directives) | sort > oc.accounts.new && mv oc.accounts.new oc.accounts) || (rm -f oc.accounts.new; false)
+# This preserves the existing content (and display order); may need to clean up manually from time to time.
+accounts.journal: main.journal oc.journal extra.journal # declare any new accounts found in the journals
+	((cat $@; $(HLEDGER) -f main.journal accounts --undeclared --directives) > $@.new && mv $@.new $@) || (rm -f $@.new; false)
 
 CHECKS=accounts commodities balanced ordereddates
 check:  # check the journal for problems
 	@printf "checking journal.. "
-	@$(HLEDGER) -f oc.journal check $(CHECKS) && echo "all ok ✅"
+	@$(HLEDGER) -f main.journal check $(CHECKS) && echo "all ok ✅"
 
-journal: oc.journal oc.accounts check Makefile  # make oc.journal + oc.accounts + check
+journal: oc.journal accounts.journal check Makefile  # make oc.journal + accounts.journal + check
 
 README.md readme reports: journal Makefile  # update reports and charts in README.md
 	$(SED) '/<!-- REPORTS:/q' README.md >.README.md
@@ -63,8 +62,9 @@ README.md readme reports: journal Makefile  # update reports and charts in READM
 
 update:  # make journal + README.md and commit both
 	@make README.md
-	git commit -m "update csv"      -- oc.csv          || echo "csv has not changed"
-	git commit -m "update journal"  -- oc.journal      || echo "journal has not changed"
-	git commit -m "update accounts" -- oc.accounts     || echo "accounts have not changed"
-	git commit -m "update readme reports" -- README.md || echo "readme reports have not changed"
+	git commit -m "update oc csv"      -- oc.csv           || echo "oc csv has not changed"
+	git commit -m "update oc journal"  -- oc.journal       || echo "oc journal has not changed"
+	git commit -m "update extra journal"  -- extra.journal || echo "extra journal has not changed"
+	git commit -m "update accounts" -- accounts.journal    || echo "accounts have not changed"
+	git commit -m "update reports" -- README.md            || echo "reports have not changed"
 

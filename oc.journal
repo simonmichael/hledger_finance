@@ -1,5 +1,3 @@
-include oc.accounts
-
 2017-01-20 Monthly contribution from Simon Michael (Bronze)  ; id:f50dc2b7, group:8b272eb0, payment-method:STRIPE, payment-type:CREDITCARD
     revenues:donations:simon                  -10.00 USD
     assets:opencollective:hledger               8.41 USD = 8.41 USD

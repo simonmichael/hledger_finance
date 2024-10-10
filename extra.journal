@@ -1,0 +1,30 @@
+# Extra transactions not found in Open Collective data.
+
+2023-12-15 pepe_pecas | donated regression finder bounty  ; issue:2134
+    expenses:bounties:pepe_pecas                  50 USD
+    revenues:donations:pepe_pecas                -50 USD
+
+2024-01-25 markokocic | donated regression finder bounty  ; issue:2153
+    expenses:bounties:markokocic                  50 USD
+    revenues:donations:markokocic                -50 USD
+
+2024-09-18 usaAmch | (#2137) donated regression finder bounty  ; issue:2072
+    expenses:bounties:usaAmch                     50 USD
+    revenues:donations:usaAmch                   -50 USD
+
+2024-09-22 Bas van Dijk | (#2224) donated regression fixer bounty  ; issue:2196
+    expenses:bounties:Bas van Dijk                50 USD
+    revenues:donations:Bas van Dijk              -50 USD
+
+2024-09-22 Bas van Dijk | donated regression finder bounty  ; issue:2225
+    expenses:bounties:Bas van Dijk                50 USD
+    revenues:donations:Bas van Dijk              -50 USD
+
+2024-09-25 usaAmch | donated regression finder bounty  ; issue:2115
+    expenses:bounties:usaAmch                     50 USD
+    revenues:donations:usaAmch                   -50 USD
+
+2024-10-09 akanshaG42 | donated regression finder bounty  ; issue:2254
+    expenses:bounties:akanshaG42                  50 USD
+    revenues:donations:akanshaG42                -50 USD
+
