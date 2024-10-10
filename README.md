@@ -17,7 +17,6 @@ In this directory:
 
 The rest of this README is reports, which attempt to be somewhat readable on Github.
 These are regenerated semi-automatically, and may improve as data and rules are cleaned up.
-Last column dates are an approximation, read them as "when these were last updated".
 
 <!--
 Process:
