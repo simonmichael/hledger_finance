@@ -29,13 +29,13 @@ if %type DEBIT
 if %date ^(20[01]|2020|2021-0[1-5])
  comment id:%shortId, group:%shortGroup, payment-method:%paymentMethodService, payment-type:%paymentMethodType
  amount1  -%amount %currency_
- account1 revenues:donations:%oppositeAccountSlug
+ account1 revenues:donations:%oppositeAccountName
  amount2  %netAmount %currency_
- account2 assets:opencollective:%accountslug
+ account2 assets:opencollective:%accountName
  balance2 %balance_ %currency_
  amount3  -%paymentProcessorFee %currency_
  account3 expenses:fees:%paymentMethodService%payoutMethodType
- account4 expenses:fees:open-source-collective
+ account4 expenses:fees:Open Source Collective
 #                    ^ our fiscal host name, hard-coded
 
 # ** From 2021-06-01, host fee appears as a separate transaction.
@@ -49,9 +49,9 @@ if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
 & %kind CONTRIBUTION
  comment id:%shortId, group:%shortGroup, payment-method:%paymentMethodService, payment-type:%paymentMethodType
  amount1  -%amount %currency_
- account1 revenues:donations:%oppositeAccountSlug
+ account1 revenues:donations:%oppositeAccountName
  amount2  %netAmount %currency_
- account2 assets:opencollective:%accountslug
+ account2 assets:opencollective:%accountName
  balance2 %balance_ %currency_
 
 # augment the above
@@ -65,24 +65,24 @@ if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
 if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
 & %kind CONTRIBUTION
 & %type DEBIT
-  account1 expenses:misc:%oppositeAccountSlug
+  account1 expenses:misc:%oppositeAccountName
 
 # override the above
 if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
 & %kind CONTRIBUTION
 & %isRefund REFUND
- account1 revenues:donations:%oppositeAccountSlug
+ account1 revenues:donations:%oppositeAccountName
 
 if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
 & %description expense.*bounty
- account1 expenses:bounties:%oppositeAccountSlug
+ account1 expenses:bounties:%oppositeAccountName
 
 if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
 & %kind EXPENSE
  comment id:%shortId, group:%shortGroup, payment-method:%paymentMethodService, payment-type:%paymentMethodType
  amount1  -%amount %currency_
  amount2  %netAmount %currency_
- account2 assets:opencollective:%accountslug
+ account2 assets:opencollective:%accountName
  amount3  -%paymentProcessorFee %currency_
  account3 expenses:fees:%paymentMethodService%payoutMethodType
 
@@ -90,7 +90,7 @@ if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
 & %kind HOST_FEE|PAYMENT_PROCESSOR_FEE|PAYMENT_PROCESSOR_COVER
  comment id:%shortId, group:%shortGroup
  amount2  %netAmount %currency_
- account2 assets:opencollective:%accountslug
+ account2 assets:opencollective:%accountName
  amount1  -%amount %currency_
  account1 expenses:fees:%oppositeAccountName
 
