@@ -34,7 +34,7 @@ if %date ^(20[01]|2020|2021-0[1-5])
  account2 assets:opencollective:%accountName
  balance2 %balance_ %currency_
  amount3  -%paymentProcessorFee %currency_
- account3 expenses:fees:%paymentMethodService%payoutMethodType
+ account3 expenses:fees:%paymentMethodService
  account4 expenses:fees:Open Source Collective
 #                    ^ our fiscal host name, hard-coded
 
@@ -59,7 +59,7 @@ if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
 & %kind CONTRIBUTION
 & %paymentProcessorFee [1-9]
  amount3  -%paymentProcessorFee %currency_
- account3 expenses:fees:%paymentMethodService%payoutMethodType
+ account3 expenses:fees:%paymentMethodService
 
 # override the above
 if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
@@ -84,7 +84,7 @@ if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
  amount2  %netAmount %currency_
  account2 assets:opencollective:%accountName
  amount3  -%paymentProcessorFee %currency_
- account3 expenses:fees:%paymentMethodService%payoutMethodType
+ account3 expenses:fees:%paymentMethodService
 
 if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
 & %kind HOST_FEE|PAYMENT_PROCESSOR_FEE|PAYMENT_PROCESSOR_COVER
