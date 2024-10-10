@@ -1,9 +1,59 @@
-#account expenses:bounties:arne-schlueter
+# keep these in preferred display order
 account assets
 account assets:opencollective:hledger  ; type:C
 account liabilities
 account equity
 account revenues
+account revenues:donations
+account expenses
+account expenses:bounties
+account expenses:fees
+account expenses:misc
+
+# keep the rest alphabetised
+
+account expenses:bounties:Bas van Dijk
+account expenses:bounties:aarrcc
+account expenses:bounties:akanshaG42
+account expenses:bounties:allan-odgaard
+account expenses:bounties:andras-fabian
+account expenses:bounties:chris-lemaire
+account expenses:bounties:david-d-lowe
+account expenses:bounties:eric-langlois
+account expenses:bounties:holmescharles
+account expenses:bounties:ivan-popovych
+account expenses:bounties:jakub-zarybnicky
+account expenses:bounties:julian-andres-klode
+account expenses:bounties:markokocic
+account expenses:bounties:pablo6
+account expenses:bounties:pepe_pecas
+account expenses:bounties:petr-slansky
+account expenses:bounties:pranesh-prakash
+account expenses:bounties:rajeev-n
+account expenses:bounties:romain-gehrig
+account expenses:bounties:simon
+account expenses:bounties:stephen-morgan
+account expenses:bounties:usaAmch
+account expenses:bounties:william-pierce
+account expenses:bounties:yann-buechau
+account expenses:fees:OPENCOLLECTIVE
+account expenses:fees:Open Source Collective
+account expenses:fees:Other Payment Processor
+account expenses:fees:PAYPAL
+account expenses:fees:PAYPALPAYPAL
+account expenses:fees:PayPal
+account expenses:fees:STRIPE
+account expenses:fees:Stripe
+account expenses:fees:WISEBANK_ACCOUNT
+account expenses:fees:open-source-collective
+account expenses:fees:unknown-processor
+account expenses:misc:brandonbarker
+account expenses:misc:marc24
+account expenses:misc:sandstormcommunity
+account expenses:misc:simon
+account expenses:misc:support-ukraine
+account revenues:donations:Bas van Dijk
+account revenues:donations:akanshaG42
 account revenues:donations:andre-bubel
 account revenues:donations:anselm-peischl
 account revenues:donations:apmhelp
@@ -35,6 +85,7 @@ account revenues:donations:joyfulsystems
 account revenues:donations:ken-ewing
 account revenues:donations:marc11
 account revenues:donations:marc24
+account revenues:donations:markokocic
 account revenues:donations:markus-schmitz
 account revenues:donations:michael-martinides
 account revenues:donations:msatc
@@ -43,6 +94,7 @@ account revenues:donations:oldicelandic
 account revenues:donations:olsensrevision
 account revenues:donations:pablo6
 account revenues:donations:paulo-makdisse
+account revenues:donations:pepe_pecas
 account revenues:donations:peti
 account revenues:donations:rhyanki
 account revenues:donations:richard-kelly
@@ -52,53 +104,7 @@ account revenues:donations:simon
 account revenues:donations:tapform
 account revenues:donations:targeted-organic-traffic
 account revenues:donations:tony-xiao1
+account revenues:donations:usaAmch
 account revenues:donations:user-7115e1d5
 account revenues:donations:writersperhour
 account revenues:donations:yann-buechau
-account expenses
-account expenses:bounties:aarrcc
-account expenses:bounties:allan-odgaard
-account expenses:bounties:andras-fabian
-account expenses:bounties:chris-lemaire
-account expenses:bounties:david-d-lowe
-account expenses:bounties:eric-langlois
-account expenses:bounties:holmescharles
-account expenses:bounties:ivan-popovych
-account expenses:bounties:jakub-zarybnicky
-account expenses:bounties:julian-andres-klode
-account expenses:bounties:pablo6
-account expenses:bounties:petr-slansky
-account expenses:bounties:pranesh-prakash
-account expenses:bounties:rajeev-n
-account expenses:bounties:romain-gehrig
-account expenses:bounties:simon
-account expenses:bounties:stephen-morgan
-account expenses:bounties:william-pierce
-account expenses:bounties:yann-buechau
-account expenses:fees:OPENCOLLECTIVE
-account expenses:fees:Open Source Collective
-account expenses:fees:Other Payment Processor
-account expenses:fees:PAYPAL
-account expenses:fees:PAYPALPAYPAL
-account expenses:fees:PayPal
-account expenses:fees:STRIPE
-account expenses:fees:Stripe
-account expenses:fees:WISEBANK_ACCOUNT
-account expenses:fees:open-source-collective
-account expenses:fees:unknown-processor
-account expenses:misc:brandonbarker
-account expenses:misc:marc24
-account expenses:misc:sandstormcommunity
-account expenses:misc:simon
-account expenses:misc:support-ukraine
-account revenues:donations:Bas van Dijk
-account revenues:donations:akanshaG42
-account revenues:donations:markokocic
-account revenues:donations:pepe_pecas
-account revenues:donations:usaAmch
-account expenses:bounties:Bas van Dijk
-account expenses:bounties:akanshaG42
-account expenses:bounties:markokocic
-account expenses:bounties:pepe_pecas
-account expenses:bounties:usaAmch
-account expenses:misc
