@@ -15,6 +15,12 @@ newest-first
 fields date, shortId, shortGroup, description, type, kind, isRefund, isRefunded, shortRefundId, displayAmount, amount, paymentProcessorFee, netAmount, balance_, currency_, accountSlug, accountName, oppositeAccountSlug, oppositeAccountName, paymentMethodService, paymentMethodType, expenseType, expenseTags, payoutMethodType, merchantId
 date-format %Y-%m-%dT%H:%M:%S
 
+# override default account names
+if %type CREDIT
+ account1 income:misc
+if %type DEBIT
+ account1 expenses:misc
+
 # ** Before 2021-06-01, host fee is not shown explicitly in the CSV.
 # "datetime","shortId","shortGroup","description","type","kind","isRefund","isRefunded","shortRefundId","displayAmount","amount","paymentProcessorFee","netAmount","currency","accountSlug","accountName","oppositeAccountSlug","oppositeAccountName","paymentMethodService","paymentMethodType","expenseType","expenseTags","payoutMethodType","merchantId"
 # "2021-05-01T01:13:51","46974380","8aa606bd","Monthly contribution from October Swimmer (Sponsors)","CREDIT","CONTRIBUTION","","","","$100.00 USD",100,-3.2,86.8,"USD","hledger","hledger","october-swimmer","October Swimmer","STRIPE","CREDITCARD",,"",,
@@ -46,13 +52,29 @@ if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
  account1 revenues:donations:%oppositeAccountSlug
  amount2  %netAmount %currency_
  account2 assets:opencollective:%accountslug
- amount3  -%paymentProcessorFee %currency_
- account3 expenses:fees:%paymentMethodService%payoutMethodType
  balance2 %balance_ %currency_
 
-if %type DEBIT
- account1 expenses:misc:%oppositeAccountSlug 
-if %description bounty
+# augment the above
+if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
+& %kind CONTRIBUTION
+& %paymentProcessorFee [1-9]
+ amount3  -%paymentProcessorFee %currency_
+ account3 expenses:fees:%paymentMethodService%payoutMethodType
+
+# override the above
+if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
+& %kind CONTRIBUTION
+& %type DEBIT
+  account1 expenses:misc:%oppositeAccountSlug
+
+# override the above
+if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
+& %kind CONTRIBUTION
+& %isRefund REFUND
+ account1 revenues:donations:%oppositeAccountSlug
+
+if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
+& %description expense.*bounty
  account1 expenses:bounties:%oppositeAccountSlug
 
 if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
@@ -87,9 +109,9 @@ if %kind (CONTRIBUTION|EXPENSE)
 # paymentMethodService, paymentMethodType values (STRIPE, CREDITCARD).
 # Work around with some hard-coded rules for 2020-2023 for now.
 # & %datetime 202[0-3]
-if
-%description october swimmer
-%description brandon j wong
-%description brandon j wong
- comment id:%shortId, group:%shortGroup, payment-method:STRIPE, payment-type:CREDITCARD
- account3 expenses:fees:STRIPE
+# if
+# %description october swimmer
+# %description brandon j wong
+#  comment id:%shortId, group:%shortGroup, payment-method:STRIPE, payment-type:CREDITCARD
+#  account3 expenses:fees:STRIPE
+
