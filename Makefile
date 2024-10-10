@@ -23,7 +23,7 @@ oc.journal: oc.csv oc.csv.rules  # regenerate journal from csv
 	($(HLEDGER) -f $< print -x -c '1.00 USD' --round=soft >new.journal && mv new.journal oc.journal) || (rm -f new.journal; false)
 
 # This preserves the existing content (and display order); may need to clean up manually from time to time.
-accounts.journal: main.journal oc.journal extra.journal # declare any new accounts found in the journals
+accounts.journal: main.journal oc.journal other.journal # declare any new accounts found in the journals
 	((cat $@; $(HLEDGER) -f main.journal accounts --undeclared --directives) > $@.new && mv $@.new $@) || (rm -f $@.new; false)
 
 CHECKS=accounts commodities balanced ordereddates
@@ -64,7 +64,7 @@ update:  # make journal + README.md and commit both
 	@make README.md
 	git commit -m "update oc csv"      -- oc.csv           || echo "oc csv has not changed"
 	git commit -m "update oc journal"  -- oc.journal       || echo "oc journal has not changed"
-	git commit -m "update extra journal"  -- extra.journal || echo "extra journal has not changed"
+	git commit -m "update other journal"  -- other.journal || echo "other journal has not changed"
 	git commit -m "update accounts" -- accounts.journal    || echo "accounts have not changed"
 	git commit -m "update reports" -- README.md            || echo "reports have not changed"
 

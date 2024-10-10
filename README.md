@@ -9,9 +9,12 @@ but typically checked out as `finance/` within the latter's working copy.
 
 In this directory:
 
-- `Makefile` - maintenance scripts, eg for updating the journal and readme. `make` to see help.
-- `hlfi`     - financial report scripts. `./hlfi` to see help.
-- `oc.*`     - CSV, rules, journals for our Open Collective transactions
+- `Makefile`      - maintenance scripts, eg for updating the journal and readme. `make` to see help.
+- `hlfi`          - financial report scripts. `./hlfi` to see help.
+- `hledger.conf`  - local hledger config
+- `main.journal`  - top-level journal file
+- `oc.*`          - CSV, rules, journal for hledger open collective transactions
+- `other.journal` - other transactions, manually recorded
 
 ## Reports
 
