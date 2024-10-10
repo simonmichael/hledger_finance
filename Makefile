@@ -37,25 +37,27 @@ README.md readme: journal Makefile  # update reports and charts in README.md
 	$(SED) '/<!-- REPORTS:/q' README.md >.README.md
 	./hlfi reports -O html >>.README.md
 	echo >>.README.md
+	echo '## Yearly Net Worth' >>.README.md
 	echo '```' >>.README.md
-	./hlfi b-a >>.README.md
+	./hlfi b-al >>.README.md
 	echo '```' >>.README.md
+	echo '## Yearly Net Income' >>.README.md
 	echo '```' >>.README.md
-	./hlfi b-r >>.README.md
+	./hlfi b-rx >>.README.md
 	echo '```' >>.README.md
-	echo '```' >>.README.md
-	./hlfi b-x >>.README.md
-	echo '```' >>.README.md
+	echo '## Assets Over Time' >>.README.md
 	echo '```' >>.README.md
 	./hlfi l-a >>.README.md
 	echo '```' >>.README.md
+	echo '## Revenues Over Time' >>.README.md
 	echo '```' >>.README.md
 	./hlfi l-r >>.README.md
 	echo '```' >>.README.md
+	echo '## Expenses Over Time' >>.README.md
 	echo '```' >>.README.md
 	./hlfi l-x >>.README.md
 	echo '```' >>.README.md
-	$(SED) -E -z 's/<link[^>]+><style>[^>]+>/\n<br>\n/g' <.README.md >README.md  # remove HTML reports' CSS
+	$(SED) -E -z 's/<link[^>]+><style>[^>]+>/\n\n/g' <.README.md >README.md  # remove HTML reports' CSS
 	rm -f .README.md
 
 update:  # make journal + README.md and commit both
