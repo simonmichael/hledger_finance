@@ -36,9 +36,9 @@ reports() {  # show the basic reports in terminal. Add -o html for HTML.
 }
 
 barcharts() {  # show hledger-bar charts in terminal
-    b-al "$@"
-    echo
     b-rx "$@"
+    echo
+    b-al "$@"
     echo
 }
 
@@ -99,11 +99,11 @@ tyrx() { # this year's revenue and expenses
 }
 
 b-al() { # assets/liabilities bar chart
-    hledger-bar -v 100 -Y type:al -H "$@"
+    hledger-bar -v 150 -Y type:al -H "$@"
 }
 
 b-rx() { # revenues/expenses bar chart
-    hledger-bar -v 100 -Y type:rx --invert "$@"
+    hledger-bar -v 150 -Y type:rx --invert "$@"
 }
 
 # XXX with partial workaround for https://github.com/gooofy/drawilleplot/issues/4
