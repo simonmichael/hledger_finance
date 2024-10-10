@@ -29,6 +29,10 @@ reports() {  # show main README reports in terminal. Add -o html for HTML.
     echo
     echo "## Yearly Revenues & Expenses"
     yrx "$@"
+    echo
+    echo "## This Year's Revenues & Expenses"
+    tyrx "$@"
+    echo
 
     # too wide/detailed for github
     # echo
@@ -101,6 +105,10 @@ yrx() { # yearly revenues & expenses
 
 yal() { # yearly assets & liabilities
     hledger bal type:al -2 -HYT --transpose --drop 0 "$@"
+}
+
+tyrx() { # this year's revenue and expenses
+    hledger is -b1/1 -t -S "$@"
 }
 
 b-al() { # assets/liabilities bar chart

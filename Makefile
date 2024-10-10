@@ -34,7 +34,7 @@ check:  # check the journal for problems
 
 journal: oc.journal oc.accounts check Makefile  # make oc.journal + oc.accounts + check
 
-README.md readme: journal Makefile  # update reports and charts in README.md
+README.md readme reports: journal Makefile  # update reports and charts in README.md
 	$(SED) '/<!-- REPORTS:/q' README.md >.README.md
 	./hlfi reports -O html >>.README.md
 	echo >>.README.md
