@@ -37,13 +37,13 @@ README.md readme reports: journal Makefile  # update reports and charts in READM
 	$(SED) '/<!-- REPORTS:/q' README.md >.README.md
 	./hlfi reports -O html >>.README.md
 	echo >>.README.md
-	echo '## Yearly Net Assets' >>.README.md
-	echo '```' >>.README.md
-	./hlfi b-al >>.README.md
-	echo '```' >>.README.md
 	echo '## Yearly Net Income' >>.README.md
 	echo '```' >>.README.md
 	./hlfi b-rx >>.README.md
+	echo '```' >>.README.md
+	echo '## Yearly Net Assets' >>.README.md
+	echo '```' >>.README.md
+	./hlfi b-al >>.README.md
 	echo '```' >>.README.md
 	echo '## Assets Over Time' >>.README.md
 	echo '```' >>.README.md
