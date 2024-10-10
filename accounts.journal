@@ -41,12 +41,9 @@ account expenses:fees:OPENCOLLECTIVE
 account expenses:fees:Open Source Collective
 account expenses:fees:Other Payment Processor
 account expenses:fees:PAYPAL
-account expenses:fees:PAYPALPAYPAL
 account expenses:fees:PayPal
 account expenses:fees:STRIPE
 account expenses:fees:Stripe
-account expenses:fees:WISEBANK_ACCOUNT
-account expenses:fees:open-source-collective
 account expenses:fees:unknown-processor
 account expenses:misc:Sandstorm
 account expenses:misc:Support Ukraine
