@@ -82,22 +82,26 @@ reports *args: (yal args) (yrx args) (tyrx args)
 [group('reports')]
 yal *args:
     printf "## Yearly Assets & Liabilities\n"
-    $hledgerc bal type:al -2 -HYT --transpose --drop 0 "$args"
+    $hledgerc bal type:al -2 -HYT --transpose "$args"
     printf "\n"
 
 # Yearly revenues & expenses
 [group('reports')]
 yrx *args:
     printf "## Yearly Revenues & Expenses\n"
-    $hledgerc bal type:rx --invert -2 -YT --transpose --drop 0 "$args"
+    $hledgerc bal type:rx --invert -2 -YT --transpose "$args"
     printf "\n"
 
 # This year's revenue and expenses
 [group('reports')]
 tyrx *args:
     printf "## This Year's Revenues & Expenses\n"
-    $hledgerc is -b1/1 -t -S "$args"
+    $hledgerc is -b1/1 -t --drop 1 -S "$args"
     printf "\n"
+
+# Show charts in terminal
+[group('reports')]
+charts *args: (barcharts args) (linecharts args)
 
 # Show hledger-bar charts in terminal
 [group('reports')]
