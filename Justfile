@@ -33,12 +33,14 @@ csv:
 # Regenerate OC journal from csv.
 [group('maintenance')]
 journal:
-    ($hledger -f $csv print -x -c '1.00 USD' --round=soft >.oc.journal && mv .oc.journal oc.journal) || (rm -f .oc.journal; false)
+    ($hledger -f $csv print -x -c '1.00 USD' --round=soft >.oc.journal && mv .oc.journal oc.journal) \
+    || (rm -f .oc.journal; false)
 
 # Declare any new accounts found in the journals (preserving existing declarations' order).
 [group('maintenance')]
 accounts:
-    ((cat accounts.journal; $hledgerc accounts --undeclared --directives) >.accounts.journal && mv .accounts.journal accounts.journal) || (rm -f .accounts.journal; false)
+    ((cat accounts.journal; $hledgerc accounts --undeclared --directives) >.accounts.journal && mv .accounts.journal accounts.journal) \
+    || (rm -f .accounts.journal; false)
 
 # Check the journal for problems.
 [group('maintenance')]
@@ -81,21 +83,21 @@ reports *args: (yal args) (yrx args) (tyrx args)
 # Yearly assets & liabilities
 [group('reports')]
 yal *args:
-    printf "## Yearly Assets & Liabilities\n"
+    printf "\n## Yearly Assets & Liabilities\n"
     $hledgerc bal type:al -2 -HYT --transpose "$args"
     printf "\n"
 
 # Yearly revenues & expenses
 [group('reports')]
 yrx *args:
-    printf "## Yearly Revenues & Expenses\n"
+    printf "\n## Yearly Revenues & Expenses\n"
     $hledgerc bal type:rx --invert -2 -YT --transpose "$args"
     printf "\n"
 
 # This year's revenue and expenses
 [group('reports')]
 tyrx *args:
-    printf "## This Year's Revenues & Expenses\n"
+    printf "\n## This Year's Revenues & Expenses\n"
     $hledgerc is -b1/1 -t --drop 1 -S "$args"
     printf "\n"
 
