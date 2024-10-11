@@ -11,7 +11,7 @@ set export := true
 
 # List this justfile's recipes, optionally filtered by REGEX.
 @_help *REGEX:
-    if [[ '{{ REGEX }}' =~ '' ]]; then just -ul; else just -ul | rg -i '{{ REGEX }}'; true; fi
+    if [[ '{{ REGEX }}' =~ '' ]]; then just -ul; else just -ul --color=always | rg -i '{{ REGEX }}'; true; fi
 
 # Check this justfile for errors and non-standard format.
 @_chk:
