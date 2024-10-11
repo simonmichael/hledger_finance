@@ -1,15 +1,22 @@
+# hledger finance repo
+
 Here we track the hledger project's finances,
 for clarity, dogfooding, and as a real-world example of FOSS project accounting with hledger.
-See also: https://hledger.org/finance
+(shortcut: https://finance.hledger.org)
 
-This repo is separate from the main hledger repo, but typically checked out as `finance/` within the latter's working copy.
+See also the FINANCE section on the hledger website, eg
+[Sponsor hledger](https://hledger.org/sponsor.html),
+[Regression bounty](https://hledger.org/REGRESSIONS.html) and 
+[FINANCE notes](https://hledger.org/FINANCE.html).
+
 In this directory:
 
-- `Justfile`      - maintenance and reporting scripts. `just` to see help.
-- `hledger.conf`  - local hledger config
-- `main.journal`  - top-level journal file
-- `oc.*`          - CSV, rules, journal for hledger open collective transactions
-- `other.journal` - other transactions, manually recorded
+- `Justfile`          - maintenance and reporting scripts. `just` to see help.
+- `hledger.conf`      - local hledger config
+- `main.journal`      - top-level journal file
+- `accounts.journal`  - account declarations
+- `oc.*`              - hledger open collective CSV, conversion rules, journal
+- `other.journal`     - other transactions, manually recorded
 
 The rest of this README is reports, intended to be somewhat readable on Github.
 These are regenerated semi-automatically, and may improve as data and scripts are cleaned up.
