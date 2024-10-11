@@ -109,14 +109,3 @@ if %kind (CONTRIBUTION|EXPENSE)
 ^ %payoutMethodType ^$
  account3 expenses:fees:unknown-processor
 
-# In the 2023-11 download, some records (october swimmer from 2020 to
-# 2023-07, brandon j wong from 2021 to 2023) lost their previous
-# paymentMethodService, paymentMethodType values (STRIPE, CREDITCARD).
-# Work around with some hard-coded rules for 2020-2023 for now.
-# & %datetime 202[0-3]
-# if
-# %description october swimmer
-# %description brandon j wong
-#  comment id:%shortId, group:%shortGroup, payment-service:STRIPE, payment-type:CREDITCARD
-#  account3 expenses:fees:STRIPE
-
