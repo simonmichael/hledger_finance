@@ -3,7 +3,7 @@
 sed := 'gsed -E'
 hledger := 'hledger -n'
 hledgerc := 'hledger'
-csvsrc := '~/Downloads/hledger-transaction.csv'
+csvsrc := '/Users/simon/Downloads/hledger-transactions.csv'
 csv := 'oc.csv'
 checks := 'accounts commodities balanced ordereddates'
 
