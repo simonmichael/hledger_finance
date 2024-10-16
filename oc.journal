@@ -7205,3 +7205,11 @@
     expenses:fees:PayPal                 0.25 USD
     assets:opencollective:hledger       -0.25 USD
 
+2024-10-15 Expense from Simon Michael - regression bounty for #2071  ; id:70d731f8, group:a544b446, payment-service:PAYPAL, payment-type:PAYOUT
+    expenses:bounties:Simon Michael       50.00 USD
+    assets:opencollective:hledger        -50.00 USD
+
+2024-10-15 Transaction to PayPal  ; id:3f21b8a9, group:a544b446, payment-service:PAYPAL, payment-type:PAYOUT
+    expenses:fees:PayPal                 0.25 USD
+    assets:opencollective:hledger       -0.25 USD
+
