@@ -26,6 +26,12 @@ Update process:
 1. View latest OC transactions with all kinds selected:
    https://opencollective.com/hledger/transactions?kind=CONTRIBUTION%2CEXPENSE%2CHOST_FEE%2CPAYMENT_PROCESSOR_FEE%2CPAYMENT_PROCESSOR_COVER
 2. click Download CSV; click Export CSV
+   (settings:
+   Date range: All time, or whatever;
+   Timezone: Local or UTC, doesn't matter;
+   Exported Fields: Platform Default;
+   Separate transactions compatibility: off
+   )
 3. `just update` to gather the csv, regenerate and check journals, and update reports
 4. Review changes, investigate/resolve any issues, commit
 5. Check that the latest net asset balance matches https://opencollective.com/hledger#category-BUDGET > TODAY'S BALANCE
