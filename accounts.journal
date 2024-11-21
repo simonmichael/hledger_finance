@@ -29,12 +29,14 @@ account expenses:bounties:Rajeev N
 account expenses:bounties:Romain Gehrig
 account expenses:bounties:Simon Michael
 account expenses:bounties:Stephen Morgan
+account expenses:bounties:Thielemann
 account expenses:bounties:William Pierce
 account expenses:bounties:Yann Büchau
 account expenses:bounties:akanshaG42
 account expenses:bounties:arc
 account expenses:bounties:holmescharles
 account expenses:bounties:ishmaelavila
+account expenses:bounties:lakshayg
 account expenses:bounties:markokocic
 account expenses:bounties:pablo
 account expenses:bounties:pepe_pecas
@@ -46,6 +48,7 @@ account expenses:fees:PAYPAL
 account expenses:fees:PayPal
 account expenses:fees:STRIPE
 account expenses:fees:Stripe
+account expenses:fees:WISE
 account expenses:fees:unknown-processor
 account expenses:misc:Sandstorm
 account expenses:misc:Support Ukraine
