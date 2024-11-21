@@ -28,3 +28,11 @@
     expenses:bounties:akanshaG42                  50 USD
     revenues:donations:akanshaG42                -50 USD
 
+2024-10-15 * ishmaelavila | donated regression finder bounty for #2156
+    expenses:bounties:ishmaelavila                50 USD
+    revenues:donations:ishmaelavila              -50 USD
+
+2024-11-18 * GLakovnik | donated regression fixer bounty for #2284
+    expenses:bounties:GLakovnik                   50 USD
+    revenues:donations:GLakovnik                 -50 USD
+
