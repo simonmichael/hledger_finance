@@ -52,7 +52,8 @@ if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
  account1 revenues:donations:%oppositeAccountName
  amount2  %netAmount %currency_
  account2 assets:opencollective:%accountName
- balance2 %balance_ %currency_
+# this is wrong now, don't even bother
+# balance2 %balance_ %currency_
 
 # augment the above
 if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
