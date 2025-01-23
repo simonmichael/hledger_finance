@@ -6962,3 +6962,233 @@
     assets:opencollective:hledger      -50.25 USD
     expenses:fees:PAYPAL                 0.25 USD
 
+2024-11-23 Monthly contribution from Guest (Bronze)  ; id:20567740, group:79247ec0, payment-service:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:Guest            -2.00 USD
+    assets:opencollective:hledger        1.41 USD
+    expenses:fees:PAYPAL                 0.59 USD
+
+2024-11-23 Host Fee to Open Source Collective  ; id:3dd1b56b, group:79247ec0, payment-service:, payment-type:
+    expenses:fees:Open Source Collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2024-11-30 Monthly contribution from Richard Kelly (Bronze)  ; id:89150722, group:6c5b6e2e, payment-service:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:Richard Kelly       -2.00 USD
+    assets:opencollective:hledger           1.44 USD
+    expenses:fees:PAYPAL                    0.56 USD
+
+2024-11-30 Host Fee to Open Source Collective  ; id:e3ec03af, group:6c5b6e2e, payment-service:, payment-type:
+    expenses:fees:Open Source Collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2024-12-01 Monthly contribution from Rishi Hyanki (Bronze)  ; id:288eb4d8, group:ee54a9af, payment-service:STRIPE, payment-type:CREDITCARD
+    revenues:donations:Rishi Hyanki       -2.00 USD
+    assets:opencollective:hledger          1.64 USD
+    expenses:fees:STRIPE                   0.36 USD
+
+2024-12-01 Host Fee to Open Source Collective  ; id:00becd97, group:ee54a9af, payment-service:, payment-type:
+    expenses:fees:Open Source Collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2024-12-01 Monthly contribution from Brandon Barker (Bronze)  ; id:aac55900, group:4d5b5e13, payment-service:STRIPE, payment-type:CREDITCARD
+    revenues:donations:Brandon Barker       -2.00 USD
+    assets:opencollective:hledger            1.64 USD
+    expenses:fees:STRIPE                     0.36 USD
+
+2024-12-01 Host Fee to Open Source Collective  ; id:849cee07, group:4d5b5e13, payment-service:, payment-type:
+    expenses:fees:Open Source Collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2024-12-01 Monthly contribution from October Swimmer (Bronze)  ; id:11b4ba75, group:3d90fd55, payment-service:STRIPE, payment-type:CREDITCARD
+    revenues:donations:October Swimmer      -10.00 USD
+    assets:opencollective:hledger             9.41 USD
+    expenses:fees:STRIPE                      0.59 USD
+
+2024-12-01 Host Fee to Open Source Collective  ; id:0d80c1dd, group:3d90fd55, payment-service:, payment-type:
+    expenses:fees:Open Source Collective        1.00 USD
+    assets:opencollective:hledger              -1.00 USD
+
+2024-12-01 Monthly contribution from Jack Todaro (Bronze)  ; id:33647e52, group:724380be, payment-service:STRIPE, payment-type:CREDITCARD
+    revenues:donations:Jack Todaro       -5.00 USD
+    assets:opencollective:hledger         4.48 USD
+    expenses:fees:STRIPE                  0.52 USD
+
+2024-12-01 Host Fee to Open Source Collective  ; id:06cfaa3d, group:724380be, payment-service:, payment-type:
+    expenses:fees:Open Source Collective        0.50 USD
+    assets:opencollective:hledger              -0.50 USD
+
+2024-12-01 Monthly contribution from James Blachly (Bronze)  ; id:142eac8c, group:4e15f2b2, payment-service:STRIPE, payment-type:CREDITCARD
+    revenues:donations:James Blachly       -2.00 USD
+    assets:opencollective:hledger           1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2024-12-01 Host Fee to Open Source Collective  ; id:43ef4d7e, group:4e15f2b2, payment-service:, payment-type:
+    expenses:fees:Open Source Collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2024-12-01 Monthly contribution from Ken Ewing (Bronze)  ; id:c4eee7f5, group:3770fa94, payment-service:STRIPE, payment-type:CREDITCARD
+    revenues:donations:Ken Ewing        -2.00 USD
+    assets:opencollective:hledger        1.64 USD
+    expenses:fees:STRIPE                 0.36 USD
+
+2024-12-01 Host Fee to Open Source Collective  ; id:77024943, group:3770fa94, payment-service:, payment-type:
+    expenses:fees:Open Source Collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2024-12-01 Monthly contribution from Frank (Bronze)  ; id:4c1ad1eb, group:caeb2695, payment-service:STRIPE, payment-type:CREDITCARD
+    revenues:donations:Frank            -2.00 USD
+    assets:opencollective:hledger        1.64 USD
+    expenses:fees:STRIPE                 0.36 USD
+
+2024-12-01 Host Fee to Open Source Collective  ; id:905fceef, group:caeb2695, payment-service:, payment-type:
+    expenses:fees:Open Source Collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2024-12-01 Monthly contribution from Samim Pezeshki (Bronze)  ; id:453228ff, group:10f9d418, payment-service:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:Samim Pezeshki       -2.00 USD
+    assets:opencollective:hledger            1.41 USD
+    expenses:fees:PAYPAL                     0.59 USD
+
+2024-12-01 Host Fee to Open Source Collective  ; id:1d68c144, group:10f9d418, payment-service:, payment-type:
+    expenses:fees:Open Source Collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2024-12-01 Monthly contribution from Joyful Systems (Bronze)  ; id:a6ab0d13, group:b7c70dee, payment-service:STRIPE, payment-type:CREDITCARD
+    revenues:donations:Joyful Systems      -10.00 USD
+    assets:opencollective:hledger            9.41 USD
+    expenses:fees:STRIPE                     0.59 USD
+
+2024-12-01 Host Fee to Open Source Collective  ; id:719d84db, group:b7c70dee, payment-service:, payment-type:
+    expenses:fees:Open Source Collective        1.00 USD
+    assets:opencollective:hledger              -1.00 USD
+
+2024-12-20 Expense from Raphael Kabo - Regression finder bounty for #2302  ; id:17545151, group:77300c3a, payment-service:WISE, payment-type:BANK_TRANSFER
+    expenses:bounties:Raphael Kabo       49.21 USD
+    assets:opencollective:hledger       -49.87 USD
+    expenses:fees:WISE                    0.66 USD
+
+2024-12-23 Monthly contribution from Guest (Bronze)  ; id:35c20dd2, group:e41d6bf7, payment-service:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:Guest            -2.00 USD
+    assets:opencollective:hledger        1.41 USD
+    expenses:fees:PAYPAL                 0.59 USD
+
+2024-12-23 Host Fee to Open Source Collective  ; id:151867c9, group:e41d6bf7, payment-service:, payment-type:
+    expenses:fees:Open Source Collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2024-12-31 Monthly contribution from Richard Kelly (Bronze)  ; id:132473b4, group:317231aa, payment-service:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:Richard Kelly       -2.00 USD
+    assets:opencollective:hledger           1.44 USD
+    expenses:fees:PAYPAL                    0.56 USD
+
+2024-12-31 Host Fee to Open Source Collective  ; id:a8be8a94, group:317231aa, payment-service:, payment-type:
+    expenses:fees:Open Source Collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2025-01-01 Monthly contribution from Samim Pezeshki (Bronze)  ; id:e46b9e16, group:53617c67, payment-service:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:Samim Pezeshki       -2.00 USD
+    assets:opencollective:hledger            1.41 USD
+    expenses:fees:PAYPAL                     0.59 USD
+
+2025-01-01 Host Fee to Open Source Collective  ; id:6c0f618f, group:53617c67, payment-service:, payment-type:
+    expenses:fees:Open Source Collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2025-01-01 Monthly contribution from Rishi Hyanki (Bronze)  ; id:f5b23cd3, group:d6395e15, payment-service:STRIPE, payment-type:CREDITCARD
+    revenues:donations:Rishi Hyanki       -2.00 USD
+    assets:opencollective:hledger          1.64 USD
+    expenses:fees:STRIPE                   0.36 USD
+
+2025-01-01 Host Fee to Open Source Collective  ; id:2f801985, group:d6395e15, payment-service:, payment-type:
+    expenses:fees:Open Source Collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2025-01-01 Monthly contribution from Brandon Barker (Bronze)  ; id:14bcd9b6, group:666b735d, payment-service:STRIPE, payment-type:CREDITCARD
+    revenues:donations:Brandon Barker       -2.00 USD
+    assets:opencollective:hledger            1.64 USD
+    expenses:fees:STRIPE                     0.36 USD
+
+2025-01-01 Host Fee to Open Source Collective  ; id:7924eb43, group:666b735d, payment-service:, payment-type:
+    expenses:fees:Open Source Collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2025-01-01 Monthly contribution from October Swimmer (Bronze)  ; id:0dba3e23, group:df022ca9, payment-service:STRIPE, payment-type:CREDITCARD
+    revenues:donations:October Swimmer      -10.00 USD
+    assets:opencollective:hledger             9.41 USD
+    expenses:fees:STRIPE                      0.59 USD
+
+2025-01-01 Host Fee to Open Source Collective  ; id:f78d1071, group:df022ca9, payment-service:, payment-type:
+    expenses:fees:Open Source Collective        1.00 USD
+    assets:opencollective:hledger              -1.00 USD
+
+2025-01-01 Monthly contribution from Jack Todaro (Bronze)  ; id:24e8ba9a, group:3fb4a3cc, payment-service:STRIPE, payment-type:CREDITCARD
+    revenues:donations:Jack Todaro       -5.00 USD
+    assets:opencollective:hledger         4.48 USD
+    expenses:fees:STRIPE                  0.52 USD
+
+2025-01-01 Host Fee to Open Source Collective  ; id:6d1c0fac, group:3fb4a3cc, payment-service:, payment-type:
+    expenses:fees:Open Source Collective        0.50 USD
+    assets:opencollective:hledger              -0.50 USD
+
+2025-01-01 Yearly contribution from incognito  ; id:02c00459, group:aded5561, payment-service:STRIPE, payment-type:CREDITCARD
+    revenues:donations:incognito       -50.00 USD
+    assets:opencollective:hledger       47.50 USD
+    expenses:fees:STRIPE                 2.50 USD
+
+2025-01-01 Host Fee to Open Source Collective  ; id:216fd5b2, group:aded5561, payment-service:, payment-type:
+    expenses:fees:Open Source Collective        5.00 USD
+    assets:opencollective:hledger              -5.00 USD
+
+2025-01-01 Monthly contribution from James Blachly (Bronze)  ; id:856f0d1c, group:b2467cb9, payment-service:STRIPE, payment-type:CREDITCARD
+    revenues:donations:James Blachly       -2.00 USD
+    assets:opencollective:hledger           1.64 USD
+    expenses:fees:STRIPE                    0.36 USD
+
+2025-01-01 Host Fee to Open Source Collective  ; id:2a58494f, group:b2467cb9, payment-service:, payment-type:
+    expenses:fees:Open Source Collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2025-01-02 Monthly contribution from Ken Ewing (Bronze)  ; id:095a8043, group:dad55f6e, payment-service:STRIPE, payment-type:CREDITCARD
+    revenues:donations:Ken Ewing        -2.00 USD
+    assets:opencollective:hledger        1.64 USD
+    expenses:fees:STRIPE                 0.36 USD
+
+2025-01-02 Host Fee to Open Source Collective  ; id:359f12d5, group:dad55f6e, payment-service:, payment-type:
+    expenses:fees:Open Source Collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2025-01-02 Monthly contribution from Frank (Bronze)  ; id:ade5d41d, group:e560c46f, payment-service:STRIPE, payment-type:CREDITCARD
+    revenues:donations:Frank            -2.00 USD
+    assets:opencollective:hledger        1.64 USD
+    expenses:fees:STRIPE                 0.36 USD
+
+2025-01-02 Host Fee to Open Source Collective  ; id:a65064e5, group:e560c46f, payment-service:, payment-type:
+    expenses:fees:Open Source Collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
+2025-01-02 Monthly contribution from Joyful Systems (Bronze)  ; id:19aa666d, group:07342432, payment-service:STRIPE, payment-type:CREDITCARD
+    revenues:donations:Joyful Systems      -10.00 USD
+    assets:opencollective:hledger            9.41 USD
+    expenses:fees:STRIPE                     0.59 USD
+
+2025-01-02 Host Fee to Open Source Collective  ; id:96c05e53, group:07342432, payment-service:, payment-type:
+    expenses:fees:Open Source Collective        1.00 USD
+    assets:opencollective:hledger              -1.00 USD
+
+2025-01-04 Contribution from Guest (Custom)  ; id:7977ea7a, group:cd842c7c, payment-service:PAYPAL, payment-type:PAYMENT
+    revenues:donations:Guest           -50.00 USD
+    assets:opencollective:hledger       47.76 USD
+    expenses:fees:PAYPAL                 2.24 USD
+
+2025-01-04 Host Fee to Open Source Collective  ; id:ca269954, group:cd842c7c, payment-service:, payment-type:
+    expenses:fees:Open Source Collective        5.00 USD
+    assets:opencollective:hledger              -5.00 USD
+
+2025-01-23 Monthly contribution from Guest (Bronze)  ; id:d011b7a7, group:0b088261, payment-service:PAYPAL, payment-type:SUBSCRIPTION
+    revenues:donations:Guest            -2.00 USD
+    assets:opencollective:hledger        1.41 USD
+    expenses:fees:PAYPAL                 0.59 USD
+
+2025-01-23 Host Fee to Open Source Collective  ; id:9b65daa2, group:0b088261, payment-service:, payment-type:
+    expenses:fees:Open Source Collective        0.20 USD
+    assets:opencollective:hledger              -0.20 USD
+
