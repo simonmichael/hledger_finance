@@ -23,19 +23,19 @@ These are regenerated semi-automatically, and may improve as data and scripts ar
 <!-- We get most new transactions on the 23rd and 24th of the month and for a few days around start of month. -->
 Update process:
 
-1. View latest OC transactions with all kinds selected:
-   https://opencollective.com/hledger/transactions?kind=CONTRIBUTION%2CEXPENSE%2CHOST_FEE%2CPAYMENT_PROCESSOR_FEE%2CPAYMENT_PROCESSOR_COVER
-2. click Download CSV; click Export CSV
-   (settings:
-   Date range: All time, or whatever;
-   Timezone: Local or UTC, doesn't matter;
-   Exported Fields: Platform Default;
-   Separate transactions compatibility: off
-   )
-3. `just update` to gather the csv, regenerate and check journals, and update reports
-4. Review changes, investigate/resolve any issues, commit
-5. Check that the latest net asset balance matches https://opencollective.com/hledger#category-BUDGET > TODAY'S BALANCE
-6. `git push` to update https://github.com/simonmichael/hledger_finance
+- View [latest Open Collective transactions](https://opencollective.com/hledger/transactions?kind=CONTRIBUTION%2CEXPENSE%2CHOST_FEE%2CPAYMENT_PROCESSOR_FEE%2CPAYMENT_PROCESSOR_COVER)
+- Check all parameters are set to All
+- Click Download CSV
+- Turn on Separate transactions compatibility
+- Check other parameters, defaults should be ok
+- Click Export CSV, wait for dowload to complete
+- Ensure that it downloaded, then close the Export CSV dialog
+- In finance dir, `just update` (gather csv, regenerate journal and reports)
+- Deal with any snafu (missing python deps..)
+- Review diffs, investigate/resolve any problems
+- Check that the latest asset balance matches https://opencollective.com/hledger#category-BUDGET > TODAY'S BALANCE
+- Commit
+- `git push` to update https://github.com/simonmichael/hledger_finance
 
 ## Reports
 
