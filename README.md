@@ -13,11 +13,9 @@ In this directory:
 - `oc.csv.rules`      - hledger CSV rules for converting the above to..
 - `oc.journal`        - journal file generated from oc.csv
 - `other.journal`     - other transactions, manually recorded
-- `README.md`         - this readme. Hand-maintained content plus hledger-generated reports from the journals.
+- `README.md`         - this readme. Hand-maintained content plus hledger-generated reports.
 
-The rest of this README is reports, intended to be readable on Github.
-
-Update process:
+Reports update process:
 
 - View [latest Open Collective transactions](https://opencollective.com/hledger/transactions?kind=CONTRIBUTION%2CEXPENSE%2CHOST_FEE%2CPAYMENT_PROCESSOR_FEE%2CPAYMENT_PROCESSOR_COVER)
 - Check all parameters are set to All
