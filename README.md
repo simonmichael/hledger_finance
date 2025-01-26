@@ -1,8 +1,8 @@
 # hledger finance repo
 
-Here we track the hledger project's finances,
-for clarity, dogfooding, and as a real-world example of FOSS project accounting with hledger.
 (shortcut: https://finance.hledger.org)
+
+Here we track the hledger project's finances, for clarity and dogfooding.
 
 See also the FINANCE section on the hledger website, eg
 [Sponsor hledger](https://hledger.org/sponsor.html),
