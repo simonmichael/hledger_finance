@@ -52,14 +52,14 @@ check:
 [group('maintenance')]
 readme:
     $sed '/<!-- REPORTS:/q' README.md >.README.md
-    just yal -Ohtml >>.README.md
-    just yrx -Ohtml >>.README.md
     just tyrx -Ohtml >>.README.md
-    just b-rx >>.README.md
-    just b-al >>.README.md
-    just l-a >>.README.md
-    just l-r >>.README.md
-    just l-x >>.README.md
+    just yrx -Ohtml >>.README.md
+    just yal -Ohtml >>.README.md
+    #just b-rx >>.README.md
+    #just b-al >>.README.md
+    #just l-a >>.README.md
+    #just l-r >>.README.md
+    #just l-x >>.README.md
     $sed -z 's/<link[^>]+>(<link[^>]+>)?<style>[^>]+>/\n\n/g' <.README.md >README.md  # XXX remove HTML reports' CSS
     rm -f .README.md
 
@@ -80,25 +80,25 @@ update: csv journal accounts check readme
 [group('reports')]
 reports *args: (yal args) (yrx args) (tyrx args)
 
-# Yearly assets & liabilities
+# This year's revenue and expenses
 [group('reports')]
-yal *args:
-    printf "\n## Yearly Assets & Liabilities\n"
-    $hledgerc bal type:al -2 -HYT --transpose "$args"
+tyrx *args:
+    printf "\n## Year To Date\n"
+    $hledgerc is -b1/1 -t --drop 1 -S "$args"
     printf "\n"
 
 # Yearly revenues & expenses
 [group('reports')]
 yrx *args:
-    printf "\n## Yearly Revenues & Expenses\n"
+    printf "\n## Revenues & Expenses by Year\n"
     $hledgerc bal type:rx --invert -2 -YT --transpose "$args"
     printf "\n"
 
-# This year's revenue and expenses
+# Yearly assets & liabilities
 [group('reports')]
-tyrx *args:
-    printf "\n## This Year's Revenues & Expenses\n"
-    $hledgerc is -b1/1 -t --drop 1 -S "$args"
+yal *args:
+    printf "\n## Assets & Liabilities By Year\n"
+    $hledgerc bal type:al -2 -HYT --transpose "$args"
     printf "\n"
 
 # Show charts in terminal
@@ -112,14 +112,14 @@ barcharts *args: (b-rx args) (b-al args)
 # Yearly net income bar chart
 [group('reports')]
 b-rx *args:
-    @printf '\n## Yearly Net Income\n```\n'
+    @printf '\n## Net Income by Year\n```\n'
     hledger-bar -v 150 -Y type:rx --invert "$args"
     @printf '```\n'
 
 # Yearly net assets bar chart
 [group('reports')]
 b-al *args:
-    @printf '\n## Yearly Net Assets\n```\n'
+    @printf '\n## Net Assets by Year\n```\n'
     hledger-bar -v 150 -Y type:al -H "$args"
     @printf '```\n'
 
