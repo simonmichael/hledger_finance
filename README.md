@@ -1,13 +1,7 @@
 # hledger finance repo
 
-(shortcut: https://finance.hledger.org)
-
-Here we track the hledger project's finances, for clarity and dogfooding.
-
-See also the FINANCE section on the hledger website, eg
-[Sponsor hledger](https://hledger.org/sponsor.html),
-[Regression bounty](https://hledger.org/REGRESSIONS.html) and 
-[FINANCE notes](https://hledger.org/FINANCE.html).
+In this repo we track the hledger project's finances, for clarity and dogfooding.
+See also the hledger.org [Project finances](https://hledger.org/FINANCE.html) page.
 
 In this directory:
 
