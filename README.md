@@ -5,12 +5,15 @@ See also the hledger.org [Project finances](https://hledger.org/FINANCE.html) pa
 
 In this directory:
 
-- `Justfile`          - maintenance and reporting scripts. `just` to see help.
+- `Justfile`          - maintenance and reporting scripts. Run `just` to see help.
 - `hledger.conf`      - local hledger config
 - `main.journal`      - top-level journal file
 - `accounts.journal`  - account declarations
-- `oc.*`              - hledger open collective CSV, conversion rules, journal
+- `oc.csv`            - all hledger open collective transactions, exported as CSV
+- `oc.csv.rules`      - hledger CSV rules for converting the above to..
+- `oc.journal`        - journal file generated from oc.csv
 - `other.journal`     - other transactions, manually recorded
+- `README.md`         - this readme. Hand-maintained content plus hledger-generated reports from the journals.
 
 The rest of this README is reports, intended to be readable on Github.
 
