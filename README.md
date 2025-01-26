@@ -41,8 +41,6 @@ Update process:
 
 <!-- REPORTS: (don't edit below) -->
 
-## Year To Date
-
 
 <table><tr><th colspan="3" style="text-align:left"><h2>Income Statement 2025-01-01..2025-01-23</h2></th></tr>
 

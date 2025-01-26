@@ -83,7 +83,7 @@ reports *args: (yal args) (yrx args) (tyrx args)
 # This year's revenue and expenses
 [group('reports')]
 tyrx *args:
-    printf "\n## Year To Date\n"
+    #printf "\n## Year To Date\n"
     $hledgerc is -b1/1 -t --drop 1 -S "$args"
     printf "\n"
 
