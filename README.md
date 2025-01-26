@@ -1,6 +1,6 @@
 # hledger finance repo
 
-In this repo we track the hledger project's finances, for clarity and dogfooding.
+In this repo we keep a ledger and reports of the hledger project's finances, for clarity and dogfooding.\
 See also the hledger.org [Project finances](https://hledger.org/FINANCE.html) page.
 
 In this directory:
@@ -12,9 +12,8 @@ In this directory:
 - `oc.*`              - hledger open collective CSV, conversion rules, journal
 - `other.journal`     - other transactions, manually recorded
 
-The rest of this README is reports, intended to be somewhat readable on Github.
-These are regenerated semi-automatically, and may improve as data and scripts are cleaned up.
-<!-- We get most new transactions on the 23rd and 24th of the month and for a few days around start of month. -->
+The rest of this README is reports, intended to be readable on Github.
+
 Update process:
 
 - View [latest Open Collective transactions](https://opencollective.com/hledger/transactions?kind=CONTRIBUTION%2CEXPENSE%2CHOST_FEE%2CPAYMENT_PROCESSOR_FEE%2CPAYMENT_PROCESSOR_COVER)
