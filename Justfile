@@ -84,7 +84,7 @@ reports *args: (yal args) (yrx args) (ytdrx args)
 [group('reports')]
 ytdrx *args:
     printf "\n## Revenues & Expenses This Year\n"
-    $hledgerc is -b1/1 -t --drop 1 -S "$args"
+    $hledgerc is -b1/1 -t --drop 1 -S {{ args }}
     printf "\n"
 
 # Yearly revenues & expenses
@@ -98,7 +98,7 @@ yrx *args:
 [group('reports')]
 yal *args:
     printf "\n## Assets & Liabilities By Year\n"
-    $hledgerc bal type:al -2 -HYT --transpose "$args"
+    $hledgerc bal type:al -2 -HYT --transpose {{ args }}
     printf "\n"
 
 # Show charts in terminal
@@ -113,14 +113,14 @@ barcharts *args: (b-rx args) (b-al args)
 [group('reports')]
 b-rx *args:
     @printf '\n## Net Income by Year\n```\n'
-    hledger-bar -v 150 -Y type:rx --invert "$args"
+    hledger-bar -v 150 -Y type:rx --invert {{ args }}
     @printf '```\n'
 
 # Yearly net assets bar chart
 [group('reports')]
 b-al *args:
     @printf '\n## Net Assets by Year\n```\n'
-    hledger-bar -v 150 -Y type:al -H "$args"
+    hledger-bar -v 150 -Y type:al -H {{ args }}
     @printf '```\n'
 
 # Show hledger-plot charts in terminal
@@ -131,7 +131,7 @@ linecharts *args: (l-a args) (l-r args) (l-x args)
 [group('reports')]
 l-a *args:
     @printf '\n## Assets Over Time\n```\n'
-    $hledgerc plot -- bal --depth=1 ^assets   --historical  --terminal --rcParams '{"figure.figsize":[8,3]}' --no-today -q --title "hledger assets" "$args" \
+    $hledgerc plot -- bal --depth=1 ^assets   --historical  --terminal --rcParams '{"figure.figsize":[8,3]}' --no-today -q --title "hledger assets" {{ args }} \
     | sed 's/⠀/ /g'  # partial workaround for https://github.com/gooofy/drawilleplot/issues/4
     @printf '```\n'
 
@@ -139,7 +139,7 @@ l-a *args:
 [group('reports')]
 l-r *args:
     @printf '\n## Revenues Over Time\n```\n'
-    $hledgerc plot -- bal --depth=1 ^revenues --monthly --invert  --terminal --rcParams '{"figure.figsize":[8,3]}' --drawstyle 'steps-mid' --no-today -q --title "hledger monthly revenues" "$args" \
+    $hledgerc plot -- bal --depth=1 ^revenues --monthly --invert  --terminal --rcParams '{"figure.figsize":[8,3]}' --drawstyle 'steps-mid' --no-today -q --title "hledger monthly revenues" {{ args }} \
     | sed 's/⠀/ /g'
     @printf '```\n'
 
@@ -147,6 +147,6 @@ l-r *args:
 [group('reports')]
 l-x *args:
     @printf '\n## Expenses Over Time\n```\n'
-    $hledgerc plot -- bal --depth=1 ^expenses --monthly --terminal --rcParams '{"figure.figsize":[8,3]}' --drawstyle 'steps-mid' --no-today -q --title "hledger monthly expenses" "$args" \
+    $hledgerc plot -- bal --depth=1 ^expenses --monthly --terminal --rcParams '{"figure.figsize":[8,3]}' --drawstyle 'steps-mid' --no-today -q --title "hledger monthly expenses" {{ args }} \
     | sed 's/⠀/ /g'
     @printf '```\n'
