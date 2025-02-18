@@ -18,16 +18,24 @@ In this directory:
 Reports update process:
 
 - View [latest Open Collective transactions](https://opencollective.com/hledger/transactions?kind=CONTRIBUTION%2CEXPENSE%2CHOST_FEE%2CPAYMENT_PROCESSOR_FEE%2CPAYMENT_PROCESSOR_COVER)
-- Check all parameters are set to All
+- Check parameters 1
+  - all should be set to All
 - Click Download CSV
-- Turn on Separate transactions compatibility
-- Check other parameters, defaults should be ok
-- Click Export CSV, wait for dowload to complete
-- Ensure that it downloaded, then close the Export CSV dialog
+- Check parameters 2
+  - Date range should be sufficient to leave no gap
+  - Timezone should be what rules require: Local (consider switching to UTC for greater stability)
+  - Start date / End date should be sufficient to leave no gap (Why both these and Date range ? Try ignoring these)
+  - Exported Fields should be Platform Default
+  - Separate transactions compatibility should be ENABLED
+- Click Export CSV
+- Wait for and check for a successful complete download by browser. Warning this is deceptive.
+- Manually close the Export CSV dialog
 - In finance dir, `just update` (gather csv, regenerate journal and reports)
 - Deal with any snafu (missing python deps..)
-- Review diffs, investigate/resolve any problems
-- Check that the latest asset balance matches https://opencollective.com/hledger#category-BUDGET > TODAY'S BALANCE
+- Review diffs in magit, investigate/resolve any problems
+- Review reports in VSC markdown preview, check that these match:
+  - Assets report > latest asset balance 
+  - https://opencollective.com/hledger#category-BUDGET > TODAY'S BALANCE
 - Commit
 - `git push` to update https://github.com/simonmichael/hledger_finance
 
