@@ -52,7 +52,7 @@ check:
 [group('maintenance')]
 readme:
     $sed '/<!-- REPORTS:/q' README.md >.README.md
-    just tyrx -Ohtml >>.README.md
+    just ytdrx -Ohtml >>.README.md
     just yrx -Ohtml >>.README.md
     just yal -Ohtml >>.README.md
     #just b-rx >>.README.md
@@ -78,11 +78,11 @@ update: csv journal accounts check readme
 
 # Show basic reports in terminal. Can pass through one argument.
 [group('reports')]
-reports *args: (yal args) (yrx args) (tyrx args)
+reports *args: (yal args) (yrx args) (ytdrx args)
 
 # This year's revenue and expenses
 [group('reports')]
-tyrx *args:
+ytdrx *args:
     #printf "\n## Year To Date\n"
     $hledgerc is -b1/1 -t --drop 1 -S "$args"
     printf "\n"
@@ -91,7 +91,7 @@ tyrx *args:
 [group('reports')]
 yrx *args:
     printf "\n## Revenues & Expenses by Year\n"
-    $hledgerc bal type:rx --invert -2 -YT --transpose "$args"
+    $hledgerc bal type:rx --invert -2 -YT --transpose {{ args }}
     printf "\n"
 
 # Yearly assets & liabilities
