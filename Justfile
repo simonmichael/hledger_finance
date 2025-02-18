@@ -52,7 +52,7 @@ check:
 [group('maintenance')]
 readme:
     $sed '/<!-- REPORTS:/q' README.md >.README.md
-    just ytdrx -Ohtml | sed -E 's%<h2>.*?</h2>%%' >>.README.md
+    just ytdrx -Ohtml >>.README.md
     just yrx -Ohtml >>.README.md
     just yal -Ohtml >>.README.md
     #just b-rx >>.README.md
@@ -84,7 +84,7 @@ reports *args: (yal args) (yrx args) (ytdrx args)
 [group('reports')]
 ytdrx *args:
     @printf "\n## Revenues & Expenses This Year\n"
-    $hledgerc is -b1/1 -t --drop 1 -S {{ args }}
+    $hledgerc bal -b1/1 -M type:rx --invert -2 -MTAS --transpose {{ args }}
     @printf "\n"
 
 # Yearly revenues & expenses
