@@ -1,7 +1,8 @@
 # hledger finance repo
 
 In this repo we keep a ledger and reports of the hledger project's finances, for clarity and dogfooding.\
-See also the hledger.org [Project finances](https://hledger.org/FINANCE.html) page.
+See also the hledger.org [Finance](https://hledger.org/FINANCE.html) page.
+(If you're looking for the main hledger code repo, see <https://github.com/simonmichael/hledger>.)
 
 In this directory:
 
