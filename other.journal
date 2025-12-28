@@ -36,3 +36,19 @@
     expenses:bounties:GLakovnik                   50 USD
     revenues:donations:GLakovnik                 -50 USD
 
+2025-06-05 * aragaer | donated regression fixer bounty for #2396
+    expenses:bounties:aragaer                     50 USD
+    revenues:donations:aragaer                   -50 USD
+
+2025-06-06 * Dmitry Astapov | donated regression fixer bounty for #2397
+    expenses:bounties:Dmitry Astapov              50 USD
+    revenues:donations:Dmitry Astapov            -50 USD
+
+2025-11-24 * Peter Sagerson | donated regression fixer bounty for #2498
+    expenses:bounties:Peter Sagerson              50 USD
+    revenues:donations:Peter Sagerson            -50 USD
+
+2025-12-25 * amano-kenji | donated regression finder bounty for #2512
+    expenses:bounties:amano-kenji                 50 USD
+    revenues:donations:amano-kenji               -50 USD
+
