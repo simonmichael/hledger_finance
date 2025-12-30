@@ -1,112 +1,76 @@
-# * hledger (1.27) conversion rules for OpenCollective CSV v2
-# https://hledger.org/hledger.html#csv-format
+# hledger 1.51 conversion rules for Open Collective's "Legacy Platform Default (Pre-2024)" CSV format.
+# See README.md for more details.
 #
-# These are the rules used to convert data from the hledger collective.
-# They should work pretty well for any collective, except you might
-# need to change the fiscal host name "open-source-collective" where
-# it's hard-coded below.
+# Examples:
 #
-# OC's CSV data format changed in 2021. These rules cover both old and
-# new formats, which complicates them but simplifies conversion.  For
-# data that's only on one side of 2021-06-01, you could simplify these rules.
+# A contribution transaction before 2021-06: (host fee is missing but can be inferred)
+# "datetime","shortId","shortGroup","description","type","kind","isRefund","isRefunded","shortRefundId","displayAmount","amount","paymentProcessorFee","netAmount","balance","currency","accountSlug","accountName","oppositeAccountSlug","oppositeAccountName","paymentMethodService","paymentMethodType","expenseType","expenseTags","payoutMethodType","merchantId","orderMemo","taxAmount"
+# "2017-01-20T19:21:45","f50dc2b7","8b272eb0","Monthly contribution from Simon Michael (Bronze)","CREDIT","CONTRIBUTION","","","","$10.00 USD",10,-0.59,8.41,8.41,"USD","hledger","hledger","simon","Simon Michael","STRIPE","CREDITCARD",,"",,,,0
+#
+# A contribution transaction after 2021-06:
+# "2025-12-23T10:59:20","e34843a9","d40ea8c3","Monthly contribution from Guest (Bronze)","CREDIT","CONTRIBUTION","","","","$2.00 USD",2,-0.59,1.41,7128.76,"USD","hledger","hledger","guest-d120c27f","Guest","PAYPAL","SUBSCRIPTION",,"",,,,0
+# "2025-12-23T10:59:20","94960bd6","d40ea8c3","Host Fee to Open Source Collective","DEBIT","HOST_FEE","","","","-$0.20 USD",-0.2,0,-0.2,7127.97,"USD","hledger","hledger","opensource","Open Source Collective",,,,"",,,,0
 
+source hledger-transactions.csv
+# archive
+fields date, shortId, shortGroup, description, type, kind, isRefund, isRefunded, shortRefundId, displayAmount, amount_, paymentProcessorFee, netAmount, balance_, currency_, accountSlug, accountName, oppositeAccountSlug, oppositeAccountName, paymentMethodService, paymentMethodType, expenseType, expenseTags, payoutMethodType, merchantId, orderMemo, taxAmount
 skip 1
 newest-first
-fields date, shortId, shortGroup, description, type, kind, isRefund, isRefunded, shortRefundId, displayAmount, amount, paymentProcessorFee, netAmount, balance_, currency_, accountSlug, accountName, oppositeAccountSlug, oppositeAccountName, paymentMethodService, paymentMethodType, expenseType, expenseTags, payoutMethodType, merchantId
 date-format %Y-%m-%dT%H:%M:%S
+comment \nid:%shortId, group:%shortGroup, dc:%type, payment-service:%paymentMethodService, payment-type:%paymentMethodType
+if %isRefund .
+ comment \nid:%shortId, refunding:%shortRefundId, group:%shortGroup, dc:%type, payment-service:%paymentMethodService, payment-type:%paymentMethodType
 
-# override default account names
-if %type CREDIT
- account1 income:misc
-if %type DEBIT
- account1 expenses:misc
+# We will generate postings in FROM,TO order most of the time:
+# posting1 is the source, if any
+# posting2 is the incoming payment processor fee, if any
+# posting3 is the incoming host fee, if any
+# posting4 is this open collective account
+# posting5 is the outgoing payment processor fee, if any
+# posting6 is the outgoing host fee, if any
+# posting7 is another destination, if any
 
-# ** Before 2021-06-01, host fee is not shown explicitly in the CSV.
-# "datetime","shortId","shortGroup","description","type","kind","isRefund","isRefunded","shortRefundId","displayAmount","amount","paymentProcessorFee","netAmount","currency","accountSlug","accountName","oppositeAccountSlug","oppositeAccountName","paymentMethodService","paymentMethodType","expenseType","expenseTags","payoutMethodType","merchantId"
-# "2021-05-01T01:13:51","46974380","8aa606bd","Monthly contribution from October Swimmer (Sponsors)","CREDIT","CONTRIBUTION","","","","$100.00 USD",100,-3.2,86.8,"USD","hledger","hledger","october-swimmer","October Swimmer","STRIPE","CREDITCARD",,"",,
+account4 assets:opencollective:%accountName
+amount4  %amount_ %currency_
 
-# < 2021-06-01
-if %date ^(20[01]|2020|2021-0[1-5])
- comment id:%shortId, group:%shortGroup, payment-service:%paymentMethodService, payment-type:%paymentMethodType
- amount1  -%amount %currency_
- account1 revenues:donations:%oppositeAccountName
- amount2  %netAmount %currency_
- account2 assets:opencollective:%accountName
- balance2 %balance_ %currency_
- amount3  -%paymentProcessorFee %currency_
- account3 expenses:fees:%paymentMethodService
- account4 expenses:fees:Open Source Collective
-#                    ^ our fiscal host name, hard-coded
+# if %date < 2021-06
+if %date ^(20[01]|2020|2021-0[1-5]) && %kind CONTRIBUTION
+ account1 revenues:contributions:%oppositeAccountName
+ amount1  -%amount_ %currency_
+ account2 expenses:fees:processor:%paymentMethodService
+ amount2  -%paymentProcessorFee %currency_
+ account3 expenses:fees:host:Open Source Collective
+ account4 assets:opencollective:%accountName
+ amount4  %netAmount %currency_
+ balance4 %balance_ %currency_
+# the fiscal host name is hard-coded here
 
-# ** From 2021-06-01, host fee appears as a separate transaction.
-# "datetime","shortId","shortGroup","description","type","kind","isRefund","isRefunded","shortRefundId","displayAmount","amount","paymentProcessorFee","netAmount","currency","accountSlug","accountName","oppositeAccountSlug","oppositeAccountName","paymentMethodService","paymentMethodType","expenseType","expenseTags","payoutMethodType","merchantId"
-# "2021-06-01T02:08:37","65365e36","6b474b38","Monthly contribution from October Swimmer (Sponsors)","CREDIT","CONTRIBUTION","","","","$100.00 USD",100,-3.2,96.8,"USD","hledger","hledger","october-swimmer","October Swimmer","STRIPE","CREDITCARD",,"",,
-# "2021-06-01T02:08:37","95a61220","6b474b38","Host Fee to Open Source Collective","DEBIT","HOST_FEE","","","","-$10.00 USD",-10,0,-10,"USD","hledger","hledger","opensource","Open Source Collective",,,,"",,
+# if %date >= 2021-06
+if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9]) && %kind CONTRIBUTION
+ account1 revenues:contributions:%oppositeAccountName
+ amount1  -%amount_ %currency_
+ account2 expenses:fees:processor:%paymentMethodService
+ amount2  -%paymentProcessorFee %currency_
+ account4 assets:opencollective:%accountName
+ amount4  %netAmount %currency_
+# some records have wrong balance values which can't be used
+# balance4 %balance_ %currency_  # wrong
 
-# >= 2021-06-01
-# In 2022 downloads, the balance field's values didn't work, but in 2023 it seems fixed.
-if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
-& %kind CONTRIBUTION
- comment id:%shortId, group:%shortGroup, payment-service:%paymentMethodService, payment-type:%paymentMethodType
- amount1  -%amount %currency_
- account1 revenues:donations:%oppositeAccountName
- amount2  %netAmount %currency_
- account2 assets:opencollective:%accountName
-# this is wrong now, don't even bother
-# balance2 %balance_ %currency_
+if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9]) && %kind CONTRIBUTION && %type DEBIT
+ account1 expenses:disbursed:%oppositeAccountName
 
-# augment the above
-if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
-& %kind CONTRIBUTION
-& %paymentProcessorFee [1-9]
- amount3  -%paymentProcessorFee %currency_
- account3 expenses:fees:%paymentMethodService
+if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9]) && %kind CONTRIBUTION && %isRefund REFUND
+ account1 revenues:contributions:%oppositeAccountName
 
-# override the above
-if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
-& %kind CONTRIBUTION
-& %type DEBIT
-  account1 expenses:misc:%oppositeAccountName
+if %kind EXPENSE
+ amount4  %netAmount %currency_
+ account5 expenses:fees:processor:%payoutMethodType
+ amount5  -%paymentProcessorFee %currency_
+ account7 expenses:disbursed:%oppositeAccountName
+ amount7  -%amount_ %currency_
+# balance4 %balance_ %currency_  # wrong
 
-# override the above
-if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
-& %kind CONTRIBUTION
-& %isRefund REFUND
- account1 revenues:donations:%oppositeAccountName
-
-if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
-& %description expense.*(bount|regression)
- account1 expenses:bounties:%oppositeAccountName
-
-if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
-& %kind EXPENSE
- comment id:%shortId, group:%shortGroup, payment-service:%paymentMethodService, payment-type:%paymentMethodType
- amount1  -%amount %currency_
- amount2  %netAmount %currency_
- account2 assets:opencollective:%accountName
-
-# augment the above
-if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
-& %kind EXPENSE
-& %paymentProcessorFee [1-9]
- amount3  -%paymentProcessorFee %currency_
- account3 expenses:fees:%paymentMethodService
-
-if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9])
-& %kind HOST_FEE|PAYMENT_PROCESSOR_FEE|PAYMENT_PROCESSOR_COVER
- comment id:%shortId, group:%shortGroup, payment-service:%paymentMethodService, payment-type:%paymentMethodType
- amount2  %netAmount %currency_
- account2 assets:opencollective:%accountName
- amount1  -%amount %currency_
- account1 expenses:fees:%oppositeAccountName
-
-
-# ** Misc (all dates)
-
-# When neither paymentMethodService or paymentMethodType is known, use a generic value
-if %kind (CONTRIBUTION|EXPENSE)
-& %paymentProcessorFee ^[^0]
-& %paymentMethodService ^$
-^ %payoutMethodType ^$
- account3 expenses:fees:unknown-processor
-
+if %kind HOST_FEE|PAYMENT_PROCESSOR_COVER
+ balance4 %balance_ %currency_
+ account6 expenses:fees:host:%oppositeAccountName
+ amount6  -%amount_ %currency_
