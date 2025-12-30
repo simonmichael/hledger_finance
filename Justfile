@@ -2,7 +2,7 @@
 
 sed := 'gsed -E'
 hledger := 'hledger -n'
-hledgerc := 'hledger'
+hledgerc := 'hledger -f main.journal'
 csvsrc := '/Users/simon/Downloads/hledger-transactions.csv'
 csv := 'oc.csv'
 checks := 'accounts commodities balanced ordereddates'
@@ -27,30 +27,41 @@ alias fmt := _fmt
 
 # Gather any downloaded open collective CSV here.
 [group('maintenance')]
-csv:
-    if [[ -f $csvsrc ]]; then mv $csvsrc $csv; else echo "no new $csvsrc"; fi
+@csv:
+    if [[ -f $csvsrc ]]; then mv $csvsrc $csv; else echo "no new $csvsrc found"; fi
 
 # Regenerate OC journal from csv.
 [group('maintenance')]
-journal:
+@journal:
     ($hledger -f $csv print -x -c '1.00 USD' --round=soft >.oc.journal && mv .oc.journal oc.journal) \
     || (rm -f .oc.journal; false)
 
+newjournals:
+    $hledger -f oc-legacy.csv  print -x -c '1.00 USD' --round=soft >oc-legacy.journal
+    $hledger -f oc-columns.csv print -x -c '1.00 USD' --round=soft >oc-columns.journal
+    $hledger -f oc-default.csv print -x -c '1.00 USD' --round=soft >oc-default.journal
+    $hledger -f oc-legacy.csv  accounts >oc-legacy.accounts
+    $hledger -f oc-columns.csv accounts >oc-columns.accounts
+    $hledger -f oc-default.csv accounts >oc-default.accounts
+
+newjournals-accounts-diff:
+    meld oc-legacy.accounts oc-columns.accounts oc-default.accounts 
+
 # Declare any new accounts found in the journals (preserving existing declarations' order).
 [group('maintenance')]
-accounts:
+@accounts:
     ((cat accounts.journal; $hledgerc accounts --undeclared --directives) >.accounts.journal && mv .accounts.journal accounts.journal) \
     || (rm -f .accounts.journal; false)
 
 # Check the journal for problems.
 [group('maintenance')]
-check:
+@check:
     printf "checking journal.. "
     $hledgerc check $checks && echo "all ok ✅"
 
 # Update reports in README.md. You should update csv journal accounts first.
 [group('maintenance')]
-readme:
+@readme:
     $sed '/<!-- REPORTS:/q' README.md >.README.md
     just ytdrx -Ohtml >>.README.md
     just yrx -Ohtml >>.README.md
