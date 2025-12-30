@@ -115,3 +115,95 @@ account revenues:donations:pablo
 account revenues:donations:pepe_pecas
 account revenues:donations:usaAmch
 account expenses:bounties:Raphael Kabo
+account assets:opencollective:hledger
+account expenses:disbursed:Allan Odgaard
+account expenses:disbursed:Andras Fabian
+account expenses:disbursed:Chris Lemaire
+account expenses:disbursed:David D Lowe
+account expenses:disbursed:Eric Langlois
+account expenses:disbursed:Frank Schmidt
+account expenses:disbursed:Ivan Popovych
+account expenses:disbursed:Jakub Zárybnický
+account expenses:disbursed:Julian Andres Klode
+account expenses:disbursed:Matt Gass
+account expenses:disbursed:Nic M
+account expenses:disbursed:Ooker
+account expenses:disbursed:Paul Dest
+account expenses:disbursed:Petr Slansky
+account expenses:disbursed:Pranesh Prakash
+account expenses:disbursed:Rajeev N
+account expenses:disbursed:Raphael Kabo
+account expenses:disbursed:Romain Gehrig
+account expenses:disbursed:Samim Pezeshki
+account expenses:disbursed:Sandstorm
+account expenses:disbursed:Simon Michael
+account expenses:disbursed:Stephen Morgan
+account expenses:disbursed:Support Ukraine
+account expenses:disbursed:Thielemann
+account expenses:disbursed:William Pierce
+account expenses:disbursed:Wojciech Geisler
+account expenses:disbursed:Yann Büchau
+account expenses:disbursed:arc
+account expenses:disbursed:dotlambda
+account expenses:disbursed:holmescharles
+account expenses:disbursed:lakshayg
+account expenses:disbursed:pablo
+account expenses:disbursed:Олексій Сімків
+account expenses:fees:host:Open Source Collective
+account expenses:fees:processor:BANK_ACCOUNT
+account expenses:fees:processor:OPENCOLLECTIVE
+account expenses:fees:processor:PAYPAL
+account expenses:fees:processor:STRIPE
+account revenues:contributions:APM Help
+account revenues:contributions:Andre Bubel
+account revenues:contributions:Anselm Peischl
+account revenues:contributions:Aviator Game
+account revenues:contributions:Bharath Chandra Sudheer
+account revenues:contributions:Brandon Barker
+account revenues:contributions:Brandon J Wong
+account revenues:contributions:Colton Lewis
+account revenues:contributions:Crash Game
+account revenues:contributions:DAVID
+account revenues:contributions:Damien Cassou
+account revenues:contributions:David Heijkamp
+account revenues:contributions:Diaspar Software Services
+account revenues:contributions:FinMasters
+account revenues:contributions:Frank
+account revenues:contributions:Guest
+account revenues:contributions:Gyula Weber
+account revenues:contributions:HLO_APC
+account revenues:contributions:Incognito
+account revenues:contributions:J-1Waiver.com
+account revenues:contributions:Jack Todaro
+account revenues:contributions:James Blachly
+account revenues:contributions:Joyful Systems
+account revenues:contributions:Ken Ewing
+account revenues:contributions:Kim Alfredsson
+account revenues:contributions:MSATC
+account revenues:contributions:Marc
+account revenues:contributions:Markus Schmitz
+account revenues:contributions:Martin Rio
+account revenues:contributions:Michael Manganiello
+account revenues:contributions:Michael Martinides
+account revenues:contributions:October Swimmer
+account revenues:contributions:Olsens Revision ApS
+account revenues:contributions:Paulo Makdisse
+account revenues:contributions:Peter Simons
+account revenues:contributions:Real Targeted Traffic
+account revenues:contributions:Richard Kelly
+account revenues:contributions:Rishi Hyanki
+account revenues:contributions:Robert Nielsen
+account revenues:contributions:Samim Pezeshki
+account revenues:contributions:Simon Michael
+account revenues:contributions:Tapform
+account revenues:contributions:Targeted Organic Traffic
+account revenues:contributions:Tony Xiao
+account revenues:contributions:Writers Per Hour
+account revenues:contributions:Yann Büchau
+account revenues:contributions:doppy1988
+account revenues:contributions:gnidan
+account revenues:contributions:ilmaiskierroksia.lv
+account revenues:contributions:incognito
+account revenues:contributions:j. a. plamondon
+account revenues:contributions:pablo
+account revenues:contributions:Олексій Сімків
