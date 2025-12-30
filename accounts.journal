@@ -8,147 +8,7 @@ account expenses
 
 # Keep the rest alphabetised.
 
-account expenses:bounties:Allan Odgaard
-account expenses:bounties:Andras Fabian
-account expenses:bounties:Bas van Dijk
-account expenses:bounties:Chris Lemaire
-account expenses:bounties:David D Lowe
-account expenses:bounties:Dmitry Astapov
-account expenses:bounties:Eric Langlois
-account expenses:bounties:GLakovnik
-account expenses:bounties:Ivan Popovych
-account expenses:bounties:Jakub Zárybnický
-account expenses:bounties:Julian Andres Klode
-account expenses:bounties:Peter Sagerson
-account expenses:bounties:Petr Slansky
-account expenses:bounties:Pranesh Prakash
-account expenses:bounties:Rajeev N
-account expenses:bounties:Romain Gehrig
-account expenses:bounties:Simon Michael
-account expenses:bounties:Stephen Morgan
-account expenses:bounties:Thielemann
-account expenses:bounties:William Pierce
-account expenses:bounties:Yann Büchau
-account expenses:bounties:akanshaG42
-account expenses:bounties:amano-kenji
-account expenses:bounties:aragaer
-account expenses:bounties:arc
-account expenses:bounties:holmescharles
-account expenses:bounties:ishmaelavila
-account expenses:bounties:lakshayg
-account expenses:bounties:markokocic
-account expenses:bounties:pablo
-account expenses:bounties:pepe_pecas
-account expenses:bounties:usaAmch
-account expenses:fees:OPENCOLLECTIVE
-account expenses:fees:Open Source Collective
-account expenses:fees:Other Payment Processor
-account expenses:fees:PAYPAL
-account expenses:fees:PayPal
-account expenses:fees:STRIPE
-account expenses:fees:Stripe
-account expenses:fees:WISE
-account expenses:fees:unknown-processor
-account expenses:misc:Sandstorm
-account expenses:misc:Support Ukraine
-account revenues:donations:APM Help
-account revenues:donations:Andre Bubel
-account revenues:donations:Anselm Peischl
-account revenues:donations:Aviator Game
-account revenues:donations:Bas van Dijk
-account revenues:donations:Bharath Chandra Sudheer
-account revenues:donations:Brandon Barker
-account revenues:donations:Brandon J Wong
-account revenues:donations:Colton Lewis
-account revenues:donations:Crash Game
-account revenues:donations:Damien Cassou
-account revenues:donations:David Heijkamp
-account revenues:donations:Dmitry Astapov
-account revenues:donations:FinMasters
-account revenues:donations:Frank
-account revenues:donations:GLakovnik
-account revenues:donations:Guest
-account revenues:donations:Gyula Weber
-account revenues:donations:HLO_APC
-account revenues:donations:Incognito
-account revenues:donations:J-1Waiver.com
-account revenues:donations:Jack Todaro
-account revenues:donations:James Blachly
-account revenues:donations:Joyful Systems
-account revenues:donations:Ken Ewing
-account revenues:donations:MSATC
-account revenues:donations:Marc
-account revenues:donations:Markus Schmitz
-account revenues:donations:Martin Rio
-account revenues:donations:Michael Manganiello
-account revenues:donations:Michael Martinides
-account revenues:donations:October Swimmer
-account revenues:donations:Olsens Revision ApS
-account revenues:donations:Paulo Makdisse
-account revenues:donations:Peter Sagerson
-account revenues:donations:Peter Simons
-account revenues:donations:Real Targeted Traffic
-account revenues:donations:Richard Kelly
-account revenues:donations:Rishi Hyanki
-account revenues:donations:Robert Nielsen
-account revenues:donations:Samim Pezeshki
-account revenues:donations:Simon Michael
-account revenues:donations:Tapform
-account revenues:donations:Targeted Organic Traffic
-account revenues:donations:Tony Xiao
-account revenues:donations:Writers Per Hour
-account revenues:donations:Yann Büchau
-account revenues:donations:akanshaG42
-account revenues:donations:amano-kenji
-account revenues:donations:aragaer
-account revenues:donations:doppy1988
-account revenues:donations:ilmaiskierroksia.lv
-account revenues:donations:incognito
-account revenues:donations:ishmaelavila
-account revenues:donations:markokocic
-account revenues:donations:pablo
-account revenues:donations:pepe_pecas
-account revenues:donations:usaAmch
-account expenses:bounties:Raphael Kabo
 account assets:opencollective:hledger
-account expenses:disbursed:Allan Odgaard
-account expenses:disbursed:Andras Fabian
-account expenses:disbursed:Chris Lemaire
-account expenses:disbursed:David D Lowe
-account expenses:disbursed:Eric Langlois
-account expenses:disbursed:Frank Schmidt
-account expenses:disbursed:Ivan Popovych
-account expenses:disbursed:Jakub Zárybnický
-account expenses:disbursed:Julian Andres Klode
-account expenses:disbursed:Matt Gass
-account expenses:disbursed:Nic M
-account expenses:disbursed:Ooker
-account expenses:disbursed:Paul Dest
-account expenses:disbursed:Petr Slansky
-account expenses:disbursed:Pranesh Prakash
-account expenses:disbursed:Rajeev N
-account expenses:disbursed:Raphael Kabo
-account expenses:disbursed:Romain Gehrig
-account expenses:disbursed:Samim Pezeshki
-account expenses:disbursed:Sandstorm
-account expenses:disbursed:Simon Michael
-account expenses:disbursed:Stephen Morgan
-account expenses:disbursed:Support Ukraine
-account expenses:disbursed:Thielemann
-account expenses:disbursed:William Pierce
-account expenses:disbursed:Wojciech Geisler
-account expenses:disbursed:Yann Büchau
-account expenses:disbursed:arc
-account expenses:disbursed:dotlambda
-account expenses:disbursed:holmescharles
-account expenses:disbursed:lakshayg
-account expenses:disbursed:pablo
-account expenses:disbursed:Олексій Сімків
-account expenses:fees:host:Open Source Collective
-account expenses:fees:processor:BANK_ACCOUNT
-account expenses:fees:processor:OPENCOLLECTIVE
-account expenses:fees:processor:PAYPAL
-account expenses:fees:processor:STRIPE
 account revenues:contributions:APM Help
 account revenues:contributions:Andre Bubel
 account revenues:contributions:Anselm Peischl
@@ -202,3 +62,85 @@ account revenues:contributions:incognito
 account revenues:contributions:j. a. plamondon
 account revenues:contributions:pablo
 account revenues:contributions:Олексій Сімків
+account revenues:donations:Bas van Dijk
+account revenues:donations:Dmitry Astapov
+account revenues:donations:GLakovnik
+account revenues:donations:Peter Sagerson
+account revenues:donations:akanshaG42
+account revenues:donations:amano-kenji
+account revenues:donations:aragaer
+account revenues:donations:ishmaelavila
+account revenues:donations:markokocic
+account revenues:donations:pepe_pecas
+account revenues:donations:usaAmch
+account expenses:bounties:Bas van Dijk
+account expenses:bounties:Dmitry Astapov
+account expenses:bounties:GLakovnik
+account expenses:bounties:Peter Sagerson
+account expenses:bounties:akanshaG42
+account expenses:bounties:amano-kenji
+account expenses:bounties:aragaer
+account expenses:bounties:ishmaelavila
+account expenses:bounties:markokocic
+account expenses:bounties:pepe_pecas
+account expenses:bounties:usaAmch
+account expenses:disbursed:Allan Odgaard
+account expenses:disbursed:Andras Fabian
+account expenses:disbursed:Chris Lemaire
+account expenses:disbursed:David D Lowe
+account expenses:disbursed:Eric Langlois
+account expenses:disbursed:Frank Schmidt
+account expenses:disbursed:Ivan Popovych
+account expenses:disbursed:Jakub Zárybnický
+account expenses:disbursed:Julian Andres Klode
+account expenses:disbursed:Matt Gass
+account expenses:disbursed:Nic M
+account expenses:disbursed:Ooker
+account expenses:disbursed:Paul Dest
+account expenses:disbursed:Petr Slansky
+account expenses:disbursed:Pranesh Prakash
+account expenses:disbursed:Rajeev N
+account expenses:disbursed:Raphael Kabo
+account expenses:disbursed:Romain Gehrig
+account expenses:disbursed:Samim Pezeshki
+account expenses:disbursed:Sandstorm
+account expenses:disbursed:Simon Michael
+account expenses:disbursed:Stephen Morgan
+account expenses:disbursed:Support Ukraine
+account expenses:disbursed:Thielemann
+account expenses:disbursed:William Pierce
+account expenses:disbursed:Wojciech Geisler
+account expenses:disbursed:Yann Büchau
+account expenses:disbursed:arc
+account expenses:disbursed:dotlambda
+account expenses:disbursed:holmescharles
+account expenses:disbursed:lakshayg
+account expenses:disbursed:pablo
+account expenses:disbursed:Олексій Сімків
+account expenses:fees:host:Open Source Collective
+account expenses:fees:processor:BANK_ACCOUNT
+account expenses:fees:processor:OPENCOLLECTIVE
+account expenses:fees:processor:PAYPAL
+account expenses:fees:processor:STRIPE
+account revenues:contributions:Bas van Dijk
+account revenues:contributions:Dmitry Astapov
+account revenues:contributions:GLakovnik
+account revenues:contributions:Peter Sagerson
+account revenues:contributions:akanshaG42
+account revenues:contributions:amano-kenji
+account revenues:contributions:aragaer
+account revenues:contributions:ishmaelavila
+account revenues:contributions:markokocic
+account revenues:contributions:pepe_pecas
+account revenues:contributions:usaAmch
+account expenses:disbursed:Bas van Dijk
+account expenses:disbursed:Dmitry Astapov
+account expenses:disbursed:GLakovnik
+account expenses:disbursed:Peter Sagerson
+account expenses:disbursed:akanshaG42
+account expenses:disbursed:amano-kenji
+account expenses:disbursed:aragaer
+account expenses:disbursed:ishmaelavila
+account expenses:disbursed:markokocic
+account expenses:disbursed:pepe_pecas
+account expenses:disbursed:usaAmch
