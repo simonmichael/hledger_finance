@@ -1,15 +1,10 @@
 # Keep these in preferred display order:
 
 account assets
-account assets:opencollective:hledger  ; type:C
 account liabilities
 account equity
 account revenues
-account revenues:donations
 account expenses
-account expenses:bounties
-account expenses:fees
-account expenses:misc
 
 # Keep the rest alphabetised.
 
