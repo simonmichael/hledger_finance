@@ -25,6 +25,16 @@ alias h := _help
 alias chk := _chk
 alias fmt := _fmt
 
+# Open the opencollective budget section
+[group('maintenance')]
+@oc-budget:
+    open 'https://opencollective.com/hledger#category-BUDGET'
+
+# Open the opencollective transactions page
+[group('maintenance')]
+@oc-txns:
+    open 'https://opencollective.com/hledger/transactions?kind=ALL'
+
 # Gather any downloaded open collective CSV here.
 [group('maintenance')]
 @csv:
@@ -67,18 +77,25 @@ alias fmt := _fmt
 [group('maintenance')]
 update: csv journal accounts check readme
 
+# render and preview the readme reports
+[group('maintenance')]
+preview:
+    pandoc README.md -o .README.html && open .README.html
+
 # Commit all that's commitable.
-# [group('maintenance')]
-# commit:
-#     git commit -m "update oc csv"      -- oc.csv           || echo "oc csv has not changed"
-#     git commit -m "update oc journal"  -- oc.journal       || echo "oc journal has not changed"
-#     git commit -m "update other journal"  -- other.journal || echo "other journal has not changed"
-#     git commit -m "update accounts" -- accounts.journal    || echo "accounts have not changed"
-#     git commit -m "update reports" -- README.md            || echo "reports have not changed"
+[group('maintenance')]
+commit:
+    -git commit -m "oc csv"   -- oc.csv
+    -git commit -m "journals" -- *.journal
+    -git commit -m "reports"  -- README.md
+
 
 # Show basic reports in terminal. Can pass through one argument.
 [group('reports')]
-reports *args: (yal args) (yrx args) (ytdrx args)
+reports *args: \
+ (yal args) \
+ (yrx args) \
+ (ytdrx args) \
 
 # This year's revenue and expenses
 [group('reports')]
@@ -113,14 +130,14 @@ barcharts *args: (b-rx args) (b-al args)
 [group('reports')]
 b-rx *args:
     @printf '\n## Net Income by Year\n```\n'
-    hledger-bar -v 150 -Y type:rx --invert {{ args }}
+    $hledgerc bar -v 150 -Y type:rx --invert {{ args }}
     @printf '```\n'
 
 # Yearly net assets bar chart
 [group('reports')]
 b-al *args:
     @printf '\n## Net Assets by Year\n```\n'
-    hledger-bar -v 150 -Y type:al -H {{ args }}
+    $hledgerc bar -v 150 -Y type:al -H {{ args }}
     @printf '```\n'
 
 # Show hledger-plot charts in terminal
