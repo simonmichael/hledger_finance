@@ -36,17 +36,6 @@ alias fmt := _fmt
     ($hledger -f $csv print -x -c '1.00 USD' --round=soft >.oc.journal && mv .oc.journal oc.journal) \
     || (rm -f .oc.journal; false)
 
-newjournals:
-    $hledger -f oc-legacy.csv  print -x -c '1.00 USD' --round=soft >oc-legacy.journal
-    $hledger -f oc-columns.csv print -x -c '1.00 USD' --round=soft >oc-columns.journal
-    $hledger -f oc-default.csv print -x -c '1.00 USD' --round=soft >oc-default.journal
-    $hledger -f oc-legacy.csv  accounts >oc-legacy.accounts
-    $hledger -f oc-columns.csv accounts >oc-columns.accounts
-    $hledger -f oc-default.csv accounts >oc-default.accounts
-
-newjournals-accounts-diff:
-    meld oc-legacy.accounts oc-columns.accounts oc-default.accounts 
-
 # Declare any new accounts found in the journals (preserving existing declarations' order).
 [group('maintenance')]
 @accounts:
