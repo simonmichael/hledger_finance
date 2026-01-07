@@ -7,60 +7,84 @@ csvsrc := '/Users/simon/Downloads/hledger-transactions.csv'
 csv := 'oc.csv'
 checks := 'accounts commodities balanced ordereddates'
 
+# Make constants and recipe arguments available as environment variables.
+# (But {{ VAR }} handles multi-word values better.)
+
 set export := true
 
-# List this justfile's recipes, optionally filtered by REGEX.
+# By default, list this justfile's commands, optionally filtered by case-insensitive REGEX
 @_help *REGEX:
     if [[ '{{ REGEX }}' =~ '' ]]; then just -ul; else just -ul --color=always | rg -i '{{ REGEX }}'; true; fi
 
-# Check this justfile for errors and non-standard format.
+alias h := _help
+
+# Check this justfile for errors and non-standard format
 @_chk:
     just --fmt --unstable --check
 
-# If this justfile is error free but in non-standard format, reformat it.
+alias chk := _chk
+
+# If this justfile is error free but in non-standard format, reformat it
 @_fmt:
     just -q chk || just -q --fmt --unstable
 
-alias h := _help
-alias chk := _chk
 alias fmt := _fmt
 
-# Open the opencollective budget section
-[group('maintenance')]
-@oc-budget:
-    open 'https://opencollective.com/hledger#category-BUDGET'
+# maintenance
 
-# Open the opencollective transactions page
+# Open the opencollective transactions page for downloading csv
 [group('maintenance')]
 @oc-txns:
     open 'https://opencollective.com/hledger/transactions?kind=ALL'
 
-# Gather any downloaded open collective CSV here.
+# Gather CSV, update and check journals, update readme
 [group('maintenance')]
-@csv:
+@update: _csv _journal _accounts _check _readme
+
+# Review the cli reports and opencollective budget page
+[group('maintenance')]
+@review: _oc-budget reports
+
+# Commit all that's committable
+[group('maintenance')]
+@commit:
+    -git commit -m "oc csv"   -- oc.csv
+    -git commit -m "journals" -- *.journal
+    -git commit -m "reports"  -- README.md
+
+# Publish latest commits
+[group('maintenance')]
+@push:
+    git push
+
+# steps
+
+# Gather any downloaded open collective CSV here
+[group('steps')]
+@_csv:
     if [[ -f $csvsrc ]]; then mv $csvsrc $csv; else echo "no new $csvsrc found"; fi
 
-# Regenerate OC journal from csv.
-[group('maintenance')]
-@journal:
+# Regenerate OC journal from csv
+[group('steps')]
+@_journal:
     ($hledger -f $csv print -x -c '1.00 USD' --round=soft >.oc.journal && mv .oc.journal oc.journal) \
     || (rm -f .oc.journal; false)
 
-# Declare any new accounts found in the journals (preserving existing declarations' order).
-[group('maintenance')]
-@accounts:
+# Declare any new accounts found, preserving existing declaration order
+[group('steps')]
+@_accounts:
     ((cat accounts.journal; $hledgerc accounts --undeclared --directives) >.accounts.journal && mv .accounts.journal accounts.journal) \
     || (rm -f .accounts.journal; false)
 
-# Check the journal for problems.
-[group('maintenance')]
-@check:
+# Check the journal for problems
+[group('steps')]
+@_check:
     printf "checking journal.. "
     $hledgerc check $checks && echo "all ok ✅"
 
-# Update reports in README.md. You should update csv journal accounts first.
-[group('maintenance')]
-@readme:
+# Update reports in README.md
+[group('steps')]
+@_readme:
     $sed '/<!-- REPORTS:/q' README.md >.README.md
     just ytdrx -Ohtml >>.README.md
     just yrx -Ohtml >>.README.md
@@ -73,79 +97,73 @@ alias fmt := _fmt
     $sed -z 's/<link[^>]+>(<link[^>]+>)?<style>[^>]+>/\n\n/g' <.README.md >README.md  # XXX remove HTML reports' CSS
     rm -f .README.md
 
-# csv journal accounts check readme
-[group('maintenance')]
-update: csv journal accounts check readme
-
-# render and preview the readme reports
-[group('maintenance')]
-preview:
+# Preview the rendered readme
+[group('steps')]
+@_readme-preview:
     pandoc README.md -o .README.html && open .README.html
 
-# Commit all that's commitable.
-[group('maintenance')]
-commit:
-    -git commit -m "oc csv"   -- oc.csv
-    -git commit -m "journals" -- *.journal
-    -git commit -m "reports"  -- README.md
+# Open the opencollective budget page
+[group('steps')]
+@_oc-budget:
+    open 'https://opencollective.com/hledger#category-BUDGET'
 
+# cli reports
 
 # Show basic reports in terminal. Can pass through one argument.
-[group('reports')]
-reports *args: \
- (yal args) \
- (yrx args) \
- (ytdrx args) \
+[group('cli reports')]
+reports *args: (ytdrx args) (yrx args) (yal args)
 
 # This year's revenue and expenses
-[group('reports')]
+[group('cli reports')]
 ytdrx *args:
     @printf "\n## Revenues & Expenses This Year\n"
     $hledgerc bal -b1/1 -M type:rx --invert -2 -MTAS --transpose {{ args }}
     @printf "\n"
 
 # Yearly revenues & expenses
-[group('reports')]
+[group('cli reports')]
 yrx *args:
     @printf "\n## Revenues & Expenses by Year\n"
     $hledgerc bal type:rx --invert -2 -YT --transpose {{ args }}
     @printf "\n"
 
 # Yearly assets & liabilities
-[group('reports')]
+[group('cli reports')]
 yal *args:
     @printf "\n## Assets & Liabilities By Year\n"
     $hledgerc bal type:al -2 -HYT --transpose {{ args }}
     @printf "\n"
 
-# Show charts in terminal
-[group('reports')]
+# cli charts
+
+# Show basic charts in terminal. Can pass through one argument.
+[group('cli charts')]
 charts *args: (barcharts args) (linecharts args)
 
 # Show hledger-bar charts in terminal
-[group('reports')]
+[group('cli charts')]
 barcharts *args: (b-rx args) (b-al args)
 
 # Yearly net income bar chart
-[group('reports')]
+[group('cli charts')]
 b-rx *args:
     @printf '\n## Net Income by Year\n```\n'
     $hledgerc bar -v 150 -Y type:rx --invert {{ args }}
     @printf '```\n'
 
 # Yearly net assets bar chart
-[group('reports')]
+[group('cli charts')]
 b-al *args:
     @printf '\n## Net Assets by Year\n```\n'
     $hledgerc bar -v 150 -Y type:al -H {{ args }}
     @printf '```\n'
 
 # Show hledger-plot charts in terminal
-[group('reports')]
+[group('cli charts')]
 linecharts *args: (l-a args) (l-r args) (l-x args)
 
 # Assets line chart
-[group('reports')]
+[group('cli charts')]
 l-a *args:
     @printf '\n## Assets Over Time\n```\n'
     $hledgerc plot -- bal --depth=1 ^assets   --historical  --terminal --rcParams '{"figure.figsize":[8,3]}' --no-today -q --title "hledger assets" {{ args }} \
@@ -153,7 +171,7 @@ l-a *args:
     @printf '```\n'
 
 # Revenues line chart
-[group('reports')]
+[group('cli charts')]
 l-r *args:
     @printf '\n## Revenues Over Time\n```\n'
     $hledgerc plot -- bal --depth=1 ^revenues --monthly --invert  --terminal --rcParams '{"figure.figsize":[8,3]}' --drawstyle 'steps-mid' --no-today -q --title "hledger monthly revenues" {{ args }} \
@@ -161,7 +179,7 @@ l-r *args:
     @printf '```\n'
 
 # Expenses line chart
-[group('reports')]
+[group('cli charts')]
 l-x *args:
     @printf '\n## Expenses Over Time\n```\n'
     $hledgerc plot -- bal --depth=1 ^expenses --monthly --terminal --rcParams '{"figure.figsize":[8,3]}' --drawstyle 'steps-mid' --no-today -q --title "hledger monthly expenses" {{ args }} \
