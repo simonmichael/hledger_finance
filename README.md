@@ -28,7 +28,7 @@ To regenerate the reports:
 - `just update`, check git diffs
 - `just reports oc-budget`, check latest balance agrees with OC's
 - `just commit`
-- `git push` to <https://github.com/simonmichael/hledger_finance>
+- `just push` to <https://github.com/simonmichael/hledger_finance>
 
 ## Reports
 
