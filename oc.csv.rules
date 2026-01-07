@@ -11,8 +11,9 @@
 # "2025-12-23T10:59:20","e34843a9","d40ea8c3","Monthly contribution from Guest (Bronze)","CREDIT","CONTRIBUTION","","","","$2.00 USD",2,-0.59,1.41,7128.76,"USD","hledger","hledger","guest-d120c27f","Guest","PAYPAL","SUBSCRIPTION",,"",,,,0
 # "2025-12-23T10:59:20","94960bd6","d40ea8c3","Host Fee to Open Source Collective","DEBIT","HOST_FEE","","","","-$0.20 USD",-0.2,0,-0.2,7127.97,"USD","hledger","hledger","opensource","Open Source Collective",,,,"",,,,0
 
-source hledger-transactions.csv
-# archive
+#source hledger-transactions.csv
+#archive
+
 fields date, shortId, shortGroup, description, type, kind, isRefund, isRefunded, shortRefundId, displayAmount, amount_, paymentProcessorFee, netAmount, balance_, currency_, accountSlug, accountName, oppositeAccountSlug, oppositeAccountName, paymentMethodService, paymentMethodType, expenseType, expenseTags, payoutMethodType, merchantId, orderMemo, taxAmount
 skip 1
 newest-first
