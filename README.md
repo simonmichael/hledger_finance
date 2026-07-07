@@ -18,15 +18,15 @@ In this directory:
 
 To regenerate the reports:
 
-- `just oc-txns` (View Open Collective transactions with no filters, <https://opencollective.com/hledger/transactions?kind=ALL>)
+- `just csv` (View Open Collective transactions with no filters, <https://opencollective.com/hledger/transactions?kind=ALL>)
   - Click Export CSV
   - Selected export set: Legacy Platform Default (Pre-2024)
   - Use field IDs as column headers instead of field names: on
   - Export taxes and payment processor fees as columns: on
   - Click Export CSV
   - Close the dialog
-- `just update`, check git diffs
-- `just reports oc-budget`, check latest balance agrees with OC's
+- `just update`, check diffs
+- `just reports; just oc-budget`, check final balance agrees with OC Today's Balance
 - `just commit`
 - `just push` to <https://github.com/simonmichael/hledger_finance>
 

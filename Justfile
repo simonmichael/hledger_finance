@@ -34,9 +34,16 @@ alias fmt := _fmt
 
 # maintenance
 
-# Help download CSV, update and check journals, update readme reports
+# Open the opencollective transactions page for downloading csv
 [group('maintenance')]
-@update: oc-csv _journal _accounts _check _readme
+@csv:
+    $open 'https://opencollective.com/hledger/transactions?kind=ALL'
+    read -p 'After successful download, press enter: '
+    if [[ -f $occsvsrc ]]; then mv $occsvsrc $csv; else echo "no new $occsvsrc found"; fi
+
+# Regenerate and check journals, update readme reports
+[group('maintenance')]
+@update: _journal _accounts _check _readme
 
 # Review the cli reports and opencollective budget page
 [group('maintenance')]
@@ -59,7 +66,7 @@ alias fmt := _fmt
 # Regenerate OC journal from OC csv
 [group('steps')]
 @_journal:
-    ($hledger -f $csv --rules oc.csv.rules print -x -c '1.00 USD' --round=soft >.oc.journal && mv .oc.journal oc.journal) \
+    ($hledger -f $csv --rules oc.csv.rules print -x --round=soft >.oc.journal && mv .oc.journal oc.journal) \
     || (rm -f .oc.journal; false)
 
 # Declare any new accounts found, preserving existing declaration order
@@ -100,13 +107,6 @@ alias fmt := _fmt
 [group('misc')]
 @oc-budget:
     $open 'https://opencollective.com/hledger#category-BUDGET'
-
-# Open the opencollective transactions page for downloading csv
-[group('misc')]
-@oc-csv:
-    $open 'https://opencollective.com/hledger/transactions?kind=ALL'
-    read -p 'After successful download, press enter: '
-    if [[ -f $occsvsrc ]]; then mv $occsvsrc $csv; else echo "no new $occsvsrc found"; fi
 
 # Open sm's liberapay ledger
 [group('misc')]
