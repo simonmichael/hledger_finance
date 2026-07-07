@@ -10,6 +10,7 @@ account expenses
 
 account assets:opencollective:hledger
 account expenses:bounties:Олексій Сімків
+account expenses:bounties:adams
 account expenses:bounties:akanshaG42
 account expenses:bounties:akanshaG42
 account expenses:bounties:Allan Odgaard
@@ -21,6 +22,7 @@ account expenses:bounties:aragaer
 account expenses:bounties:arc
 account expenses:bounties:Bas van Dijk
 account expenses:bounties:Bas van Dijk
+account expenses:bounties:Bertrand Pinlet
 account expenses:bounties:Chris Lemaire
 account expenses:bounties:David D Lowe
 account expenses:bounties:Dmitry Astapov
@@ -41,6 +43,7 @@ account expenses:bounties:markokocic
 account expenses:bounties:markokocic
 account expenses:bounties:Matt Gass
 account expenses:bounties:Nic M
+account expenses:bounties:omnibs
 account expenses:bounties:Ooker
 account expenses:bounties:pablo
 account expenses:bounties:Paul Dest
@@ -49,6 +52,7 @@ account expenses:bounties:pepe_pecas
 account expenses:bounties:Peter Sagerson
 account expenses:bounties:Peter Sagerson
 account expenses:bounties:Petr Slansky
+account expenses:bounties:Piero Vera
 account expenses:bounties:Pranesh Prakash
 account expenses:bounties:Rajeev N
 account expenses:bounties:Raphael Kabo
@@ -64,11 +68,13 @@ account expenses:bounties:usaAmch
 account expenses:bounties:William Pierce
 account expenses:bounties:Wojciech Geisler
 account expenses:bounties:Yann Büchau
-account expenses:fees:Open Source Collective  ; fiscal host
 account expenses:fees:BANK_ACCOUNT            ; payment processors
+account expenses:fees:Open Source Collective  ; fiscal host
 account expenses:fees:OPENCOLLECTIVE
 account expenses:fees:PAYPAL
 account expenses:fees:STRIPE
+account expenses:misc
+account expenses:misc:contributions
 account revenues:donations:akanshaG42
 account revenues:donations:amano-kenji
 account revenues:donations:aragaer
@@ -81,6 +87,7 @@ account revenues:donations:pepe_pecas
 account revenues:donations:Peter Sagerson
 account revenues:donations:usaAmch
 account revenues:sponsors:Олексій Сімків
+account revenues:sponsors:Adam Sliwinski
 account revenues:sponsors:akanshaG42
 account revenues:sponsors:amano-kenji
 account revenues:sponsors:Andre Bubel
@@ -90,8 +97,10 @@ account revenues:sponsors:aragaer
 account revenues:sponsors:Aviator Game
 account revenues:sponsors:Bas van Dijk
 account revenues:sponsors:Bharath Chandra Sudheer
+account revenues:sponsors:bitsonchips
 account revenues:sponsors:Brandon Barker
 account revenues:sponsors:Brandon J Wong
+account revenues:sponsors:Christian
 account revenues:sponsors:Colton Lewis
 account revenues:sponsors:Crash Game
 account revenues:sponsors:Damien Cassou
