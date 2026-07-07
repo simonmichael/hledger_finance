@@ -1,4 +1,4 @@
-commodity USD
+commodity 1.00 USD
 
 include accounts.journal
 include oc.journal
