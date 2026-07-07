@@ -23,7 +23,7 @@ if %isRefund .
  comment \nid:%shortId, refunding:%shortRefundId, group:%shortGroup, dc:%type, payment-service:%paymentMethodService, payment-type:%paymentMethodType
 
 # We will generate postings in FROM,TO order most of the time:
-# posting1 is the source, if any
+# posting1 is the source, if any (XXX some inconsistency, see fixups below)
 # posting2 is the incoming payment processor fee, if any
 # posting3 is the incoming host fee, if any
 # posting4 is this open collective account
@@ -63,6 +63,11 @@ if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9]) && %kind CONTRIBUTION 
 if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9]) && %kind CONTRIBUTION && %isRefund REFUND
  account1 revenues:sponsors:%oppositeAccountName
 
+if %kind HOST_FEE|PAYMENT_PROCESSOR_COVER
+ balance4 %balance_ %currency_
+ account6 expenses:fees:%oppositeAccountName
+ amount6  -%amount_ %currency_
+
 if %kind EXPENSE
  amount4  %netAmount %currency_
  account5 expenses:fees:%payoutMethodType
@@ -71,7 +76,17 @@ if %kind EXPENSE
  amount7  -%amount_ %currency_
 # balance4 %balance_ %currency_  # wrong
 
-if %kind HOST_FEE|PAYMENT_PROCESSOR_COVER
- balance4 %balance_ %currency_
- account6 expenses:fees:%oppositeAccountName
- amount6  -%amount_ %currency_
+# fixups
+
+if
+Contribution to Support Ukraine
+ account1 expenses:misc:contributions
+
+if
+Contribution to Sandstorm
+ account7 expenses:misc:contributions
+
+if
+Expense from Simon Michael - Financial Accounting textbook
+ account7 expenses:misc
+
