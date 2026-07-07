@@ -36,11 +36,11 @@ amount4  %amount_ %currency_
 
 # if %date < 2021-06
 if %date ^(20[01]|2020|2021-0[1-5]) && %kind CONTRIBUTION
- account1 revenues:contributions:%oppositeAccountName
+ account1 revenues:sponsors:%oppositeAccountName
  amount1  -%amount_ %currency_
- account2 expenses:fees:processor:%paymentMethodService
+ account2 expenses:fees:%paymentMethodService
  amount2  -%paymentProcessorFee %currency_
- account3 expenses:fees:host:Open Source Collective
+ account3 expenses:fees:Open Source Collective
  account4 assets:opencollective:%accountName
  amount4  %netAmount %currency_
  balance4 %balance_ %currency_
@@ -48,9 +48,9 @@ if %date ^(20[01]|2020|2021-0[1-5]) && %kind CONTRIBUTION
 
 # if %date >= 2021-06
 if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9]) && %kind CONTRIBUTION
- account1 revenues:contributions:%oppositeAccountName
+ account1 revenues:sponsors:%oppositeAccountName
  amount1  -%amount_ %currency_
- account2 expenses:fees:processor:%paymentMethodService
+ account2 expenses:fees:%paymentMethodService
  amount2  -%paymentProcessorFee %currency_
  account4 assets:opencollective:%accountName
  amount4  %netAmount %currency_
@@ -58,20 +58,20 @@ if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9]) && %kind CONTRIBUTION
 # balance4 %balance_ %currency_  # wrong
 
 if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9]) && %kind CONTRIBUTION && %type DEBIT
- account1 expenses:disbursed:%oppositeAccountName
+ account1 expenses:bounties:%oppositeAccountName
 
 if %date ^(2021-(0[6-9]|1)|202[2-9]|20[3-9]|2[1-9]|[3-9]) && %kind CONTRIBUTION && %isRefund REFUND
- account1 revenues:contributions:%oppositeAccountName
+ account1 revenues:sponsors:%oppositeAccountName
 
 if %kind EXPENSE
  amount4  %netAmount %currency_
- account5 expenses:fees:processor:%payoutMethodType
+ account5 expenses:fees:%payoutMethodType
  amount5  -%paymentProcessorFee %currency_
- account7 expenses:disbursed:%oppositeAccountName
+ account7 expenses:bounties:%oppositeAccountName
  amount7  -%amount_ %currency_
 # balance4 %balance_ %currency_  # wrong
 
 if %kind HOST_FEE|PAYMENT_PROCESSOR_COVER
  balance4 %balance_ %currency_
- account6 expenses:fees:host:%oppositeAccountName
+ account6 expenses:fees:%oppositeAccountName
  amount6  -%amount_ %currency_
