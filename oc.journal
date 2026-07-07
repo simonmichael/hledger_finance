@@ -1854,7 +1854,7 @@
     ; id:60a5a450, group:4c3854d4, dc:DEBIT, payment-service:, payment-type:
     assets:opencollective:hledger         -50.25 USD
     expenses:fees:processor:PAYPAL          0.25 USD
-    expenses:disbursed:Simon Michael       50.00 USD
+    expenses:bounties:Simon Michael       50.00 USD
 
 2021-07-19 Monthly contribution from APM Help
     ; id:14b6e0ac, group:f4534172, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -1871,7 +1871,7 @@
     ; id:242ae183, group:eb8c86e6, dc:DEBIT, payment-service:, payment-type:
     assets:opencollective:hledger        -100.25 USD
     expenses:fees:processor:PAYPAL          0.25 USD
-    expenses:disbursed:Simon Michael      100.00 USD
+    expenses:bounties:Simon Michael      100.00 USD
 
 2021-08-01 Monthly contribution from October Swimmer (Bronze)
     ; id:40c1e7ad, group:111c9a8f, dc:CREDIT, payment-service:STRIPE, payment-type:CREDITCARD
@@ -2031,7 +2031,7 @@
     ; id:9130ab30, group:36f56b4c, dc:DEBIT, payment-service:, payment-type:
     assets:opencollective:hledger              -100.77 USD
     expenses:fees:processor:BANK_ACCOUNT          0.76 USD
-    expenses:disbursed:Julian Andres Klode      100.01 USD
+    expenses:bounties:Julian Andres Klode      100.01 USD
 
 2021-08-05 Monthly contribution from Brandon J Wong (Bronze)
     ; id:286a2206, group:9d8c0c88, dc:CREDIT, payment-service:STRIPE, payment-type:CREDITCARD
@@ -2048,7 +2048,7 @@
     ; id:835ee4ff, group:58c4bb8d, dc:DEBIT, payment-service:, payment-type:
     assets:opencollective:hledger      -102.00 USD
     expenses:fees:processor:PAYPAL        2.00 USD
-    expenses:disbursed:Yann Büchau      100.00 USD
+    expenses:bounties:Yann Büchau      100.00 USD
 
 2021-08-14 Contribution from Michael Manganiello
     ; id:f3226d24, group:42af33cc, dc:CREDIT, payment-service:PAYPAL, payment-type:PAYMENT
@@ -2087,13 +2087,13 @@
     ; id:b8bc86e5, group:f59a6253, dc:DEBIT, payment-service:, payment-type:
     assets:opencollective:hledger             -10.44 USD
     expenses:fees:processor:BANK_ACCOUNT        0.44 USD
-    expenses:disbursed:Stephen Morgan          10.00 USD
+    expenses:bounties:Stephen Morgan          10.00 USD
 
 2021-08-26 Expense from Stephen Morgan - regression bounty
     ; id:dc121057, group:8d140f93, dc:DEBIT, payment-service:, payment-type:
     assets:opencollective:hledger            -100.84 USD
     expenses:fees:processor:BANK_ACCOUNT        0.84 USD
-    expenses:disbursed:Stephen Morgan         100.00 USD
+    expenses:bounties:Stephen Morgan         100.00 USD
 
 2021-09-01 Monthly contribution from October Swimmer (Bronze)
     ; id:41cab4d6, group:dbf98dce, dc:CREDIT, payment-service:STRIPE, payment-type:CREDITCARD
@@ -2473,7 +2473,7 @@
     ; id:6af44341, group:7c563358, dc:DEBIT, payment-service:, payment-type:
     assets:opencollective:hledger            -100.87 USD
     expenses:fees:processor:BANK_ACCOUNT        0.87 USD
-    expenses:disbursed:David D Lowe           100.00 USD
+    expenses:bounties:David D Lowe           100.00 USD
 
 2021-10-19 Monthly contribution from APM Help
     ; id:1d93a1f5, group:131e7440, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -2666,7 +2666,7 @@
     ; id:2b252d49, group:37a239ff, dc:DEBIT, payment-service:, payment-type:
     assets:opencollective:hledger      -102.00 USD
     expenses:fees:processor:PAYPAL        2.00 USD
-    expenses:disbursed:arc              100.00 USD
+    expenses:bounties:arc              100.00 USD
 
 2021-11-07 Monthly contribution from Real Targeted Traffic (Bronze)
     ; id:5d5d8a03, group:bbbec56e, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -2694,7 +2694,7 @@
     ; id:d565e515, group:5bb06854, dc:DEBIT, payment-service:, payment-type:
     assets:opencollective:hledger        -100.25 USD
     expenses:fees:processor:PAYPAL          0.25 USD
-    expenses:disbursed:Romain Gehrig      100.00 USD
+    expenses:bounties:Romain Gehrig      100.00 USD
 
 2021-11-19 Monthly contribution from APM Help
     ; id:c2a1086f, group:124dbc31, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -3151,7 +3151,7 @@
     ; id:223c09cc, group:89393085, dc:DEBIT, payment-service:, payment-type:
     assets:opencollective:hledger        -100.25 USD
     expenses:fees:processor:PAYPAL          0.25 USD
-    expenses:disbursed:holmescharles      100.00 USD
+    expenses:bounties:holmescharles      100.00 USD
 
 2022-01-31 Monthly contribution from Richard Kelly (Bronze)
     ; id:417b136e, group:cd2f5c20, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -3716,7 +3716,7 @@
 
 2022-04-12 Contribution to Support Ukraine
     ; id:281bfbee, group:6a28d226, dc:DEBIT, payment-service:OPENCOLLECTIVE, payment-type:COLLECTIVE
-    expenses:disbursed:Support Ukraine          500.00 USD
+    expenses:misc:Support Ukraine               500.00 USD
     expenses:fees:processor:OPENCOLLECTIVE        0.00 USD
     assets:opencollective:hledger              -500.00 USD
 
@@ -3922,7 +3922,7 @@
     ; id:f49cd55c, group:eb7a56bc, dc:DEBIT, payment-service:, payment-type:
     assets:opencollective:hledger         -78.37 USD
     expenses:fees:processor:PAYPAL          0.25 USD
-    expenses:disbursed:Simon Michael       78.12 USD
+    expenses:misc:Simon Michael            78.12 USD
 
 2022-05-23 Monthly contribution from Guest (Bronze)
     ; id:169c305e, group:b21ed653, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -4676,13 +4676,13 @@
     ; id:688cb3a1, group:52026fe7, dc:DEBIT, payment-service:, payment-type:
     assets:opencollective:hledger            -100.94 USD
     expenses:fees:processor:BANK_ACCOUNT        0.94 USD
-    expenses:disbursed:Eric Langlois          100.00 USD
+    expenses:bounties:Eric Langlois          100.00 USD
 
 2022-09-15 Expense from Simon Michael - regression bounty
     ; id:68976dd2, group:f17a7600, dc:DEBIT, payment-service:, payment-type:
     assets:opencollective:hledger        -100.25 USD
     expenses:fees:processor:PAYPAL          0.25 USD
-    expenses:disbursed:Simon Michael      100.00 USD
+    expenses:bounties:Simon Michael      100.00 USD
 
 2022-09-23 Monthly contribution from Guest (Bronze)
     ; id:06e54c2d, group:27d035ac, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -5205,7 +5205,7 @@
     ; id:76ffa9b1, group:3ee985bd, dc:DEBIT, payment-service:, payment-type:
     assets:opencollective:hledger            -100.83 USD
     expenses:fees:processor:BANK_ACCOUNT        0.83 USD
-    expenses:disbursed:Andras Fabian          100.00 USD
+    expenses:bounties:Andras Fabian          100.00 USD
 
 2022-12-23 Monthly contribution from Guest (Bronze)
     ; id:9c106aaf, group:20b69359, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -5409,7 +5409,7 @@
     ; id:a50a6343, group:12235cd0, dc:DEBIT, payment-service:, payment-type:
     assets:opencollective:hledger         -12.24 USD
     expenses:fees:processor:PAYPAL          0.24 USD
-    expenses:disbursed:Chris Lemaire       12.00 USD
+    expenses:bounties:Chris Lemaire       12.00 USD
 
 2023-01-31 Monthly contribution from Richard Kelly (Bronze)
     ; id:75545e8b, group:f309fa68, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -5712,7 +5712,7 @@
     ; id:ea535d0e, group:e0f0e54a, dc:DEBIT, payment-service:, payment-type:
     assets:opencollective:hledger            -100.39 USD
     expenses:fees:processor:BANK_ACCOUNT        0.39 USD
-    expenses:disbursed:Allan Odgaard          100.00 USD
+    expenses:bounties:Allan Odgaard          100.00 USD
 
 2023-03-31 Monthly contribution from Richard Kelly (Bronze)
     ; id:1e10b3d4, group:88cf6bd0, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -5850,13 +5850,13 @@
     ; id:66c37ff0, group:19b2e9bd, dc:DEBIT, payment-service:, payment-type:
     assets:opencollective:hledger      -102.00 USD
     expenses:fees:processor:PAYPAL        2.00 USD
-    expenses:disbursed:pablo            100.00 USD
+    expenses:bounties:pablo            100.00 USD
 
 2023-04-13 Expense from Simon Michael - Regression bounty for #2023
     ; id:49dd2020, group:f8bf3d65, dc:DEBIT, payment-service:, payment-type:
     assets:opencollective:hledger        -100.25 USD
     expenses:fees:processor:PAYPAL          0.25 USD
-    expenses:disbursed:Simon Michael      100.00 USD
+    expenses:bounties:Simon Michael      100.00 USD
 
 2023-04-23 Monthly contribution from Guest (Bronze)
     ; id:b80e21b6, group:60edf87b, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -6005,7 +6005,7 @@
     ; id:2e10b761, group:9df5d5f4, dc:DEBIT, payment-service:, payment-type:
     assets:opencollective:hledger        -100.25 USD
     expenses:fees:processor:PAYPAL          0.25 USD
-    expenses:disbursed:Simon Michael      100.00 USD
+    expenses:bounties:Simon Michael      100.00 USD
 
 2023-05-23 Monthly contribution from Guest (Bronze)
     ; id:e5aaf38d, group:8a62c399, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -6693,17 +6693,17 @@
     ; id:3c526232, group:2f165862, dc:DEBIT, payment-service:, payment-type:
     assets:opencollective:hledger          -102.00 USD
     expenses:fees:processor:PAYPAL            2.00 USD
-    expenses:disbursed:Pranesh Prakash      100.00 USD
+    expenses:bounties:Pranesh Prakash      100.00 USD
 
 2023-10-17 Expense from Petr Slansky - Regression bounty for #2091
     ; id:6b91441c, group:ae65da3b, dc:DEBIT, payment-service:, payment-type:
     assets:opencollective:hledger       -102.00 USD
     expenses:fees:processor:PAYPAL         2.00 USD
-    expenses:disbursed:Petr Slansky      100.00 USD
+    expenses:bounties:Petr Slansky      100.00 USD
 
 2023-10-20 Contribution to Sandstorm
     ; id:4df9451b, group:9b3f5f96, dc:DEBIT, payment-service:OPENCOLLECTIVE, payment-type:COLLECTIVE
-    expenses:disbursed:Sandstorm                100.00 USD
+    expenses:misc:Sandstorm                     100.00 USD
     expenses:fees:processor:OPENCOLLECTIVE        0.00 USD
     assets:opencollective:hledger              -100.00 USD
 
@@ -6832,7 +6832,7 @@
     ; id:d1000bda, group:45a3213b, dc:DEBIT, payment-service:, payment-type:
     assets:opencollective:hledger            -100.88 USD
     expenses:fees:processor:BANK_ACCOUNT        0.88 USD
-    expenses:disbursed:Jakub Zárybnický       100.00 USD
+    expenses:bounties:Jakub Zárybnický       100.00 USD
 
 2023-11-23 Monthly contribution from Guest (Bronze)
     ; id:a879c7cc, group:76bc5f1f, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -6959,7 +6959,7 @@
     ; id:1b763d28, group:e10a3bcf, dc:DEBIT, payment-service:, payment-type:
     assets:opencollective:hledger      -100.25 USD
     expenses:fees:processor:PAYPAL        0.25 USD
-    expenses:disbursed:Rajeev N         100.00 USD
+    expenses:bounties:Rajeev N         100.00 USD
 
 2023-12-23 Monthly contribution from Guest (Bronze)
     ; id:c2ad8425, group:8bccf4ce, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -7520,7 +7520,7 @@
     ; id:a286d6f9, group:deaf588b, dc:DEBIT, payment-service:PAYPAL, payment-type:PAYOUT
     assets:opencollective:hledger          -50.25 USD
     expenses:fees:processor:PAYPAL           0.25 USD
-    expenses:disbursed:William Pierce       50.00 USD
+    expenses:bounties:William Pierce       50.00 USD
 
 2024-04-23 Monthly contribution from Guest (Bronze)
     ; id:05ab3355, group:ec72a8ea, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -7548,7 +7548,7 @@
     ; id:0102d10f, group:79cff8da, dc:DEBIT, payment-service:PAYPAL, payment-type:PAYOUT
     assets:opencollective:hledger         -50.25 USD
     expenses:fees:processor:PAYPAL          0.25 USD
-    expenses:disbursed:Simon Michael       50.00 USD
+    expenses:bounties:Simon Michael       50.00 USD
 
 2024-05-01 Monthly contribution from Rishi Hyanki (Bronze)
     ; id:6c415446, group:65f1fd5d, dc:CREDIT, payment-service:STRIPE, payment-type:CREDITCARD
@@ -8164,7 +8164,7 @@
     ; id:cad62c86, group:42e8a221, dc:DEBIT, payment-service:PAYPAL, payment-type:PAYOUT
     assets:opencollective:hledger           -51.00 USD
     expenses:fees:processor:PAYPAL            1.00 USD
-    expenses:disbursed:Pranesh Prakash       50.00 USD
+    expenses:bounties:Pranesh Prakash       50.00 USD
 
 2024-09-23 Monthly contribution from Guest (Bronze)
     ; id:eb429e46, group:7348cb56, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -8181,7 +8181,7 @@
     ; id:4bc8b096, group:7210a238, dc:DEBIT, payment-service:WISE, payment-type:BANK_TRANSFER
     assets:opencollective:hledger             -52.68 USD
     expenses:fees:processor:BANK_ACCOUNT        2.91 USD
-    expenses:disbursed:Ivan Popovych           49.77 USD
+    expenses:bounties:Ivan Popovych           49.77 USD
 
 2024-09-30 Monthly contribution from Richard Kelly (Bronze)
     ; id:c453ce0c, group:27f49754, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -8297,19 +8297,19 @@
     ; id:992bb070, group:4aa0a20b, dc:DEBIT, payment-service:PAYPAL, payment-type:PAYOUT
     assets:opencollective:hledger        -300.25 USD
     expenses:fees:processor:PAYPAL          0.25 USD
-    expenses:disbursed:Simon Michael      300.00 USD
+    expenses:bounties:Simon Michael      300.00 USD
 
 2024-10-15 Expense from Simon Michael - regression bounty for #2071
     ; id:70d731f8, group:a544b446, dc:DEBIT, payment-service:PAYPAL, payment-type:PAYOUT
     assets:opencollective:hledger         -50.25 USD
     expenses:fees:processor:PAYPAL          0.25 USD
-    expenses:disbursed:Simon Michael       50.00 USD
+    expenses:bounties:Simon Michael       50.00 USD
 
 2024-10-17 Expense from Thielemann - Regression finder bounty for #2225 and #2227
     ; id:93a7e39e, group:638b787f, dc:DEBIT, payment-service:WISE, payment-type:BANK_TRANSFER
     assets:opencollective:hledger            -149.96 USD
     expenses:fees:processor:BANK_ACCOUNT        0.80 USD
-    expenses:disbursed:Thielemann             149.16 USD
+    expenses:bounties:Thielemann             149.16 USD
 
 2024-10-23 Monthly contribution from Guest (Bronze)
     ; id:e71bded2, group:4a78f880, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -8436,7 +8436,7 @@
     ; id:4c5ce794, group:deff2865, dc:DEBIT, payment-service:PAYPAL, payment-type:PAYOUT
     assets:opencollective:hledger       -50.25 USD
     expenses:fees:processor:PAYPAL        0.25 USD
-    expenses:disbursed:lakshayg          50.00 USD
+    expenses:bounties:lakshayg          50.00 USD
 
 2024-11-23 Monthly contribution from Guest (Bronze)
     ; id:20567740, group:79247ec0, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -8563,7 +8563,7 @@
     ; id:17545151, group:77300c3a, dc:DEBIT, payment-service:WISE, payment-type:BANK_TRANSFER
     assets:opencollective:hledger             -49.87 USD
     expenses:fees:processor:BANK_ACCOUNT        0.66 USD
-    expenses:disbursed:Raphael Kabo            49.21 USD
+    expenses:bounties:Raphael Kabo            49.21 USD
 
 2024-12-23 Monthly contribution from Guest (Bronze)
     ; id:35c20dd2, group:e41d6bf7, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -9009,7 +9009,7 @@
     ; id:9328c1cc, group:852323c1, dc:DEBIT, payment-service:PAYPAL, payment-type:PAYOUT
     assets:opencollective:hledger       -50.25 USD
     expenses:fees:processor:PAYPAL        0.25 USD
-    expenses:disbursed:Matt Gass         50.00 USD
+    expenses:bounties:Matt Gass         50.00 USD
 
 2025-03-23 Monthly contribution from Guest (Bronze)
     ; id:25e2e75e, group:fe150cc4, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -9231,11 +9231,11 @@
     assets:opencollective:hledger                   -1.00 USD = 8060.67 USD
     expenses:fees:host:Open Source Collective        1.00 USD
 
-2025-05-20 Expense from Simon Michael - Regression fixer for #2389
+2025-05-20 Expense from Simon Michael - Regression fixer bounty for #2389
     ; id:40a1b662, group:a7395734, dc:DEBIT, payment-service:PAYPAL, payment-type:PAYOUT
     assets:opencollective:hledger         -50.25 USD
     expenses:fees:processor:PAYPAL          0.25 USD
-    expenses:disbursed:Simon Michael       50.00 USD
+    expenses:bounties:Simon Michael       50.00 USD
 
 2025-05-23 Monthly contribution from Guest (Bronze)
     ; id:6415af33, group:bb4a2d93, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -9351,7 +9351,7 @@
     ; id:6aeaec81, group:dee744cc, dc:DEBIT, payment-service:WISE, payment-type:BANK_TRANSFER
     assets:opencollective:hledger             -62.34 USD
     expenses:fees:processor:BANK_ACCOUNT       12.34 USD
-    expenses:disbursed:Олексій Сімків          50.00 USD
+    expenses:bounties:Олексій Сімків          50.00 USD
 
 2025-06-03 Contribution from Олексій Сімків (Custom)
     ; id:7e18b201, group:8fcd8bec, dc:CREDIT, payment-service:STRIPE, payment-type:CREDITCARD
@@ -9368,25 +9368,25 @@
     ; id:5fe411af, group:8dc8cccd, dc:DEBIT, payment-service:PAYPAL, payment-type:PAYOUT
     assets:opencollective:hledger        -400.25 USD
     expenses:fees:processor:PAYPAL          0.25 USD
-    expenses:disbursed:Simon Michael      400.00 USD
+    expenses:bounties:Simon Michael      400.00 USD
 
 2025-06-05 Expense from Simon Michael - Regression fixer bounty for #2396, #2397
     ; id:613196e4, group:b34930d4, dc:DEBIT, payment-service:PAYPAL, payment-type:PAYOUT
     assets:opencollective:hledger        -100.25 USD
     expenses:fees:processor:PAYPAL          0.25 USD
-    expenses:disbursed:Simon Michael      100.00 USD
+    expenses:bounties:Simon Michael      100.00 USD
 
 2025-06-17 Expense from Wojciech Geisler - Regression finder bounty for #2406
     ; id:000eeb81, group:64592f3f, dc:DEBIT, payment-service:WISE, payment-type:BANK_TRANSFER
     assets:opencollective:hledger             -62.43 USD
     expenses:fees:processor:BANK_ACCOUNT       12.43 USD
-    expenses:disbursed:Wojciech Geisler        50.00 USD
+    expenses:bounties:Wojciech Geisler        50.00 USD
 
 2025-06-17 Expense from Simon Michael - Regression fixer bounty for #2406
     ; id:8f94e8b2, group:1e25026e, dc:DEBIT, payment-service:PAYPAL, payment-type:PAYOUT
     assets:opencollective:hledger         -50.25 USD
     expenses:fees:processor:PAYPAL          0.25 USD
-    expenses:disbursed:Simon Michael       50.00 USD
+    expenses:bounties:Simon Michael       50.00 USD
 
 2025-06-23 Monthly contribution from Guest (Bronze)
     ; id:1b9cd221, group:37298d97, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -9491,7 +9491,7 @@
     ; id:aa95a334, group:57315545, dc:DEBIT, payment-service:WISE, payment-type:BANK_TRANSFER
     assets:opencollective:hledger            -138.54 USD
     expenses:fees:processor:BANK_ACCOUNT        8.54 USD
-    expenses:disbursed:Stephen Morgan         130.00 USD
+    expenses:bounties:Stephen Morgan         130.00 USD
 
 2025-07-01 Monthly contribution from Joyful Systems (Bronze)
     ; id:4bdb445a, group:0807ef0a, dc:CREDIT, payment-service:STRIPE, payment-type:CREDITCARD
@@ -9607,7 +9607,7 @@
     ; id:b0ef9682, group:1194ff8e, dc:DEBIT, payment-service:PAYPAL, payment-type:PAYOUT
     assets:opencollective:hledger         -52.65 USD
     expenses:fees:processor:PAYPAL          1.03 USD
-    expenses:disbursed:Frank Schmidt       51.62 USD
+    expenses:bounties:Frank Schmidt       51.62 USD
 
 2025-08-23 Monthly contribution from Guest (Bronze)
     ; id:0254cdeb, group:f0c0dfe7, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -9712,25 +9712,25 @@
     ; id:0ac4ab69, group:fecbec6b, dc:DEBIT, payment-service:PAYPAL, payment-type:PAYOUT
     assets:opencollective:hledger          -51.00 USD
     expenses:fees:processor:PAYPAL           1.00 USD
-    expenses:disbursed:Samim Pezeshki       50.00 USD
+    expenses:bounties:Samim Pezeshki       50.00 USD
 
 2025-09-18 Expense from Simon Michael - Regression fixer bounty for #2417
     ; id:c050147c, group:34d0426a, dc:DEBIT, payment-service:PAYPAL, payment-type:PAYOUT
     assets:opencollective:hledger         -50.25 USD
     expenses:fees:processor:PAYPAL          0.25 USD
-    expenses:disbursed:Simon Michael       50.00 USD
+    expenses:bounties:Simon Michael       50.00 USD
 
 2025-09-18 Expense from Nic M - Regression finder bounty for #2454
     ; id:5a306ebd, group:73318ee6, dc:DEBIT, payment-service:PAYPAL, payment-type:PAYOUT
     assets:opencollective:hledger       -50.25 USD
     expenses:fees:processor:PAYPAL        0.25 USD
-    expenses:disbursed:Nic M             50.00 USD
+    expenses:bounties:Nic M             50.00 USD
 
 2025-09-18 Expense from Simon Michael - Regression fixer bounty for #2302
     ; id:25ef5aef, group:f88fefb3, dc:DEBIT, payment-service:PAYPAL, payment-type:PAYOUT
     assets:opencollective:hledger         -50.25 USD
     expenses:fees:processor:PAYPAL          0.25 USD
-    expenses:disbursed:Simon Michael       50.00 USD
+    expenses:bounties:Simon Michael       50.00 USD
 
 2025-09-23 Monthly contribution from Guest (Bronze)
     ; id:ad75e1f0, group:9b7f0d75, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -9802,7 +9802,7 @@
     ; id:a358bd05, group:08bd349f, dc:DEBIT, payment-service:WISE, payment-type:BANK_TRANSFER
     assets:opencollective:hledger             -50.86 USD
     expenses:fees:processor:BANK_ACCOUNT        0.66 USD
-    expenses:disbursed:Paul Dest               50.20 USD
+    expenses:bounties:Paul Dest               50.20 USD
 
 2025-10-01 Monthly contribution from Frank (Bronze)
     ; id:cd8e7a7c, group:c85b8a71, dc:CREDIT, payment-service:STRIPE, payment-type:CREDITCARD
@@ -9841,19 +9841,19 @@
     ; id:25092564, group:fe9b86db, dc:DEBIT, payment-service:WISE, payment-type:BANK_TRANSFER
     assets:opencollective:hledger             -51.62 USD
     expenses:fees:processor:BANK_ACCOUNT        1.53 USD
-    expenses:disbursed:Ooker                   50.09 USD
+    expenses:bounties:Ooker                   50.09 USD
 
 2025-10-14 Expense from dotlambda - Regression (finder) bounty for #2478
     ; id:f285a29f, group:1013bfb1, dc:DEBIT, payment-service:WISE, payment-type:BANK_TRANSFER
     assets:opencollective:hledger             -51.13 USD
     expenses:fees:processor:BANK_ACCOUNT        1.13 USD
-    expenses:disbursed:dotlambda               50.00 USD
+    expenses:bounties:dotlambda               50.00 USD
 
 2025-10-14 Expense from Simon Michael - Regression finder & fixer bounty for #2479
     ; id:0a6972cd, group:be70fda8, dc:DEBIT, payment-service:PAYPAL, payment-type:PAYOUT
     assets:opencollective:hledger        -100.25 USD
     expenses:fees:processor:PAYPAL          0.25 USD
-    expenses:disbursed:Simon Michael      100.00 USD
+    expenses:bounties:Simon Michael      100.00 USD
 
 2025-10-23 Monthly contribution from Guest (Bronze)
     ; id:c924dd2e, group:20579cc2, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -9958,7 +9958,7 @@
     ; id:9b7e6824, group:b5ceba97, dc:DEBIT, payment-service:PAYPAL, payment-type:PAYOUT
     assets:opencollective:hledger         -50.25 USD
     expenses:fees:processor:PAYPAL          0.25 USD
-    expenses:disbursed:Simon Michael       50.00 USD
+    expenses:bounties:Simon Michael       50.00 USD
 
 2025-11-23 Monthly contribution from Guest (Bronze)
     ; id:6e20deee, group:6d54fa35, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
@@ -9975,7 +9975,7 @@
     ; id:fb8b139a, group:81c89482, dc:DEBIT, payment-service:PAYPAL, payment-type:PAYOUT
     assets:opencollective:hledger         -50.25 USD
     expenses:fees:processor:PAYPAL          0.25 USD
-    expenses:disbursed:Simon Michael       50.00 USD
+    expenses:bounties:Simon Michael       50.00 USD
 
 2025-11-30 Monthly contribution from Richard Kelly (Bronze)
     ; id:672c96ff, group:86fdf54a, dc:CREDIT, payment-service:PAYPAL, payment-type:SUBSCRIPTION
