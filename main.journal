@@ -1,4 +1,4 @@
-commodity 1.00 USD
+commodity 1.00 USD  ; alias: $
 
 include accounts.journal
 include oc.journal
