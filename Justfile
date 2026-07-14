@@ -52,7 +52,7 @@ alias fmt := _fmt
 # Commit all that's committable
 [group('maintenance')]
 @commit:
-    -git commit -m "oc csv"   -- oc.csv
+    -git commit -m "oc csv"   -- data/oc.csv
     -git commit -m "journals" -- *.journal
     -git commit -m "reports"  -- README.md
 
