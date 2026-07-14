@@ -10888,3 +10888,9 @@
     assets:opencollective:hledger                 -0.50 USD = 6144.41 USD
     expenses:fees:Open Source Collective           0.50 USD
 
+2026-07-07 Expense from Simon Michael - #1825 bounties x 4, + 4.99 paypal fee x 1
+    ; id:4cab822d, group:4c947452, dc:DEBIT, payment-service:WISE, payment-type:BANK_TRANSFER
+    assets:opencollective:hledger               -456.12 USD
+    expenses:fees:BANK_ACCOUNT                     1.13 USD
+    expenses:bounties:Simon Michael              454.99 USD
+
